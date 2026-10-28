@@ -1,0 +1,66 @@
+services:
+  analyzer:
+    build: ./analyzer
+    environment:
+      ANALYZER_INTERNAL_TOKEN: ${ANALYZER_INTERNAL_TOKEN:?defina em .env}
+      ANALYZER_STORAGE_ROOT: /storage/songs
+      ANALYZER_MAX_UPLOAD_MB: ${ANALYZER_MAX_UPLOAD_MB:-100}
+      ANALYZER_MAX_DURATION_S: ${ANALYZER_MAX_DURATION_S:-900}
+    volumes:
+      - ./storage/songs:/storage/songs
+    ports:
+      - "127.0.0.1:8000:8000"   # somente loopback (desenvolvimento); o Laravel usará a rede interna
+    mem_limit: 3g
+    restart: unless-stopped
+
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: harmonia
+      POSTGRES_USER: harmonia
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?defina em .env}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U harmonia -d harmonia"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    mem_limit: 256m
+    restart: unless-stopped
+
+  web:
+    build: ./web
+    depends_on:
+      db:
+        condition: service_healthy
+      analyzer:
+        condition: service_started
+    environment:
+      APP_NAME: "Harmonia AI"
+      APP_ENV: local
+      APP_DEBUG: ${APP_DEBUG:-false}
+      APP_KEY: ${APP_KEY:?defina em .env}
+      APP_URL: http://localhost:8080
+      APP_LOCALE: pt_BR
+      DB_CONNECTION: pgsql
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_DATABASE: harmonia
+      DB_USERNAME: harmonia
+      DB_PASSWORD: ${DB_PASSWORD:?defina em .env}
+      SESSION_DRIVER: file
+      CACHE_STORE: file
+      QUEUE_CONNECTION: sync
+      LOG_CHANNEL: stderr
+      ANALYZER_URL: http://analyzer:8000
+      ANALYZER_INTERNAL_TOKEN: ${ANALYZER_INTERNAL_TOKEN:?defina em .env}
+      HARMONIA_MAX_UPLOAD_MB: ${ANALYZER_MAX_UPLOAD_MB:-100}
+      PHP_CLI_SERVER_WORKERS: 8   # servidor embutido do PHP: apenas desenvolvimento
+    ports:
+      - "127.0.0.1:8080:8000"
+    mem_limit: 512m
+    restart: unless-stopped
+
+volumes:
+  pgdata:

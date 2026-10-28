@@ -1,0 +1,281 @@
+{
+  "run_id": "4d347dc44587",
+  "sections": [
+    {
+      "index": 1,
+      "label": "Parte A",
+      "semantic_label": null,
+      "start": 0.0,
+      "end": 21.18,
+      "repeat_group": 1,
+      "occurrence": 1,
+      "occurrences_total": 1,
+      "phrases": [
+        [
+          0.0,
+          21.18
+        ]
+      ],
+      "progression": [
+        "A",
+        "Em7",
+        "G",
+        "D"
+      ]
+    },
+    {
+      "index": 2,
+      "label": "Parte B",
+      "semantic_label": null,
+      "start": 21.18,
+      "end": 86.96,
+      "repeat_group": 2,
+      "occurrence": 1,
+      "occurrences_total": 2,
+      "phrases": [
+        [
+          21.18,
+          54.08
+        ],
+        [
+          54.08,
+          86.96
+        ]
+      ],
+      "progression": [
+        "D",
+        "A",
+        "F#m",
+        "A",
+        "D",
+        "A",
+        "B",
+        "F#m",
+        "D",
+        "A",
+        "E",
+        "Bm",
+        "A/C#",
+        "D",
+        "A",
+        "E",
+        "G"
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Parte B",
+      "semantic_label": null,
+      "start": 86.96,
+      "end": 146.4,
+      "repeat_group": 2,
+      "occurrence": 2,
+      "occurrences_total": 2,
+      "phrases": [
+        [
+          86.96,
+          114.08
+        ],
+        [
+          114.08,
+          146.4
+        ]
+      ],
+      "progression": [
+        "G",
+        "D",
+        "A",
+        "F#m",
+        "D",
+        "A",
+        "E",
+        "D/A",
+        "A",
+        "E",
+        "Bm",
+        "A/C#",
+        "D",
+        "A",
+        "E",
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Parte C",
+      "semantic_label": null,
+      "start": 146.4,
+      "end": 192.54,
+      "repeat_group": 3,
+      "occurrence": 1,
+      "occurrences_total": 1,
+      "phrases": [
+        [
+          146.4,
+          192.54
+        ]
+      ],
+      "progression": [
+        "A",
+        "Em7",
+        "G",
+        "D",
+        "A",
+        "Em",
+        "G",
+        "D",
+        "A",
+        "Em"
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Parte D",
+      "semantic_label": null,
+      "start": 192.54,
+      "end": 225.42,
+      "repeat_group": 4,
+      "occurrence": 1,
+      "occurrences_total": 2,
+      "phrases": [
+        [
+          192.54,
+          225.42
+        ]
+      ],
+      "progression": [
+        "Em",
+        "G",
+        "D",
+        "A",
+        "Em",
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 6,
+      "label": "Parte E",
+      "semantic_label": null,
+      "start": 225.42,
+      "end": 256.0,
+      "repeat_group": 5,
+      "occurrence": 1,
+      "occurrences_total": 1,
+      "phrases": [
+        [
+          225.42,
+          256.0
+        ]
+      ],
+      "progression": [
+        "A",
+        "E",
+        "Bm7",
+        "A/C#",
+        "D",
+        "A",
+        "E",
+        "G",
+        "D"
+      ]
+    },
+    {
+      "index": 7,
+      "label": "Parte F",
+      "semantic_label": null,
+      "start": 256.0,
+      "end": 276.22,
+      "repeat_group": 6,
+      "occurrence": 1,
+      "occurrences_total": 1,
+      "phrases": [
+        [
+          256.0,
+          276.22
+        ]
+      ],
+      "progression": [
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 8,
+      "label": "Parte D",
+      "semantic_label": null,
+      "start": 276.22,
+      "end": 349.44,
+      "repeat_group": 4,
+      "occurrence": 2,
+      "occurrences_total": 2,
+      "phrases": [
+        [
+          276.22,
+          299.28
+        ],
+        [
+          299.28,
+          322.34
+        ],
+        [
+          322.34,
+          349.44
+        ]
+      ],
+      "progression": [
+        "A",
+        "Em",
+        "G",
+        "D",
+        "Em",
+        "G",
+        "D",
+        "A",
+        "G",
+        "Em",
+        "G",
+        "D",
+        "A",
+        "D",
+        "Em",
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 9,
+      "label": "Parte G",
+      "semantic_label": null,
+      "start": 349.44,
+      "end": 398.37,
+      "repeat_group": 7,
+      "occurrence": 1,
+      "occurrences_total": 1,
+      "phrases": [
+        [
+          349.44,
+          368.48
+        ],
+        [
+          368.48,
+          398.37
+        ]
+      ],
+      "progression": [
+        "A",
+        "Em7",
+        "G",
+        "D",
+        "A",
+        "Em",
+        "G",
+        "D"
+      ]
+    }
+  ]
+}

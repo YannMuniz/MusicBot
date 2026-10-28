@@ -1,0 +1,18 @@
+{
+  "source": "Cifra Club - O Tempo - Oficina G3 (PDF fornecido pelo usuario). Sem tempos: so a ordem dos acordes.",
+  "key": "F major (a cifra diz Eb por erro de geracao; confirmado pelo usuario)",
+  "notes": "C2 = Csus2/Cadd9; A#9 = Bb(add9) pela cifra. Barras: F/A = F com baixo em A.",
+  "sections": [
+    {"name": "Intro", "chords": ["Gm","C2","F","A#9","Gm","C2","F","A#9"]},
+    {"name": "Primeira Parte", "chords": ["Gm","C2","F","A#9","Gm","C2","F","A#9"]},
+    {"name": "Pre-Refrao", "chords": ["Gm","F/A","A#9","Gm","F/A","A#9","C"]},
+    {"name": "Refrao", "chords": ["F","Gm","F/A","A#9","Dm","C","F/A","A#9","F","Gm","F/A","A#9","Dm","C","F/A","A#9"]},
+    {"name": "Segunda Parte", "chords": ["Gm","C2","F","A#9","Gm","C2","F","A#9"]},
+    {"name": "Pre-Refrao", "chords": ["Gm","F/A","A#9","Gm","F/A","A#9","C"]},
+    {"name": "Refrao", "chords": ["F","Gm","F/A","A#9","Dm","C","F/A","A#9","F","Gm","F/A","A#9","Dm","C","F/A","A#9"]},
+    {"name": "Solo", "chords": ["Gm","C2","F","A#9","Gm","C2","F","A#9"]},
+    {"name": "Ponte do solo", "chords": ["Dm","C2","F","A#9","F/A","C","Dm","C2","F","A#9","F/A","C"]},
+    {"name": "Refrao", "chords": ["F","Gm","F/A","A#9","Dm","C","F/A","A#9","F","Gm","F/A","A#9","Dm","C","F/A","A#9"]},
+    {"name": "Refrao final", "chords": ["F","Gm","F/A","A#9","Dm","C","F/A","A#9","F","Gm","F/A","A#9","Dm","C","F/A","A#9"]}
+  ]
+}

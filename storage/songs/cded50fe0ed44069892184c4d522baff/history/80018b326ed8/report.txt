@@ -1,0 +1,32 @@
+Relatório de análise — O Tempo
+Algoritmo: btc-large-voca ISMIR2019-2682317 (librosa 1.0.0)
+Duração: 4:28.3 | Andamento estimado: 118 BPM | Processado em 65.3 s
+Tom estimado: F major (relativo: D minor) | correlação 0.868 | margem p/ 2ª candidata 0.056
+  Alternativas: C major (0.812), Bb major (0.488), A minor (0.459)
+
+Seções (rótulos neutros; 'grupo' igual = trechos acusticamente semelhantes, sem significado semântico):
+  Seção 1   0:00.0 – 0:15.0  grupo 1
+      Gm7 | C | F | Bbmaj7
+  Seção 2   0:15.0 – 1:03.6  grupo 2
+      Bbmaj7 | Gm7 | C | F | Gm7 | Bbmaj7 | Gm7 | C | F | Bb | Gm7 | C | F | Gm7 | Bbmaj7 | Gm7 | F | Bb | Gm7 | Am7 | Bb | C | F
+  Seção 3   1:03.6 – 1:23.4  grupo 3
+      F | Gm7 | F | Bb | Dm | C | F | Bb | F | Gm | F | Bb | Dm | Gm7 | C | F | Bbsus2
+  Seção 4   1:23.4 – 1:40.6  grupo 4
+      Bbsus2 | Gm7 | C | F | Bb | Gm7
+  Seção 5   1:40.6 – 2:22.7  grupo 3
+      Gm7 | C | F | Bb | Gm7 | F | Bb | Gm7 | F | Bb | C | F | Gm7 | F | Bb | Dm | C | F | Bb | F | Gm | F | Bb | Dm | Gm | C | F | Bbsus2
+  Seção 6   2:22.7 – 2:50.9  grupo 4
+      Bbsus2 | Gm7 | C7 | F | Bbsus2 | Gm7 | C | F | Bb | Dm
+  Seção 7   2:50.9 – 3:15.4  grupo 5
+      Dm | C | F | Bb | F | C | Dm | C | F | Bb | F | C | F
+  Seção 8   3:15.4 – 4:03.5  grupo 6
+      F | Gm | F | Bb | Dm | C | F | Bb | F | Gm | F | Bb | Dm | C | F | Bb | F | Gm7 | F | Bb | Dm | C | F | Bb | F | Gm | F | Bb | Dm | C | F | Bb | C
+  Seção 9   4:03.5 – 4:19.5  grupo 7
+      C | F | Bb | Gm7 | C | F
+  Seção 10  4:19.5 – 4:28.3  grupo 1
+      F
+
+Avisos:
+  - Tonalidade ambígua: F major e C major têm correlação próxima (margem 0.056).
+  - Vocabulário do modelo: maj, min, 7, maj7, m7, dim, aug, sus2, sus4, 6, m6, dim7, m7(b5), mM7. Acordes com 9ª, 11ª, 13ª, add ou notas alteradas não são reconhecidos como tal: aparecem como o acorde mais próximo do vocabulário.
+  - Modelo neural pré-treinado (BTC, ISMIR 2019) em corpora públicos de música pop/rock; a precisão em outros gêneros/gravações não foi medida neste projeto.

@@ -1,0 +1,1268 @@
+{
+ "eventos_por_rotulo_da_cifra": {
+  "A": {
+   "n": 25,
+   "raiz_certa": 24,
+   "rotulo_exato": 24,
+   "na_alternativa": 0,
+   "so_triade": 0,
+   "dica_de_cor": 0
+  },
+  "A/C#": {
+   "n": 3,
+   "raiz_certa": 3,
+   "rotulo_exato": 3,
+   "na_alternativa": 0,
+   "so_triade": 0,
+   "dica_de_cor": 0
+  },
+  "A4": {
+   "n": 6,
+   "raiz_certa": 6,
+   "rotulo_exato": 0,
+   "na_alternativa": 2,
+   "so_triade": 5,
+   "dica_de_cor": 0
+  },
+  "Bm": {
+   "n": 3,
+   "raiz_certa": 3,
+   "rotulo_exato": 2,
+   "na_alternativa": 1,
+   "so_triade": 0,
+   "dica_de_cor": 0
+  },
+  "D": {
+   "n": 15,
+   "raiz_certa": 15,
+   "rotulo_exato": 15,
+   "na_alternativa": 0,
+   "so_triade": 0,
+   "dica_de_cor": 0
+  },
+  "D2": {
+   "n": 5,
+   "raiz_certa": 5,
+   "rotulo_exato": 0,
+   "na_alternativa": 0,
+   "so_triade": 5,
+   "dica_de_cor": 0
+  },
+  "E": {
+   "n": 6,
+   "raiz_certa": 6,
+   "rotulo_exato": 6,
+   "na_alternativa": 0,
+   "so_triade": 0,
+   "dica_de_cor": 0
+  },
+  "E6": {
+   "n": 6,
+   "raiz_certa": 6,
+   "rotulo_exato": 0,
+   "na_alternativa": 0,
+   "so_triade": 6,
+   "dica_de_cor": 0
+  },
+  "Em7": {
+   "n": 11,
+   "raiz_certa": 10,
+   "rotulo_exato": 3,
+   "na_alternativa": 7,
+   "so_triade": 5,
+   "dica_de_cor": 3
+  },
+  "F#m": {
+   "n": 3,
+   "raiz_certa": 3,
+   "rotulo_exato": 3,
+   "na_alternativa": 0,
+   "so_triade": 0,
+   "dica_de_cor": 0
+  },
+  "G": {
+   "n": 14,
+   "raiz_certa": 14,
+   "rotulo_exato": 14,
+   "na_alternativa": 0,
+   "so_triade": 0,
+   "dica_de_cor": 0
+  }
+ },
+ "eventos": [
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    2.8,
+    7.2
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Em7",
+   "label": "Em7",
+   "grupo": [
+    7.2,
+    11.9
+   ],
+   "sistema": [
+    "Em7"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    11.9,
+    16.8
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    16.8,
+    21.2
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    21.2,
+    25.6
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "F#m",
+   "label": "Gbm",
+   "grupo": [
+    25.6,
+    30.0
+   ],
+   "sistema": [
+    "Gbm"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    30.0,
+    34.9
+   ],
+   "sistema": [
+    "A",
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    34.9,
+    44.1
+   ],
+   "sistema": [
+    "A",
+    "B"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "F#m",
+   "label": "Gbm",
+   "grupo": [
+    44.1,
+    48.8
+   ],
+   "sistema": [
+    "Gbm"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D2",
+   "label": "Dsus2",
+   "grupo": [
+    48.8,
+    53.2
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    53.2,
+    62.9
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A4",
+   "label": "Asus4",
+   "grupo": [
+    53.2,
+    62.9
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    53.2,
+    62.9
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "E6",
+   "label": "E6",
+   "grupo": [
+    62.9,
+    67.3
+   ],
+   "sistema": [
+    "E"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "E",
+   "label": "E",
+   "grupo": [
+    62.9,
+    67.3
+   ],
+   "sistema": [
+    "E"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Bm",
+   "label": "Bm",
+   "grupo": [
+    67.3,
+    70.8
+   ],
+   "sistema": [
+    "Bm"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A/C#",
+   "label": "A/Db",
+   "grupo": [
+    70.8,
+    71.9
+   ],
+   "sistema": [
+    "A/Db"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D2",
+   "label": "Dsus2",
+   "grupo": [
+    71.9,
+    76.9
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "A4",
+   "label": "Asus4",
+   "grupo": [
+    76.9,
+    81.9
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    76.9,
+    81.9
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "E6",
+   "label": "E6",
+   "grupo": [
+    81.9,
+    85.7
+   ],
+   "sistema": [
+    "E"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "E",
+   "label": "E",
+   "grupo": [
+    81.9,
+    85.7
+   ],
+   "sistema": [
+    "E"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    85.7,
+    88.0
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    88.0,
+    90.4
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    90.4,
+    99.4
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "F#m",
+   "label": "Gbm",
+   "grupo": [
+    99.4,
+    104.1
+   ],
+   "sistema": [
+    "Gbm"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D2",
+   "label": "Dsus2",
+   "grupo": [
+    104.1,
+    108.8
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    108.8,
+    118.6
+   ],
+   "sistema": [
+    "A",
+    "D/A",
+    "E"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A4",
+   "label": "Asus4",
+   "grupo": [
+    108.8,
+    118.6
+   ],
+   "sistema": [
+    "A",
+    "D/A",
+    "E"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    108.8,
+    118.6
+   ],
+   "sistema": [
+    "A",
+    "D/A",
+    "E"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "E6",
+   "label": "E6",
+   "grupo": [
+    118.6,
+    122.8
+   ],
+   "sistema": [
+    "E"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "E",
+   "label": "E",
+   "grupo": [
+    118.6,
+    122.8
+   ],
+   "sistema": [
+    "E"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Bm",
+   "label": "Bm",
+   "grupo": [
+    122.8,
+    126.0
+   ],
+   "sistema": [
+    "Bm"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A/C#",
+   "label": "A/Db",
+   "grupo": [
+    126.0,
+    127.4
+   ],
+   "sistema": [
+    "A/Db"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D2",
+   "label": "Dsus2",
+   "grupo": [
+    127.4,
+    132.3
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "A4",
+   "label": "Asus4",
+   "grupo": [
+    132.3,
+    137.1
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    132.3,
+    137.1
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "E6",
+   "label": "E6",
+   "grupo": [
+    137.1,
+    141.1
+   ],
+   "sistema": [
+    "E"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "E",
+   "label": "E",
+   "grupo": [
+    137.1,
+    141.1
+   ],
+   "sistema": [
+    "E"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    141.1,
+    143.1
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    143.1,
+    145.6
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    145.6,
+    154.9
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    145.6,
+    154.9
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Em7",
+   "label": "Em7",
+   "grupo": [
+    154.9,
+    160.0
+   ],
+   "sistema": [
+    "Em7"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    160.0,
+    163.8
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D2",
+   "label": "Dsus2",
+   "grupo": [
+    163.8,
+    168.8
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    168.8,
+    173.7
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Em7",
+   "label": "Em7",
+   "grupo": [
+    173.7,
+    178.0
+   ],
+   "sistema": [
+    "Em"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    178.0,
+    182.8
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    182.8,
+    187.2
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    187.2,
+    192.0
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Em7",
+   "label": "Em7",
+   "grupo": [
+    192.0,
+    196.5
+   ],
+   "sistema": [
+    "Em"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    196.5,
+    201.1
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    201.1,
+    205.6
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    205.6,
+    210.5
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Em7",
+   "label": "Em7",
+   "grupo": [
+    210.5,
+    214.8
+   ],
+   "sistema": [
+    "Em"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    214.8,
+    219.6
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    219.6,
+    224.0
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    224.0,
+    229.5
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A4",
+   "label": "Asus4",
+   "grupo": [
+    224.0,
+    229.5
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    224.0,
+    229.5
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "E6",
+   "label": "E6",
+   "grupo": [
+    229.5,
+    233.5
+   ],
+   "sistema": [
+    "E"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "E",
+   "label": "E",
+   "grupo": [
+    229.5,
+    233.5
+   ],
+   "sistema": [
+    "E"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Bm",
+   "label": "Bm",
+   "grupo": [
+    233.5,
+    236.8
+   ],
+   "sistema": [
+    "Bm7"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "A/C#",
+   "label": "A/Db",
+   "grupo": [
+    236.8,
+    238.0
+   ],
+   "sistema": [
+    "A/Db"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    238.0,
+    242.8
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A4",
+   "label": "Asus4",
+   "grupo": [
+    242.8,
+    248.0
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    242.8,
+    248.0
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "E6",
+   "label": "E6",
+   "grupo": [
+    248.0,
+    251.9
+   ],
+   "sistema": [
+    "E"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "E",
+   "label": "E",
+   "grupo": [
+    248.0,
+    251.9
+   ],
+   "sistema": [
+    "E"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    251.9,
+    254.2
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    254.2,
+    256.3
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    256.3,
+    280.0
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    256.3,
+    280.0
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Em7",
+   "label": "Em7",
+   "grupo": [
+    280.0,
+    284.2
+   ],
+   "sistema": [
+    "Em"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    284.2,
+    288.9
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    288.9,
+    296.6
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    296.6,
+    296.7
+   ],
+   "sistema": [],
+   "exato": false
+  },
+  {
+   "cifra": "Em7",
+   "label": "Em7",
+   "grupo": [
+    296.7,
+    302.6
+   ],
+   "sistema": [
+    "D",
+    "Em"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    302.6,
+    307.3
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    307.3,
+    311.8
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    311.8,
+    316.2
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Em7",
+   "label": "Em7",
+   "grupo": [
+    316.2,
+    316.3
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    316.3,
+    325.6
+   ],
+   "sistema": [
+    "Em",
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    325.6,
+    330.0
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    330.0,
+    334.9
+   ],
+   "sistema": [
+    "A",
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Em7",
+   "label": "Em7",
+   "grupo": [
+    334.9,
+    339.4
+   ],
+   "sistema": [
+    "D",
+    "Em"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    339.4,
+    344.3
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    344.3,
+    348.7
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    348.7,
+    353.5
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Em7",
+   "label": "Em7",
+   "grupo": [
+    353.5,
+    358.1
+   ],
+   "sistema": [
+    "Em7"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    358.1,
+    362.7
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    362.7,
+    367.2
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "A",
+   "label": "A",
+   "grupo": [
+    367.2,
+    372.0
+   ],
+   "sistema": [
+    "A"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "Em7",
+   "label": "Em7",
+   "grupo": [
+    372.0,
+    376.5
+   ],
+   "sistema": [
+    "Em"
+   ],
+   "exato": false
+  },
+  {
+   "cifra": "G",
+   "label": "G",
+   "grupo": [
+    376.5,
+    381.1
+   ],
+   "sistema": [
+    "G"
+   ],
+   "exato": true
+  },
+  {
+   "cifra": "D",
+   "label": "D",
+   "grupo": [
+    381.1,
+    387.0
+   ],
+   "sistema": [
+    "D"
+   ],
+   "exato": true
+  }
+ ]
+}

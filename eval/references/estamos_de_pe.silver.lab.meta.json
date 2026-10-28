@@ -1,0 +1,983 @@
+{
+ "kind": "silver",
+ "method": "forced alignment by BTC root marginals",
+ "chart": "eval/references/estamos_de_pe.chart.json",
+ "audio": "storage/songs/5ff0d997236f4f099fbbd19c68bf1f21/original.mp3",
+ "chords_in_chart": 97,
+ "chords_placed": 97,
+ "mean_root_posterior": 0.838,
+ "spans_shorter_than_0_5s": 18,
+ "spans_with_root_posterior_below_0_5": 6,
+ "spans": [
+  {
+   "index": 0,
+   "cifra": "A",
+   "label": "A",
+   "section": "Intro",
+   "section_index": 0,
+   "start": 2.778,
+   "end": 7.222,
+   "root_posterior": 0.864
+  },
+  {
+   "index": 1,
+   "cifra": "Em7",
+   "label": "Em7",
+   "section": "Intro",
+   "section_index": 0,
+   "start": 7.222,
+   "end": 11.852,
+   "root_posterior": 0.921
+  },
+  {
+   "index": 2,
+   "cifra": "G",
+   "label": "G",
+   "section": "Intro",
+   "section_index": 0,
+   "start": 11.852,
+   "end": 16.759,
+   "root_posterior": 0.895
+  },
+  {
+   "index": 3,
+   "cifra": "D",
+   "label": "D",
+   "section": "Intro",
+   "section_index": 0,
+   "start": 16.759,
+   "end": 21.204,
+   "root_posterior": 0.934
+  },
+  {
+   "index": 4,
+   "cifra": "A",
+   "label": "A",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 21.204,
+   "end": 25.648,
+   "root_posterior": 0.979
+  },
+  {
+   "index": 5,
+   "cifra": "F#m",
+   "label": "F#m",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 25.648,
+   "end": 30.0,
+   "root_posterior": 0.963
+  },
+  {
+   "index": 6,
+   "cifra": "D",
+   "label": "D",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 30.0,
+   "end": 34.907,
+   "root_posterior": 0.889
+  },
+  {
+   "index": 7,
+   "cifra": "A",
+   "label": "A",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 34.907,
+   "end": 44.074,
+   "root_posterior": 0.903
+  },
+  {
+   "index": 8,
+   "cifra": "F#m",
+   "label": "F#m",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 44.074,
+   "end": 48.796,
+   "root_posterior": 0.953
+  },
+  {
+   "index": 9,
+   "cifra": "D2",
+   "label": "Dsus2",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 48.796,
+   "end": 53.241,
+   "root_posterior": 0.848
+  },
+  {
+   "index": 10,
+   "cifra": "A",
+   "label": "A",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 53.241,
+   "end": 53.333,
+   "root_posterior": 0.215
+  },
+  {
+   "index": 11,
+   "cifra": "A4",
+   "label": "Asus4",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 53.333,
+   "end": 53.426,
+   "root_posterior": 0.461
+  },
+  {
+   "index": 12,
+   "cifra": "A",
+   "label": "A",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 53.426,
+   "end": 62.87,
+   "root_posterior": 0.9
+  },
+  {
+   "index": 13,
+   "cifra": "E6",
+   "label": "E6",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 62.87,
+   "end": 62.963,
+   "root_posterior": 0.734
+  },
+  {
+   "index": 14,
+   "cifra": "E",
+   "label": "E",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 62.963,
+   "end": 67.315,
+   "root_posterior": 0.977
+  },
+  {
+   "index": 15,
+   "cifra": "Bm",
+   "label": "Bm",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 67.315,
+   "end": 70.833,
+   "root_posterior": 0.954
+  },
+  {
+   "index": 16,
+   "cifra": "A/C#",
+   "label": "A/C#",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 70.833,
+   "end": 71.944,
+   "root_posterior": 0.931
+  },
+  {
+   "index": 17,
+   "cifra": "D2",
+   "label": "Dsus2",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 71.944,
+   "end": 76.944,
+   "root_posterior": 0.954
+  },
+  {
+   "index": 18,
+   "cifra": "A4",
+   "label": "Asus4",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 76.944,
+   "end": 77.037,
+   "root_posterior": 0.644
+  },
+  {
+   "index": 19,
+   "cifra": "A",
+   "label": "A",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 77.037,
+   "end": 81.944,
+   "root_posterior": 0.953
+  },
+  {
+   "index": 20,
+   "cifra": "E6",
+   "label": "E6",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 81.944,
+   "end": 82.037,
+   "root_posterior": 0.533
+  },
+  {
+   "index": 21,
+   "cifra": "E",
+   "label": "E",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 82.037,
+   "end": 85.741,
+   "root_posterior": 0.958
+  },
+  {
+   "index": 22,
+   "cifra": "G",
+   "label": "G",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 85.741,
+   "end": 87.963,
+   "root_posterior": 0.975
+  },
+  {
+   "index": 23,
+   "cifra": "D",
+   "label": "D",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 87.963,
+   "end": 90.37,
+   "root_posterior": 0.926
+  },
+  {
+   "index": 24,
+   "cifra": "A",
+   "label": "A",
+   "section": "Refrão",
+   "section_index": 2,
+   "start": 90.37,
+   "end": 99.444,
+   "root_posterior": 0.86
+  },
+  {
+   "index": 25,
+   "cifra": "F#m",
+   "label": "F#m",
+   "section": "Segunda Parte",
+   "section_index": 3,
+   "start": 99.444,
+   "end": 104.074,
+   "root_posterior": 0.917
+  },
+  {
+   "index": 26,
+   "cifra": "D2",
+   "label": "Dsus2",
+   "section": "Segunda Parte",
+   "section_index": 3,
+   "start": 104.074,
+   "end": 108.796,
+   "root_posterior": 0.909
+  },
+  {
+   "index": 27,
+   "cifra": "A",
+   "label": "A",
+   "section": "Segunda Parte",
+   "section_index": 3,
+   "start": 108.796,
+   "end": 108.889,
+   "root_posterior": 0.804
+  },
+  {
+   "index": 28,
+   "cifra": "A4",
+   "label": "Asus4",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 108.889,
+   "end": 108.981,
+   "root_posterior": 0.956
+  },
+  {
+   "index": 29,
+   "cifra": "A",
+   "label": "A",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 108.981,
+   "end": 118.611,
+   "root_posterior": 0.734
+  },
+  {
+   "index": 30,
+   "cifra": "E6",
+   "label": "E6",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 118.611,
+   "end": 118.704,
+   "root_posterior": 0.64
+  },
+  {
+   "index": 31,
+   "cifra": "E",
+   "label": "E",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 118.704,
+   "end": 122.778,
+   "root_posterior": 0.979
+  },
+  {
+   "index": 32,
+   "cifra": "Bm",
+   "label": "Bm",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 122.778,
+   "end": 126.019,
+   "root_posterior": 0.967
+  },
+  {
+   "index": 33,
+   "cifra": "A/C#",
+   "label": "A/C#",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 126.019,
+   "end": 127.407,
+   "root_posterior": 0.928
+  },
+  {
+   "index": 34,
+   "cifra": "D2",
+   "label": "Dsus2",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 127.407,
+   "end": 132.315,
+   "root_posterior": 0.958
+  },
+  {
+   "index": 35,
+   "cifra": "A4",
+   "label": "Asus4",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 132.315,
+   "end": 132.407,
+   "root_posterior": 0.613
+  },
+  {
+   "index": 36,
+   "cifra": "A",
+   "label": "A",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 132.407,
+   "end": 137.13,
+   "root_posterior": 0.966
+  },
+  {
+   "index": 37,
+   "cifra": "E6",
+   "label": "E6",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 137.13,
+   "end": 137.222,
+   "root_posterior": 0.767
+  },
+  {
+   "index": 38,
+   "cifra": "E",
+   "label": "E",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 137.222,
+   "end": 141.111,
+   "root_posterior": 0.981
+  },
+  {
+   "index": 39,
+   "cifra": "G",
+   "label": "G",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 141.111,
+   "end": 143.148,
+   "root_posterior": 0.969
+  },
+  {
+   "index": 40,
+   "cifra": "D",
+   "label": "D",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 143.148,
+   "end": 145.648,
+   "root_posterior": 0.948
+  },
+  {
+   "index": 41,
+   "cifra": "A",
+   "label": "A",
+   "section": "Refrão",
+   "section_index": 4,
+   "start": 145.648,
+   "end": 145.741,
+   "root_posterior": 0.513
+  },
+  {
+   "index": 42,
+   "cifra": "A",
+   "label": "A",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 145.741,
+   "end": 154.907,
+   "root_posterior": 0.918
+  },
+  {
+   "index": 43,
+   "cifra": "Em7",
+   "label": "Em7",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 154.907,
+   "end": 160.0,
+   "root_posterior": 0.743
+  },
+  {
+   "index": 44,
+   "cifra": "G",
+   "label": "G",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 160.0,
+   "end": 163.796,
+   "root_posterior": 0.881
+  },
+  {
+   "index": 45,
+   "cifra": "D2",
+   "label": "Dsus2",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 163.796,
+   "end": 168.796,
+   "root_posterior": 0.95
+  },
+  {
+   "index": 46,
+   "cifra": "A",
+   "label": "A",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 168.796,
+   "end": 173.704,
+   "root_posterior": 0.77
+  },
+  {
+   "index": 47,
+   "cifra": "Em7",
+   "label": "Em7",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 173.704,
+   "end": 177.963,
+   "root_posterior": 0.842
+  },
+  {
+   "index": 48,
+   "cifra": "G",
+   "label": "G",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 177.963,
+   "end": 182.778,
+   "root_posterior": 0.939
+  },
+  {
+   "index": 49,
+   "cifra": "D",
+   "label": "D",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 182.778,
+   "end": 187.222,
+   "root_posterior": 0.972
+  },
+  {
+   "index": 50,
+   "cifra": "A",
+   "label": "A",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 187.222,
+   "end": 192.037,
+   "root_posterior": 0.964
+  },
+  {
+   "index": 51,
+   "cifra": "Em7",
+   "label": "Em7",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 192.037,
+   "end": 196.481,
+   "root_posterior": 0.948
+  },
+  {
+   "index": 52,
+   "cifra": "G",
+   "label": "G",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 196.481,
+   "end": 201.111,
+   "root_posterior": 0.954
+  },
+  {
+   "index": 53,
+   "cifra": "D",
+   "label": "D",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 201.111,
+   "end": 205.648,
+   "root_posterior": 0.963
+  },
+  {
+   "index": 54,
+   "cifra": "A",
+   "label": "A",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 205.648,
+   "end": 210.463,
+   "root_posterior": 0.894
+  },
+  {
+   "index": 55,
+   "cifra": "Em7",
+   "label": "Em7",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 210.463,
+   "end": 214.815,
+   "root_posterior": 0.89
+  },
+  {
+   "index": 56,
+   "cifra": "G",
+   "label": "G",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 214.815,
+   "end": 219.63,
+   "root_posterior": 0.916
+  },
+  {
+   "index": 57,
+   "cifra": "D",
+   "label": "D",
+   "section": "Ponte",
+   "section_index": 5,
+   "start": 219.63,
+   "end": 223.981,
+   "root_posterior": 0.923
+  },
+  {
+   "index": 58,
+   "cifra": "A",
+   "label": "A",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 223.981,
+   "end": 224.074,
+   "root_posterior": 0.571
+  },
+  {
+   "index": 59,
+   "cifra": "A4",
+   "label": "Asus4",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 224.074,
+   "end": 224.167,
+   "root_posterior": 0.739
+  },
+  {
+   "index": 60,
+   "cifra": "A",
+   "label": "A",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 224.167,
+   "end": 229.537,
+   "root_posterior": 0.951
+  },
+  {
+   "index": 61,
+   "cifra": "E6",
+   "label": "E6",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 229.537,
+   "end": 229.63,
+   "root_posterior": 0.564
+  },
+  {
+   "index": 62,
+   "cifra": "E",
+   "label": "E",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 229.63,
+   "end": 233.519,
+   "root_posterior": 0.96
+  },
+  {
+   "index": 63,
+   "cifra": "Bm",
+   "label": "Bm",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 233.519,
+   "end": 236.759,
+   "root_posterior": 0.892
+  },
+  {
+   "index": 64,
+   "cifra": "A/C#",
+   "label": "A/C#",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 236.759,
+   "end": 237.963,
+   "root_posterior": 0.895
+  },
+  {
+   "index": 65,
+   "cifra": "D",
+   "label": "D",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 237.963,
+   "end": 242.778,
+   "root_posterior": 0.84
+  },
+  {
+   "index": 66,
+   "cifra": "A4",
+   "label": "Asus4",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 242.778,
+   "end": 242.87,
+   "root_posterior": 0.559
+  },
+  {
+   "index": 67,
+   "cifra": "A",
+   "label": "A",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 242.87,
+   "end": 247.963,
+   "root_posterior": 0.954
+  },
+  {
+   "index": 68,
+   "cifra": "E6",
+   "label": "E6",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 247.963,
+   "end": 248.056,
+   "root_posterior": 0.642
+  },
+  {
+   "index": 69,
+   "cifra": "E",
+   "label": "E",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 248.056,
+   "end": 251.852,
+   "root_posterior": 0.942
+  },
+  {
+   "index": 70,
+   "cifra": "G",
+   "label": "G",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 251.852,
+   "end": 254.167,
+   "root_posterior": 0.975
+  },
+  {
+   "index": 71,
+   "cifra": "D",
+   "label": "D",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 254.167,
+   "end": 256.296,
+   "root_posterior": 0.909
+  },
+  {
+   "index": 72,
+   "cifra": "A",
+   "label": "A",
+   "section": "Refrão",
+   "section_index": 6,
+   "start": 256.296,
+   "end": 264.63,
+   "root_posterior": 0.395
+  },
+  {
+   "index": 73,
+   "cifra": "A",
+   "label": "A",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 264.63,
+   "end": 280.0,
+   "root_posterior": 0.268
+  },
+  {
+   "index": 74,
+   "cifra": "Em7",
+   "label": "Em7",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 280.0,
+   "end": 284.167,
+   "root_posterior": 0.937
+  },
+  {
+   "index": 75,
+   "cifra": "G",
+   "label": "G",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 284.167,
+   "end": 288.889,
+   "root_posterior": 0.884
+  },
+  {
+   "index": 76,
+   "cifra": "D",
+   "label": "D",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 288.889,
+   "end": 296.574,
+   "root_posterior": 0.753
+  },
+  {
+   "index": 77,
+   "cifra": "A",
+   "label": "A",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 296.574,
+   "end": 296.667,
+   "root_posterior": 0.093
+  },
+  {
+   "index": 78,
+   "cifra": "Em7",
+   "label": "Em7",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 296.667,
+   "end": 302.593,
+   "root_posterior": 0.699
+  },
+  {
+   "index": 79,
+   "cifra": "G",
+   "label": "G",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 302.593,
+   "end": 307.315,
+   "root_posterior": 0.976
+  },
+  {
+   "index": 80,
+   "cifra": "D",
+   "label": "D",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 307.315,
+   "end": 311.759,
+   "root_posterior": 0.896
+  },
+  {
+   "index": 81,
+   "cifra": "A",
+   "label": "A",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 311.759,
+   "end": 316.204,
+   "root_posterior": 0.927
+  },
+  {
+   "index": 82,
+   "cifra": "Em7",
+   "label": "Em7",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 316.204,
+   "end": 316.296,
+   "root_posterior": 0.022
+  },
+  {
+   "index": 83,
+   "cifra": "G",
+   "label": "G",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 316.296,
+   "end": 325.648,
+   "root_posterior": 0.763
+  },
+  {
+   "index": 84,
+   "cifra": "D",
+   "label": "D",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 325.648,
+   "end": 330.0,
+   "root_posterior": 0.939
+  },
+  {
+   "index": 85,
+   "cifra": "A",
+   "label": "A",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 330.0,
+   "end": 334.907,
+   "root_posterior": 0.903
+  },
+  {
+   "index": 86,
+   "cifra": "Em7",
+   "label": "Em7",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 334.907,
+   "end": 339.352,
+   "root_posterior": 0.872
+  },
+  {
+   "index": 87,
+   "cifra": "G",
+   "label": "G",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 339.352,
+   "end": 344.259,
+   "root_posterior": 0.966
+  },
+  {
+   "index": 88,
+   "cifra": "D",
+   "label": "D",
+   "section": "Ponte",
+   "section_index": 7,
+   "start": 344.259,
+   "end": 348.704,
+   "root_posterior": 0.978
+  },
+  {
+   "index": 89,
+   "cifra": "A",
+   "label": "A",
+   "section": "Final",
+   "section_index": 8,
+   "start": 348.704,
+   "end": 353.519,
+   "root_posterior": 0.979
+  },
+  {
+   "index": 90,
+   "cifra": "Em7",
+   "label": "Em7",
+   "section": "Final",
+   "section_index": 8,
+   "start": 353.519,
+   "end": 358.056,
+   "root_posterior": 0.961
+  },
+  {
+   "index": 91,
+   "cifra": "G",
+   "label": "G",
+   "section": "Final",
+   "section_index": 8,
+   "start": 358.056,
+   "end": 362.685,
+   "root_posterior": 0.938
+  },
+  {
+   "index": 92,
+   "cifra": "D",
+   "label": "D",
+   "section": "Final",
+   "section_index": 8,
+   "start": 362.685,
+   "end": 367.222,
+   "root_posterior": 0.959
+  },
+  {
+   "index": 93,
+   "cifra": "A",
+   "label": "A",
+   "section": "Final",
+   "section_index": 8,
+   "start": 367.222,
+   "end": 372.037,
+   "root_posterior": 0.944
+  },
+  {
+   "index": 94,
+   "cifra": "Em7",
+   "label": "Em7",
+   "section": "Final",
+   "section_index": 8,
+   "start": 372.037,
+   "end": 376.481,
+   "root_posterior": 0.926
+  },
+  {
+   "index": 95,
+   "cifra": "G",
+   "label": "G",
+   "section": "Final",
+   "section_index": 8,
+   "start": 376.481,
+   "end": 381.111,
+   "root_posterior": 0.971
+  },
+  {
+   "index": 96,
+   "cifra": "D",
+   "label": "D",
+   "section": "Final",
+   "section_index": 8,
+   "start": 381.111,
+   "end": 387.037,
+   "root_posterior": 0.846
+  }
+ ]
+}

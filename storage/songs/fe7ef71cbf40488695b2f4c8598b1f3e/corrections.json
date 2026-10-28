@@ -1,0 +1,56 @@
+{
+  "corrections": [
+    {
+      "id": "638d4de6b19b983e",
+      "song_id": "fe7ef71cbf40488695b2f4c8598b1f3e",
+      "run_id": "97cbdb047943",
+      "start": 181.944,
+      "end": 185.0,
+      "predicted": "Bm",
+      "corrected": "Bm7",
+      "model": {
+        "name": "btc-large-voca",
+        "version": "ISMIR2019-2682317",
+        "weights_sha256": "1673d23f8f9a55ae7f9e8b80a51da616debb22675b8d8b67ea6ce0ef37b0ab51"
+      },
+      "predicted_harmonic": "Bm",
+      "predicted_bass": "B",
+      "predicted_confidence": {
+        "p": 0.874,
+        "ambiguous": false
+      },
+      "corrected_harmonic": "Bm7",
+      "corrected_bass": null,
+      "created_at": "2026-10-28T22:38:19+00:00",
+      "source": "ui",
+      "validation_status": "unreviewed",
+      "superseded": false
+    },
+    {
+      "id": "df2fcc17b5a9b73f",
+      "song_id": "fe7ef71cbf40488695b2f4c8598b1f3e",
+      "run_id": "97cbdb047943",
+      "start": 185.0,
+      "end": 186.667,
+      "predicted": "D",
+      "corrected": "D/F#",
+      "model": {
+        "name": "btc-large-voca",
+        "version": "ISMIR2019-2682317",
+        "weights_sha256": "1673d23f8f9a55ae7f9e8b80a51da616debb22675b8d8b67ea6ce0ef37b0ab51"
+      },
+      "predicted_harmonic": "D",
+      "predicted_bass": "F#",
+      "predicted_confidence": {
+        "p": 0.799,
+        "ambiguous": false
+      },
+      "corrected_harmonic": "D",
+      "corrected_bass": "F#",
+      "created_at": "2026-10-28T22:38:19+00:00",
+      "source": "ui",
+      "validation_status": "unreviewed",
+      "superseded": false
+    }
+  ]
+}

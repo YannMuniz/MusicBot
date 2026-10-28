@@ -1,0 +1,29 @@
+{
+  "cifra_total": 122,
+  "detectados_total": 134,
+  "raiz": {
+    "cifra_colapsada": 122,
+    "detectada_colapsada": 132,
+    "distancia_edicao": 11,
+    "acordes_da_cifra_encontrados_em_ordem": 121,
+    "cobertura_da_cifra": 0.992,
+    "precisao_da_detectada": 0.917
+  },
+  "triade": {
+    "cifra_colapsada": 122,
+    "detectada_colapsada": 132,
+    "distancia_edicao": 11,
+    "acordes_da_cifra_encontrados_em_ordem": 121,
+    "cobertura_da_cifra": 0.992,
+    "precisao_da_detectada": 0.917
+  },
+  "baixo": {
+    "pares_alinhados": 121,
+    "cifra_com_baixo_invertido": 21,
+    "baixo_estimado_igual_ao_da_cifra_nos_invertidos": 18,
+    "inversoes_corretas": 7,
+    "inversoes_perdidas": 14,
+    "inversoes_falsas": 10,
+    "sem_inversao_corretos": 90
+  }
+}

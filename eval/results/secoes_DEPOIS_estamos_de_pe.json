@@ -1,0 +1,69 @@
+{
+ "n_ref": 9,
+ "n_est": 9,
+ "ratio_est_to_ref": 1.0,
+ "median_section_s": 46.1,
+ "median_ref_section_s": 40.6,
+ "boundary_w3.0s": {
+  "precision": 0.5,
+  "recall": 0.5,
+  "f": 0.5
+ },
+ "boundary_w0.5s": {
+  "precision": 0.125,
+  "recall": 0.125,
+  "f": 0.125
+ },
+ "pairwise": {
+  "precision": 0.749,
+  "recall": 0.545,
+  "f": 0.631
+ },
+ "ref_sections": [
+  {
+   "name": "intro",
+   "start": 0.0,
+   "end": 21.2
+  },
+  {
+   "name": "primeiraparte",
+   "start": 21.2,
+   "end": 53.3
+  },
+  {
+   "name": "refrao",
+   "start": 53.3,
+   "end": 99.4
+  },
+  {
+   "name": "segundaparte",
+   "start": 99.4,
+   "end": 108.9
+  },
+  {
+   "name": "refrao",
+   "start": 108.9,
+   "end": 145.7
+  },
+  {
+   "name": "ponte",
+   "start": 145.7,
+   "end": 224.0
+  },
+  {
+   "name": "refrao",
+   "start": 224.0,
+   "end": 264.6
+  },
+  {
+   "name": "ponte",
+   "start": 264.6,
+   "end": 348.7
+  },
+  {
+   "name": "Final",
+   "start": 348.7,
+   "end": 398.4
+  }
+ ]
+}

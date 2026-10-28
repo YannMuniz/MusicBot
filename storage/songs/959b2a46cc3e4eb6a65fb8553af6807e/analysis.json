@@ -1,0 +1,100 @@
+{
+  "algorithm": {
+    "name": "btc-large-voca",
+    "version": "ISMIR2019-2682317",
+    "vocabulary": [
+      "m",
+      "maj",
+      "dim",
+      "aug",
+      "m6",
+      "6",
+      "m7",
+      "mM7",
+      "maj7",
+      "7",
+      "dim7",
+      "m7(b5)",
+      "sus2",
+      "sus4"
+    ],
+    "weights_sha256": "1673d23f8f9a55ae7f9e8b80a51da616debb22675b8d8b67ea6ce0ef37b0ab51",
+    "parameters": {
+      "viterbi_stay": 0.9,
+      "min_segment_s": 0.25,
+      "ambiguity_min_p": 0.5,
+      "ambiguity_min_margin": 0.25,
+      "frame_s": 0.0926,
+      "smoothing": {
+        "min_p": 0.65,
+        "min_blip_s": 0.5,
+        "rest_min_s": 1.0,
+        "beat_len_s": 0.58,
+        "merged_same_label": 0,
+        "absorbed_blips": 2,
+        "absorbed_short_rests": 0,
+        "segments_before": 94,
+        "segments_after": 92
+      },
+      "bass_method": "harmonic-summation+vote-v2",
+      "bass_min_vote_share": 0.6,
+      "bass_min_voiced": 0.5,
+      "bass_min_segment_s": 0.4,
+      "color_tone_min_rel": 0.8
+    },
+    "sections": {
+      "method": "foote+SF novelty, DTW grouping, repeat compression",
+      "kernel_beats": 8,
+      "phrases_min_s": 16.0,
+      "sf_delay_beats": 4,
+      "sf_filter_beats": 10,
+      "peak_lambda": 1.0,
+      "group_distance": 0.65,
+      "max_ngram_phrases": 8,
+      "labels": "neutral (Parte A, B...); no semantic labels"
+    }
+  },
+  "librosa": "1.0.0",
+  "duration": 398.37,
+  "tempo_bpm": 103.4,
+  "key": {
+    "tonic": "A",
+    "tonic_pc": 9,
+    "mode": "major",
+    "name": "A major",
+    "relative": {
+      "tonic": "F#",
+      "mode": "minor"
+    },
+    "correlation": 0.857,
+    "margin_to_second": 0.113,
+    "alternatives": [
+      {
+        "name": "D major",
+        "correlation": 0.744
+      },
+      {
+        "name": "A minor",
+        "correlation": 0.447
+      },
+      {
+        "name": "E major",
+        "correlation": 0.425
+      }
+    ],
+    "prefers_flats": false,
+    "confidence_note": "Correlação com perfis tonais; não é uma probabilidade calibrada.",
+    "warnings": []
+  },
+  "warnings": [
+    "6 de 92 segmentos marcados como ambíguos (probabilidade do modelo baixa ou empatada com outro acorde). As probabilidades do modelo não são calibradas.",
+    "4 inversões registradas a partir do baixo (rótulo final 'X/Y'; o acorde harmônico fica em harmonic_label). Regra e limiares não foram validados com referência anotada em número suficiente de músicas.",
+    "'possible_additions': notas de cor (2ª/4ª/6ª/7ª) com alguma evidência no áudio; evidência fraca, não validada, e NÃO altera o acorde exibido. O BTC não reconhece 6ª/sus2 de forma confiável nesta gravação.",
+    "Vocabulário do modelo: maj, min, 7, maj7, m7, dim, aug, sus2, sus4, 6, m6, dim7, m7(b5), mM7. Acordes com 9ª, 11ª, 13ª, add ou notas alteradas não são reconhecidos como tal: aparecem como o acorde mais próximo do vocabulário.",
+    "Modelo neural pré-treinado (BTC, ISMIR 2019) em corpora públicos de música pop/rock; a precisão em outros gêneros/gravações não foi medida neste projeto."
+  ],
+  "processing_seconds": 224.5,
+  "run_id": "7def0ebf446b",
+  "created_at": "2026-10-28T22:15:04+00:00",
+  "song_id": "959b2a46cc3e4eb6a65fb8553af6807e"
+}

@@ -1,0 +1,76 @@
+{
+  "algorithm": {
+    "name": "btc-large-voca",
+    "version": "ISMIR2019-2682317",
+    "vocabulary": [
+      "m",
+      "maj",
+      "dim",
+      "aug",
+      "m6",
+      "6",
+      "m7",
+      "mM7",
+      "maj7",
+      "7",
+      "dim7",
+      "m7(b5)",
+      "sus2",
+      "sus4"
+    ],
+    "weights_sha256": "1673d23f8f9a55ae7f9e8b80a51da616debb22675b8d8b67ea6ce0ef37b0ab51",
+    "parameters": {
+      "viterbi_stay": 0.9,
+      "min_segment_s": 0.25,
+      "ambiguity_min_p": 0.5,
+      "ambiguity_min_margin": 0.25,
+      "frame_s": 0.0926,
+      "bass_min_ratio": 1.5
+    }
+  },
+  "librosa": "1.0.0",
+  "duration": 268.33,
+  "tempo_bpm": 117.5,
+  "key": {
+    "tonic": "F",
+    "tonic_pc": 5,
+    "mode": "major",
+    "name": "F major",
+    "relative": {
+      "tonic": "D",
+      "mode": "minor"
+    },
+    "correlation": 0.868,
+    "margin_to_second": 0.056,
+    "alternatives": [
+      {
+        "name": "C major",
+        "correlation": 0.812
+      },
+      {
+        "name": "Bb major",
+        "correlation": 0.488
+      },
+      {
+        "name": "A minor",
+        "correlation": 0.459
+      }
+    ],
+    "prefers_flats": true,
+    "confidence_note": "Correlação com perfis tonais; não é uma probabilidade calibrada.",
+    "warnings": [
+      "Tonalidade ambígua: F major e C major têm correlação próxima (margem 0.056)."
+    ]
+  },
+  "warnings": [
+    "Tonalidade ambígua: F major e C major têm correlação próxima (margem 0.056).",
+    "18 de 134 segmentos marcados como ambíguos (probabilidade do modelo baixa ou empatada com outro acorde). As probabilidades do modelo não são calibradas.",
+    "Baixo/inversões (campo 'inversion') são experimentais e não foram validados com referência anotada.",
+    "Vocabulário do modelo: maj, min, 7, maj7, m7, dim, aug, sus2, sus4, 6, m6, dim7, m7(b5), mM7. Acordes com 9ª, 11ª, 13ª, add ou notas alteradas não são reconhecidos como tal: aparecem como o acorde mais próximo do vocabulário.",
+    "Modelo neural pré-treinado (BTC, ISMIR 2019) em corpora públicos de música pop/rock; a precisão em outros gêneros/gravações não foi medida neste projeto."
+  ],
+  "processing_seconds": 90.6,
+  "run_id": "d4e3a926e292",
+  "created_at": "2026-10-28T19:26:06+00:00",
+  "song_id": "84439364f63341198c4dacbb76ea5d62"
+}

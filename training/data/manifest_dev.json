@@ -1,0 +1,38 @@
+{
+ "seed": 0,
+ "fractions": [
+  0.8,
+  0.1,
+  0.1
+ ],
+ "summary": {
+  "train": {
+   "items": 1,
+   "works": 1,
+   "minutes": 6.6
+  },
+  "val": {
+   "items": 0,
+   "works": 0,
+   "minutes": 0
+  },
+  "test": {
+   "items": 0,
+   "works": 0,
+   "minutes": 0
+  }
+ },
+ "items": [
+  {
+   "audio": "data/../../storage/songs/5ff0d997236f4f099fbbd19c68bf1f21/original.mp3",
+   "lab": "data/../../eval/references/estamos_de_pe.silver.lab",
+   "work_id": "estamos_de_pe",
+   "source": "cifra-club+alinhamento-prata",
+   "license": "upload-privado-do-usuario (nao redistribuivel)",
+   "audio_sha256": "74f42eb620796bce55987636088a56e77eae742c738003c27770f29dc35f71cb",
+   "minutes": 6.64,
+   "split": "train"
+  }
+ ],
+ "manifest_sha256": "6e24c8761110ac90f90ac8ab5aa94d3bce9188e8d9bf15b99f3981dd540c25ea"
+}

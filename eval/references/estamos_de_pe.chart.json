@@ -1,0 +1,160 @@
+{
+ "source": "Cifra Club - Estamos de Pé - Marcus Salles (PDF fornecido pelo usuário). Sem tempos: só a ordem dos acordes.",
+ "key": "A major (cifra: Tom A)",
+ "bpm_cifra": 104,
+ "conventions": {
+  "A4": "Asus4 (diagrama do PDF: x02230)",
+  "D2": "Dsus2 (diagrama do PDF: xx0230)",
+  "E6": "E6 (maior com sexta)",
+  "A/C#": "A maior com C# no baixo",
+  "nota": "Convenções de A4/D2 lidas dos diagramas do próprio PDF; confirmar de ouvido. Transcrição do layout do PDF: o começo da primeira Ponte (A Em7 G D2) e o 'A' extra antes do 3º refrão são interpretações do layout."
+ },
+ "sections": [
+  {
+   "name": "Intro",
+   "chords": [
+    "A",
+    "Em7",
+    "G",
+    "D"
+   ]
+  },
+  {
+   "name": "Primeira Parte",
+   "chords": [
+    "A",
+    "F#m",
+    "D",
+    "A",
+    "F#m",
+    "D2",
+    "A"
+   ]
+  },
+  {
+   "name": "Refrão",
+   "chords": [
+    "A4",
+    "A",
+    "E6",
+    "E",
+    "Bm",
+    "A/C#",
+    "D2",
+    "A4",
+    "A",
+    "E6",
+    "E",
+    "G",
+    "D",
+    "A"
+   ]
+  },
+  {
+   "name": "Segunda Parte",
+   "chords": [
+    "F#m",
+    "D2",
+    "A"
+   ]
+  },
+  {
+   "name": "Refrão",
+   "chords": [
+    "A4",
+    "A",
+    "E6",
+    "E",
+    "Bm",
+    "A/C#",
+    "D2",
+    "A4",
+    "A",
+    "E6",
+    "E",
+    "G",
+    "D",
+    "A"
+   ]
+  },
+  {
+   "name": "Ponte",
+   "chords": [
+    "A",
+    "Em7",
+    "G",
+    "D2",
+    "A",
+    "Em7",
+    "G",
+    "D",
+    "A",
+    "Em7",
+    "G",
+    "D",
+    "A",
+    "Em7",
+    "G",
+    "D"
+   ]
+  },
+  {
+   "name": "Refrão",
+   "chords": [
+    "A",
+    "A4",
+    "A",
+    "E6",
+    "E",
+    "Bm",
+    "A/C#",
+    "D",
+    "A4",
+    "A",
+    "E6",
+    "E",
+    "G",
+    "D",
+    "A"
+   ]
+  },
+  {
+   "name": "Ponte",
+   "chords": [
+    "A",
+    "Em7",
+    "G",
+    "D",
+    "A",
+    "Em7",
+    "G",
+    "D",
+    "A",
+    "Em7",
+    "G",
+    "D",
+    "A",
+    "Em7",
+    "G",
+    "D"
+   ]
+  },
+  {
+   "name": "Final",
+   "chords": [
+    "A",
+    "Em7",
+    "G",
+    "D",
+    "A",
+    "Em7",
+    "G",
+    "D"
+   ]
+  }
+ ],
+ "resolve": {
+  "A4": "Asus4",
+  "D2": "Dsus2"
+ }
+}

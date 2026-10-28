@@ -1,0 +1,23 @@
+{
+ "protocol": "Músicas usadas para orientar decisões (olhar resultados, ajustar regras/limiares) são 'development'. Só uma música que NÃO foi vista/usada para decidir nada vale como 'test'. Nenhuma música 'test' existe ainda.",
+ "songs": [
+  {
+   "id": "o_tempo",
+   "title": "O Tempo - Oficina G3",
+   "role": "development",
+   "reference": "o_tempo.chart.json (cifra Cifra Club, só a ORDEM; sem tempos; 'C2' e 'A#9' são ambíguos na cifra)",
+   "storage_runs": "storage/songs/cded50fe… (cópia do assistente) e 84439364… (envio do usuário)",
+   "notes": "Usada para orientar a regra de baixo (v1→v2). Não serve como prova de generalização."
+  },
+  {
+   "id": "estamos_de_pe",
+   "title": "Estamos de pé",
+   "role": "development",
+   "reference": "estamos_de_pe.chart.json (cifra Cifra Club, ordem) + estamos_de_pe.silver.lab (alinhamento forçado por raiz; PRATA: rótulos da cifra, tempos estimados)",
+   "storage_runs": "storage/songs/5ff0d997…",
+   "notes": "Referência prata (não ouro). Avaliar por EVENTO (eval/chart_events.py), não por quadro. Convenções A4=Asus4, D2=Dsus2 lidas dos diagramas do PDF. Continua sendo dado de DESENVOLVIMENTO (foi inspecionada); nenhuma música de teste independente existe."
+  }
+ ],
+ "test": [],
+ "structure_reference": "Estrutura (seções) de cada música vem das marcações da cifra alinhadas por raiz (eval/align_chart.py → *.silver.lab.meta.json, campo section_index). PRATA: fronteiras ±0,5 s e nomes da cifra só como gabarito."
+}

@@ -1,0 +1,1233 @@
+{
+ "kind": "silver",
+ "method": "forced alignment by BTC root marginals",
+ "chart": "eval/references/o_tempo.chart.json",
+ "audio": "storage/songs/cded50fe0ed44069892184c4d522baff/original.mp3",
+ "chords_in_chart": 122,
+ "chords_placed": 122,
+ "mean_root_posterior": 0.836,
+ "spans_shorter_than_0_5s": 6,
+ "spans_with_root_posterior_below_0_5": 9,
+ "spans": [
+  {
+   "index": 0,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Intro",
+   "section_index": 0,
+   "start": 6.574,
+   "end": 9.167,
+   "root_posterior": 0.895
+  },
+  {
+   "index": 1,
+   "cifra": "C2",
+   "label": "C2",
+   "section": "Intro",
+   "section_index": 0,
+   "start": 9.167,
+   "end": 12.037,
+   "root_posterior": 0.931
+  },
+  {
+   "index": 2,
+   "cifra": "F",
+   "label": "F",
+   "section": "Intro",
+   "section_index": 0,
+   "start": 12.037,
+   "end": 14.63,
+   "root_posterior": 0.719
+  },
+  {
+   "index": 3,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Intro",
+   "section_index": 0,
+   "start": 14.63,
+   "end": 17.315,
+   "root_posterior": 0.911
+  },
+  {
+   "index": 4,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Intro",
+   "section_index": 0,
+   "start": 17.315,
+   "end": 20.185,
+   "root_posterior": 0.926
+  },
+  {
+   "index": 5,
+   "cifra": "C2",
+   "label": "C2",
+   "section": "Intro",
+   "section_index": 0,
+   "start": 20.185,
+   "end": 22.87,
+   "root_posterior": 0.934
+  },
+  {
+   "index": 6,
+   "cifra": "F",
+   "label": "F",
+   "section": "Intro",
+   "section_index": 0,
+   "start": 22.87,
+   "end": 25.741,
+   "root_posterior": 0.729
+  },
+  {
+   "index": 7,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Intro",
+   "section_index": 0,
+   "start": 25.741,
+   "end": 28.241,
+   "root_posterior": 0.506
+  },
+  {
+   "index": 8,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 28.241,
+   "end": 30.926,
+   "root_posterior": 0.853
+  },
+  {
+   "index": 9,
+   "cifra": "C2",
+   "label": "C2",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 30.926,
+   "end": 34.074,
+   "root_posterior": 0.929
+  },
+  {
+   "index": 10,
+   "cifra": "F",
+   "label": "F",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 34.074,
+   "end": 36.667,
+   "root_posterior": 0.888
+  },
+  {
+   "index": 11,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 36.667,
+   "end": 39.444,
+   "root_posterior": 0.953
+  },
+  {
+   "index": 12,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 39.444,
+   "end": 42.222,
+   "root_posterior": 0.927
+  },
+  {
+   "index": 13,
+   "cifra": "C2",
+   "label": "C2",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 42.222,
+   "end": 45.093,
+   "root_posterior": 0.937
+  },
+  {
+   "index": 14,
+   "cifra": "F",
+   "label": "F",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 45.093,
+   "end": 47.778,
+   "root_posterior": 0.661
+  },
+  {
+   "index": 15,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Primeira Parte",
+   "section_index": 1,
+   "start": 47.778,
+   "end": 50.463,
+   "root_posterior": 0.643
+  },
+  {
+   "index": 16,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Pre-Refrao",
+   "section_index": 2,
+   "start": 50.463,
+   "end": 51.759,
+   "root_posterior": 0.909
+  },
+  {
+   "index": 17,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Pre-Refrao",
+   "section_index": 2,
+   "start": 51.759,
+   "end": 53.241,
+   "root_posterior": 0.65
+  },
+  {
+   "index": 18,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Pre-Refrao",
+   "section_index": 2,
+   "start": 53.241,
+   "end": 55.833,
+   "root_posterior": 0.743
+  },
+  {
+   "index": 19,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Pre-Refrao",
+   "section_index": 2,
+   "start": 55.833,
+   "end": 57.407,
+   "root_posterior": 0.849
+  },
+  {
+   "index": 20,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Pre-Refrao",
+   "section_index": 2,
+   "start": 57.407,
+   "end": 58.611,
+   "root_posterior": 0.214
+  },
+  {
+   "index": 21,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Pre-Refrao",
+   "section_index": 2,
+   "start": 58.611,
+   "end": 60.0,
+   "root_posterior": 0.829
+  },
+  {
+   "index": 22,
+   "cifra": "C",
+   "label": "C",
+   "section": "Pre-Refrao",
+   "section_index": 2,
+   "start": 60.0,
+   "end": 62.963,
+   "root_posterior": 0.99
+  },
+  {
+   "index": 23,
+   "cifra": "F",
+   "label": "F",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 62.963,
+   "end": 63.981,
+   "root_posterior": 0.888
+  },
+  {
+   "index": 24,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 63.981,
+   "end": 65.741,
+   "root_posterior": 0.931
+  },
+  {
+   "index": 25,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 65.741,
+   "end": 66.667,
+   "root_posterior": 0.923
+  },
+  {
+   "index": 26,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 66.667,
+   "end": 68.426,
+   "root_posterior": 0.845
+  },
+  {
+   "index": 27,
+   "cifra": "Dm",
+   "label": "Dm",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 68.426,
+   "end": 69.444,
+   "root_posterior": 0.936
+  },
+  {
+   "index": 28,
+   "cifra": "C",
+   "label": "C",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 69.444,
+   "end": 71.296,
+   "root_posterior": 0.955
+  },
+  {
+   "index": 29,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 71.296,
+   "end": 72.13,
+   "root_posterior": 0.88
+  },
+  {
+   "index": 30,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 72.13,
+   "end": 73.981,
+   "root_posterior": 0.907
+  },
+  {
+   "index": 31,
+   "cifra": "F",
+   "label": "F",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 73.981,
+   "end": 75.0,
+   "root_posterior": 0.92
+  },
+  {
+   "index": 32,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 75.0,
+   "end": 76.759,
+   "root_posterior": 0.93
+  },
+  {
+   "index": 33,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 76.759,
+   "end": 77.685,
+   "root_posterior": 0.884
+  },
+  {
+   "index": 34,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 77.685,
+   "end": 79.537,
+   "root_posterior": 0.935
+  },
+  {
+   "index": 35,
+   "cifra": "Dm",
+   "label": "Dm",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 79.537,
+   "end": 80.093,
+   "root_posterior": 0.79
+  },
+  {
+   "index": 36,
+   "cifra": "C",
+   "label": "C",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 80.093,
+   "end": 82.222,
+   "root_posterior": 0.723
+  },
+  {
+   "index": 37,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 82.222,
+   "end": 83.333,
+   "root_posterior": 0.833
+  },
+  {
+   "index": 38,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao",
+   "section_index": 3,
+   "start": 83.333,
+   "end": 87.685,
+   "root_posterior": 0.828
+  },
+  {
+   "index": 39,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Segunda Parte",
+   "section_index": 4,
+   "start": 87.685,
+   "end": 90.648,
+   "root_posterior": 0.932
+  },
+  {
+   "index": 40,
+   "cifra": "C2",
+   "label": "C2",
+   "section": "Segunda Parte",
+   "section_index": 4,
+   "start": 90.648,
+   "end": 93.426,
+   "root_posterior": 0.96
+  },
+  {
+   "index": 41,
+   "cifra": "F",
+   "label": "F",
+   "section": "Segunda Parte",
+   "section_index": 4,
+   "start": 93.426,
+   "end": 96.019,
+   "root_posterior": 0.96
+  },
+  {
+   "index": 42,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Segunda Parte",
+   "section_index": 4,
+   "start": 96.019,
+   "end": 98.796,
+   "root_posterior": 0.952
+  },
+  {
+   "index": 43,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Segunda Parte",
+   "section_index": 4,
+   "start": 98.796,
+   "end": 101.574,
+   "root_posterior": 0.944
+  },
+  {
+   "index": 44,
+   "cifra": "C2",
+   "label": "C2",
+   "section": "Segunda Parte",
+   "section_index": 4,
+   "start": 101.574,
+   "end": 104.352,
+   "root_posterior": 0.967
+  },
+  {
+   "index": 45,
+   "cifra": "F",
+   "label": "F",
+   "section": "Segunda Parte",
+   "section_index": 4,
+   "start": 104.352,
+   "end": 107.037,
+   "root_posterior": 0.94
+  },
+  {
+   "index": 46,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Segunda Parte",
+   "section_index": 4,
+   "start": 107.037,
+   "end": 110.0,
+   "root_posterior": 0.953
+  },
+  {
+   "index": 47,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Pre-Refrao",
+   "section_index": 5,
+   "start": 110.0,
+   "end": 111.204,
+   "root_posterior": 0.943
+  },
+  {
+   "index": 48,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Pre-Refrao",
+   "section_index": 5,
+   "start": 111.204,
+   "end": 112.5,
+   "root_posterior": 0.904
+  },
+  {
+   "index": 49,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Pre-Refrao",
+   "section_index": 5,
+   "start": 112.5,
+   "end": 115.185,
+   "root_posterior": 0.845
+  },
+  {
+   "index": 50,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Pre-Refrao",
+   "section_index": 5,
+   "start": 115.185,
+   "end": 116.667,
+   "root_posterior": 0.828
+  },
+  {
+   "index": 51,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Pre-Refrao",
+   "section_index": 5,
+   "start": 116.667,
+   "end": 118.056,
+   "root_posterior": 0.92
+  },
+  {
+   "index": 52,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Pre-Refrao",
+   "section_index": 5,
+   "start": 118.056,
+   "end": 119.167,
+   "root_posterior": 0.91
+  },
+  {
+   "index": 53,
+   "cifra": "C",
+   "label": "C",
+   "section": "Pre-Refrao",
+   "section_index": 5,
+   "start": 119.167,
+   "end": 122.222,
+   "root_posterior": 0.957
+  },
+  {
+   "index": 54,
+   "cifra": "F",
+   "label": "F",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 122.222,
+   "end": 123.241,
+   "root_posterior": 0.923
+  },
+  {
+   "index": 55,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 123.241,
+   "end": 125.0,
+   "root_posterior": 0.927
+  },
+  {
+   "index": 56,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 125.0,
+   "end": 125.926,
+   "root_posterior": 0.882
+  },
+  {
+   "index": 57,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 125.926,
+   "end": 127.778,
+   "root_posterior": 0.893
+  },
+  {
+   "index": 58,
+   "cifra": "Dm",
+   "label": "Dm",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 127.778,
+   "end": 128.796,
+   "root_posterior": 0.936
+  },
+  {
+   "index": 59,
+   "cifra": "C",
+   "label": "C",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 128.796,
+   "end": 130.556,
+   "root_posterior": 0.952
+  },
+  {
+   "index": 60,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 130.556,
+   "end": 131.481,
+   "root_posterior": 0.87
+  },
+  {
+   "index": 61,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 131.481,
+   "end": 133.241,
+   "root_posterior": 0.925
+  },
+  {
+   "index": 62,
+   "cifra": "F",
+   "label": "F",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 133.241,
+   "end": 134.259,
+   "root_posterior": 0.892
+  },
+  {
+   "index": 63,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 134.259,
+   "end": 136.019,
+   "root_posterior": 0.945
+  },
+  {
+   "index": 64,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 136.019,
+   "end": 137.037,
+   "root_posterior": 0.912
+  },
+  {
+   "index": 65,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 137.037,
+   "end": 138.796,
+   "root_posterior": 0.944
+  },
+  {
+   "index": 66,
+   "cifra": "Dm",
+   "label": "Dm",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 138.796,
+   "end": 140.0,
+   "root_posterior": 0.575
+  },
+  {
+   "index": 67,
+   "cifra": "C",
+   "label": "C",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 140.0,
+   "end": 141.667,
+   "root_posterior": 0.95
+  },
+  {
+   "index": 68,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 141.667,
+   "end": 142.5,
+   "root_posterior": 0.75
+  },
+  {
+   "index": 69,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao",
+   "section_index": 6,
+   "start": 142.5,
+   "end": 148.426,
+   "root_posterior": 0.951
+  },
+  {
+   "index": 70,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Solo",
+   "section_index": 7,
+   "start": 148.426,
+   "end": 151.111,
+   "root_posterior": 0.874
+  },
+  {
+   "index": 71,
+   "cifra": "C2",
+   "label": "C2",
+   "section": "Solo",
+   "section_index": 7,
+   "start": 151.111,
+   "end": 153.981,
+   "root_posterior": 0.897
+  },
+  {
+   "index": 72,
+   "cifra": "F",
+   "label": "F",
+   "section": "Solo",
+   "section_index": 7,
+   "start": 153.981,
+   "end": 156.667,
+   "root_posterior": 0.92
+  },
+  {
+   "index": 73,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Solo",
+   "section_index": 7,
+   "start": 156.667,
+   "end": 159.444,
+   "root_posterior": 0.916
+  },
+  {
+   "index": 74,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Solo",
+   "section_index": 7,
+   "start": 159.444,
+   "end": 161.852,
+   "root_posterior": 0.917
+  },
+  {
+   "index": 75,
+   "cifra": "C2",
+   "label": "C2",
+   "section": "Solo",
+   "section_index": 7,
+   "start": 161.852,
+   "end": 165.093,
+   "root_posterior": 0.934
+  },
+  {
+   "index": 76,
+   "cifra": "F",
+   "label": "F",
+   "section": "Solo",
+   "section_index": 7,
+   "start": 165.093,
+   "end": 167.685,
+   "root_posterior": 0.946
+  },
+  {
+   "index": 77,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Solo",
+   "section_index": 7,
+   "start": 167.685,
+   "end": 170.556,
+   "root_posterior": 0.967
+  },
+  {
+   "index": 78,
+   "cifra": "Dm",
+   "label": "Dm",
+   "section": "Ponte do solo",
+   "section_index": 8,
+   "start": 170.556,
+   "end": 171.852,
+   "root_posterior": 0.939
+  },
+  {
+   "index": 79,
+   "cifra": "C2",
+   "label": "C2",
+   "section": "Ponte do solo",
+   "section_index": 8,
+   "start": 171.852,
+   "end": 173.333,
+   "root_posterior": 0.928
+  },
+  {
+   "index": 80,
+   "cifra": "F",
+   "label": "F",
+   "section": "Ponte do solo",
+   "section_index": 8,
+   "start": 173.333,
+   "end": 176.019,
+   "root_posterior": 0.976
+  },
+  {
+   "index": 81,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Ponte do solo",
+   "section_index": 8,
+   "start": 176.019,
+   "end": 177.5,
+   "root_posterior": 0.932
+  },
+  {
+   "index": 82,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Ponte do solo",
+   "section_index": 8,
+   "start": 177.5,
+   "end": 178.704,
+   "root_posterior": 0.827
+  },
+  {
+   "index": 83,
+   "cifra": "C",
+   "label": "C",
+   "section": "Ponte do solo",
+   "section_index": 8,
+   "start": 178.704,
+   "end": 181.667,
+   "root_posterior": 0.957
+  },
+  {
+   "index": 84,
+   "cifra": "Dm",
+   "label": "Dm",
+   "section": "Ponte do solo",
+   "section_index": 8,
+   "start": 181.667,
+   "end": 182.963,
+   "root_posterior": 0.93
+  },
+  {
+   "index": 85,
+   "cifra": "C2",
+   "label": "C2",
+   "section": "Ponte do solo",
+   "section_index": 8,
+   "start": 182.963,
+   "end": 184.352,
+   "root_posterior": 0.949
+  },
+  {
+   "index": 86,
+   "cifra": "F",
+   "label": "F",
+   "section": "Ponte do solo",
+   "section_index": 8,
+   "start": 184.352,
+   "end": 187.037,
+   "root_posterior": 0.97
+  },
+  {
+   "index": 87,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Ponte do solo",
+   "section_index": 8,
+   "start": 187.037,
+   "end": 188.426,
+   "root_posterior": 0.953
+  },
+  {
+   "index": 88,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Ponte do solo",
+   "section_index": 8,
+   "start": 188.426,
+   "end": 190.0,
+   "root_posterior": 0.904
+  },
+  {
+   "index": 89,
+   "cifra": "C",
+   "label": "C",
+   "section": "Ponte do solo",
+   "section_index": 8,
+   "start": 190.0,
+   "end": 195.278,
+   "root_posterior": 0.958
+  },
+  {
+   "index": 90,
+   "cifra": "F",
+   "label": "F",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 195.278,
+   "end": 196.389,
+   "root_posterior": 0.877
+  },
+  {
+   "index": 91,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 196.389,
+   "end": 198.056,
+   "root_posterior": 0.962
+  },
+  {
+   "index": 92,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 198.056,
+   "end": 199.074,
+   "root_posterior": 0.831
+  },
+  {
+   "index": 93,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 199.074,
+   "end": 200.926,
+   "root_posterior": 0.927
+  },
+  {
+   "index": 94,
+   "cifra": "Dm",
+   "label": "Dm",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 200.926,
+   "end": 201.852,
+   "root_posterior": 0.937
+  },
+  {
+   "index": 95,
+   "cifra": "C",
+   "label": "C",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 201.852,
+   "end": 203.704,
+   "root_posterior": 0.95
+  },
+  {
+   "index": 96,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 203.704,
+   "end": 204.444,
+   "root_posterior": 0.875
+  },
+  {
+   "index": 97,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 204.444,
+   "end": 206.204,
+   "root_posterior": 0.881
+  },
+  {
+   "index": 98,
+   "cifra": "F",
+   "label": "F",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 206.204,
+   "end": 207.407,
+   "root_posterior": 0.869
+  },
+  {
+   "index": 99,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 207.407,
+   "end": 208.981,
+   "root_posterior": 0.874
+  },
+  {
+   "index": 100,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 208.981,
+   "end": 210.0,
+   "root_posterior": 0.835
+  },
+  {
+   "index": 101,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 210.0,
+   "end": 222.87,
+   "root_posterior": 0.429
+  },
+  {
+   "index": 102,
+   "cifra": "Dm",
+   "label": "Dm",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 222.87,
+   "end": 223.889,
+   "root_posterior": 0.939
+  },
+  {
+   "index": 103,
+   "cifra": "C",
+   "label": "C",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 223.889,
+   "end": 225.648,
+   "root_posterior": 0.949
+  },
+  {
+   "index": 104,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 225.648,
+   "end": 226.667,
+   "root_posterior": 0.893
+  },
+  {
+   "index": 105,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao",
+   "section_index": 9,
+   "start": 226.667,
+   "end": 228.333,
+   "root_posterior": 0.921
+  },
+  {
+   "index": 106,
+   "cifra": "F",
+   "label": "F",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 228.333,
+   "end": 229.444,
+   "root_posterior": 0.907
+  },
+  {
+   "index": 107,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 229.444,
+   "end": 231.204,
+   "root_posterior": 0.844
+  },
+  {
+   "index": 108,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 231.204,
+   "end": 237.685,
+   "root_posterior": 0.321
+  },
+  {
+   "index": 109,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 237.685,
+   "end": 243.333,
+   "root_posterior": 0.861
+  },
+  {
+   "index": 110,
+   "cifra": "Dm",
+   "label": "Dm",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 243.333,
+   "end": 243.426,
+   "root_posterior": 0.002
+  },
+  {
+   "index": 111,
+   "cifra": "C",
+   "label": "C",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 243.426,
+   "end": 246.389,
+   "root_posterior": 0.924
+  },
+  {
+   "index": 112,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 246.389,
+   "end": 248.333,
+   "root_posterior": 0.932
+  },
+  {
+   "index": 113,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 248.333,
+   "end": 251.667,
+   "root_posterior": 0.907
+  },
+  {
+   "index": 114,
+   "cifra": "F",
+   "label": "F",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 251.667,
+   "end": 251.759,
+   "root_posterior": 0.042
+  },
+  {
+   "index": 115,
+   "cifra": "Gm",
+   "label": "Gm",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 251.759,
+   "end": 254.444,
+   "root_posterior": 0.948
+  },
+  {
+   "index": 116,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 254.444,
+   "end": 254.537,
+   "root_posterior": 0.007
+  },
+  {
+   "index": 117,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 254.537,
+   "end": 254.63,
+   "root_posterior": 0.065
+  },
+  {
+   "index": 118,
+   "cifra": "Dm",
+   "label": "Dm",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 254.63,
+   "end": 254.722,
+   "root_posterior": 0.003
+  },
+  {
+   "index": 119,
+   "cifra": "C",
+   "label": "C",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 254.722,
+   "end": 257.407,
+   "root_posterior": 0.951
+  },
+  {
+   "index": 120,
+   "cifra": "F/A",
+   "label": "F/A",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 257.407,
+   "end": 259.907,
+   "root_posterior": 0.964
+  },
+  {
+   "index": 121,
+   "cifra": "A#9",
+   "label": "A#9",
+   "section": "Refrao final",
+   "section_index": 10,
+   "start": 259.907,
+   "end": 260.0,
+   "root_posterior": 0.012
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+Relatório de análise — estamos de pe p3
+Algoritmo: btc-large-voca ISMIR2019-2682317 (librosa 1.0.0)
+Duração: 6:38.4 | Andamento estimado: 103 BPM | Processado em 224.5 s
+Tom estimado: A major (relativo: F# minor) | correlação 0.857 | margem p/ 2ª candidata 0.113
+  Alternativas: D major (0.744), A minor (0.447), E major (0.425)
+
+Seções (rótulos neutros; 'grupo' igual = trechos acusticamente semelhantes, sem significado semântico):
+  Parte A       0:00.0 – 0:21.2  grupo 1
+      A | Em7 | G | D
+  Parte B (1/2) 0:21.2 – 1:27.0  grupo 2
+      D | A | F#m | A | D | A | B | F#m | D | A | E | Bm | A/C# | D | A | E | G
+  Parte B (2/2) 1:27.0 – 2:26.4  grupo 2
+      G | D | A | F#m | D | A | E | D/A | A | E | Bm | A/C# | D | A | E | G | D | A
+  Parte C       2:26.4 – 3:12.5  grupo 3
+      A | Em7 | G | D | A | Em | G | D | A | Em
+  Parte D (1/2) 3:12.5 – 3:45.4  grupo 4
+      Em | G | D | A | Em | G | D | A
+  Parte E       3:45.4 – 4:16.0  grupo 5
+      A | E | Bm7 | A/C# | D | A | E | G | D
+  Parte F       4:16.0 – 4:36.2  grupo 6
+      D | A
+  Parte D (2/2) 4:36.2 – 5:49.4  grupo 4
+      A | Em | G | D | Em | G | D | A | G | Em | G | D | A | D | Em | G | D | A
+  Parte G       5:49.4 – 6:38.4  grupo 7
+      A | Em7 | G | D | A | Em | G | D
+
+Avisos:
+  - 6 de 92 segmentos marcados como ambíguos (probabilidade do modelo baixa ou empatada com outro acorde). As probabilidades do modelo não são calibradas.
+  - 4 inversões registradas a partir do baixo (rótulo final 'X/Y'; o acorde harmônico fica em harmonic_label). Regra e limiares não foram validados com referência anotada em número suficiente de músicas.
+  - 'possible_additions': notas de cor (2ª/4ª/6ª/7ª) com alguma evidência no áudio; evidência fraca, não validada, e NÃO altera o acorde exibido. O BTC não reconhece 6ª/sus2 de forma confiável nesta gravação.
+  - Vocabulário do modelo: maj, min, 7, maj7, m7, dim, aug, sus2, sus4, 6, m6, dim7, m7(b5), mM7. Acordes com 9ª, 11ª, 13ª, add ou notas alteradas não são reconhecidos como tal: aparecem como o acorde mais próximo do vocabulário.
+  - Modelo neural pré-treinado (BTC, ISMIR 2019) em corpora públicos de música pop/rock; a precisão em outros gêneros/gravações não foi medida neste projeto.

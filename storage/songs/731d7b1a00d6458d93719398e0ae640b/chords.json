@@ -1,0 +1,5540 @@
+{
+  "run_id": "23fe0c7b5159",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.778,
+      "chord": "N",
+      "root": null,
+      "quality": null,
+      "score": 0.975,
+      "p": 0.971,
+      "root_p": null,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.009
+        },
+        {
+          "chord": "Em",
+          "p": 0.002
+        },
+        {
+          "chord": "D",
+          "p": 0.002
+        }
+      ],
+      "ambiguous": false,
+      "model_label": "N",
+      "harmonic_label": "N",
+      "structure": {
+        "root": null,
+        "quality": null,
+        "intervals": [],
+        "bass": null,
+        "inversion": null,
+        "added": []
+      }
+    },
+    {
+      "start": 2.778,
+      "end": 7.315,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.81,
+      "p": 0.807,
+      "root_p": 0.849,
+      "alternatives": [
+        {
+          "chord": "N",
+          "p": 0.05
+        },
+        {
+          "chord": "D",
+          "p": 0.029
+        },
+        {
+          "chord": "A7",
+          "p": 0.026
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.867,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.53,
+            "4": 0.19,
+            "6": 0.23,
+            "b7": 0.33,
+            "maj7": 0.6
+          },
+          "third": 0.28
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 7.315,
+      "end": 11.759,
+      "chord": "Em7",
+      "root": 4,
+      "quality": "min7",
+      "score": 0.568,
+      "p": 0.567,
+      "root_p": 0.944,
+      "alternatives": [
+        {
+          "chord": "Em",
+          "p": 0.357
+        },
+        {
+          "chord": "G",
+          "p": 0.014
+        },
+        {
+          "chord": "D",
+          "p": 0.014
+        }
+      ],
+      "ambiguous": true,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.885,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.32,
+            "4": 0.42,
+            "6": 0.33,
+            "maj7": 0.68
+          },
+          "third": 0.37
+        }
+      },
+      "model_label": "Em7",
+      "harmonic_label": "Em7",
+      "structure": {
+        "root": "E",
+        "quality": "min7",
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 11.759,
+      "end": 16.759,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.875,
+      "p": 0.874,
+      "root_p": 0.887,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.062
+        },
+        {
+          "chord": "D",
+          "p": 0.013
+        },
+        {
+          "chord": "Em",
+          "p": 0.012
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.842,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.76,
+            "4": 0.21,
+            "6": 0.34,
+            "b7": 0.26,
+            "maj7": 0.51
+          },
+          "third": 0.42
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 16.759,
+      "end": 21.204,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.912,
+      "p": 0.911,
+      "root_p": 0.934,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.042
+        },
+        {
+          "chord": "Dmaj7",
+          "p": 0.018
+        },
+        {
+          "chord": "G",
+          "p": 0.004
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.771,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.71,
+            "4": 0.38,
+            "6": 0.45,
+            "b7": 0.41,
+            "maj7": 0.68
+          },
+          "third": 0.65
+        }
+      },
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 21.204,
+      "end": 25.648,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.973,
+      "p": 0.972,
+      "root_p": 0.979,
+      "alternatives": [
+        {
+          "chord": "E",
+          "p": 0.005
+        },
+        {
+          "chord": "D",
+          "p": 0.004
+        },
+        {
+          "chord": "Amaj7",
+          "p": 0.003
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.848,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.61,
+            "4": 0.18,
+            "6": 0.34,
+            "b7": 0.41,
+            "maj7": 0.69
+          },
+          "third": 0.51
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 25.648,
+      "end": 30.0,
+      "chord": "F#m",
+      "root": 6,
+      "quality": "min",
+      "score": 0.652,
+      "p": 0.651,
+      "root_p": 0.963,
+      "alternatives": [
+        {
+          "chord": "F#m7",
+          "p": 0.307
+        },
+        {
+          "chord": "A",
+          "p": 0.008
+        },
+        {
+          "chord": "E",
+          "p": 0.005
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "F#",
+        "vote_share": 0.973,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.42,
+            "4": 0.28,
+            "6": 0.28,
+            "b7": 0.48,
+            "maj7": 0.69
+          },
+          "third": 0.39
+        }
+      },
+      "model_label": "F#m",
+      "harmonic_label": "F#m",
+      "structure": {
+        "root": "F#",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "F#",
+        "inversion": null
+      }
+    },
+    {
+      "start": 30.0,
+      "end": 30.37,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.369,
+      "p": 0.366,
+      "root_p": 0.392,
+      "alternatives": [
+        {
+          "chord": "E",
+          "p": 0.244
+        },
+        {
+          "chord": "Em",
+          "p": 0.134
+        },
+        {
+          "chord": "G",
+          "p": 0.062
+        }
+      ],
+      "ambiguous": true,
+      "bass": {
+        "note": "F#",
+        "vote_share": 0.875,
+        "voiced": 1.0,
+        "reason": "bass_not_in_chord"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.75,
+            "4": 0.37,
+            "6": 2.6,
+            "b7": 1.01,
+            "maj7": 0.5
+          },
+          "third": 0.45
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "F#",
+        "inversion": null
+      }
+    },
+    {
+      "start": 30.37,
+      "end": 34.907,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.952,
+      "p": 0.951,
+      "root_p": 0.958,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.023
+        },
+        {
+          "chord": "E",
+          "p": 0.007
+        },
+        {
+          "chord": "Dmaj7",
+          "p": 0.004
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.969,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.42,
+            "4": 0.18,
+            "6": 0.59,
+            "b7": 0.42,
+            "maj7": 0.92
+          },
+          "third": 0.26
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "maj7",
+          "strength": 0.92,
+          "label": "D(maj7?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 34.907,
+      "end": 43.333,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.953,
+      "p": 0.952,
+      "root_p": 0.97,
+      "alternatives": [
+        {
+          "chord": "E",
+          "p": 0.018
+        },
+        {
+          "chord": "A7",
+          "p": 0.013
+        },
+        {
+          "chord": "B",
+          "p": 0.004
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.906,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.63,
+            "4": 0.26,
+            "6": 0.26,
+            "b7": 0.4,
+            "maj7": 0.63
+          },
+          "third": 0.56
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 43.333,
+      "end": 44.167,
+      "chord": "B",
+      "root": 11,
+      "quality": "maj",
+      "score": 0.592,
+      "p": 0.588,
+      "root_p": 0.659,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.125
+        },
+        {
+          "chord": "E",
+          "p": 0.118
+        },
+        {
+          "chord": "B7",
+          "p": 0.042
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "C#",
+        "vote_share": 0.389,
+        "voiced": 1.0,
+        "reason": "bass_not_in_chord"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 2.19,
+            "4": 1.07,
+            "6": 0.54,
+            "b7": 0.62,
+            "maj7": 0.83
+          },
+          "third": 0.5
+        }
+      },
+      "model_label": "B",
+      "harmonic_label": "B",
+      "structure": {
+        "root": "B",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "C#",
+        "inversion": null
+      }
+    },
+    {
+      "start": 44.167,
+      "end": 48.796,
+      "chord": "F#m",
+      "root": 6,
+      "quality": "min",
+      "score": 0.888,
+      "p": 0.887,
+      "root_p": 0.967,
+      "alternatives": [
+        {
+          "chord": "F#m7",
+          "p": 0.071
+        },
+        {
+          "chord": "D",
+          "p": 0.007
+        },
+        {
+          "chord": "E",
+          "p": 0.006
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "F#",
+        "vote_share": 0.889,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.42,
+            "4": 0.44,
+            "6": 0.27,
+            "b7": 0.57,
+            "maj7": 0.67
+          },
+          "third": 0.43
+        }
+      },
+      "model_label": "F#m",
+      "harmonic_label": "F#m",
+      "structure": {
+        "root": "F#",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "F#",
+        "inversion": null
+      }
+    },
+    {
+      "start": 48.796,
+      "end": 53.241,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.836,
+      "p": 0.835,
+      "root_p": 0.848,
+      "alternatives": [
+        {
+          "chord": "E",
+          "p": 0.074
+        },
+        {
+          "chord": "A",
+          "p": 0.032
+        },
+        {
+          "chord": "E7",
+          "p": 0.01
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.859,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.61,
+            "4": 0.16,
+            "6": 0.76,
+            "b7": 0.4,
+            "maj7": 0.8
+          },
+          "third": 0.27
+        }
+      },
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 53.241,
+      "end": 62.87,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.873,
+      "p": 0.872,
+      "root_p": 0.889,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.047
+        },
+        {
+          "chord": "G",
+          "p": 0.022
+        },
+        {
+          "chord": "E",
+          "p": 0.019
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.843,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.55,
+            "4": 0.44,
+            "6": 0.29,
+            "b7": 0.38,
+            "maj7": 0.62
+          },
+          "third": 0.78
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 62.87,
+      "end": 67.315,
+      "chord": "E",
+      "root": 4,
+      "quality": "maj",
+      "score": 0.962,
+      "p": 0.961,
+      "root_p": 0.972,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.011
+        },
+        {
+          "chord": "E7",
+          "p": 0.005
+        },
+        {
+          "chord": "B",
+          "p": 0.003
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.943,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.32,
+            "4": 0.26,
+            "6": 0.24,
+            "b7": 0.29,
+            "maj7": 0.68
+          },
+          "third": 0.3
+        }
+      },
+      "model_label": "E",
+      "harmonic_label": "E",
+      "structure": {
+        "root": "E",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 67.315,
+      "end": 70.833,
+      "chord": "Bm",
+      "root": 11,
+      "quality": "min",
+      "score": 0.808,
+      "p": 0.807,
+      "root_p": 0.954,
+      "alternatives": [
+        {
+          "chord": "Bm7",
+          "p": 0.138
+        },
+        {
+          "chord": "A",
+          "p": 0.016
+        },
+        {
+          "chord": "E",
+          "p": 0.012
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "B",
+        "vote_share": 0.907,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.48,
+            "4": 0.19,
+            "6": 0.28,
+            "b7": 0.5,
+            "maj7": 0.76
+          },
+          "third": 0.87
+        }
+      },
+      "model_label": "Bm",
+      "harmonic_label": "Bm",
+      "structure": {
+        "root": "B",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "B",
+        "inversion": null
+      }
+    },
+    {
+      "start": 70.833,
+      "end": 71.944,
+      "chord": "A/C#",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.922,
+      "p": 0.92,
+      "root_p": 0.931,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.022
+        },
+        {
+          "chord": "Bm",
+          "p": 0.015
+        },
+        {
+          "chord": "C#m",
+          "p": 0.009
+        }
+      ],
+      "ambiguous": false,
+      "inversion": "A/C#",
+      "bass": {
+        "note": "C#",
+        "vote_share": 0.938,
+        "voiced": 1.0,
+        "reason": "inversion"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.48,
+            "4": 0.92,
+            "6": 0.2,
+            "b7": 0.27,
+            "maj7": 0.55
+          },
+          "third": 1.75
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "4",
+          "strength": 0.92,
+          "label": "A(add4?)"
+        }
+      ],
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "C#",
+        "inversion": {
+          "bass": "C#",
+          "interval": 4,
+          "degree": "1"
+        }
+      }
+    },
+    {
+      "start": 71.944,
+      "end": 76.944,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.924,
+      "p": 0.923,
+      "root_p": 0.954,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.027
+        },
+        {
+          "chord": "Dmaj7",
+          "p": 0.023
+        },
+        {
+          "chord": "D7",
+          "p": 0.004
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.898,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.49,
+            "4": 0.18,
+            "6": 0.31,
+            "b7": 0.36,
+            "maj7": 0.85
+          },
+          "third": 0.3
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "maj7",
+          "strength": 0.85,
+          "label": "D(maj7?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 76.944,
+      "end": 81.944,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.942,
+      "p": 0.94,
+      "root_p": 0.947,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.017
+        },
+        {
+          "chord": "F#m",
+          "p": 0.015
+        },
+        {
+          "chord": "E",
+          "p": 0.011
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.653,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.51,
+            "4": 0.26,
+            "6": 0.56,
+            "b7": 0.48,
+            "maj7": 0.79
+          },
+          "third": 0.74
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 81.944,
+      "end": 85.741,
+      "chord": "E",
+      "root": 4,
+      "quality": "maj",
+      "score": 0.922,
+      "p": 0.92,
+      "root_p": 0.948,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.03
+        },
+        {
+          "chord": "E7",
+          "p": 0.018
+        },
+        {
+          "chord": "G",
+          "p": 0.007
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.926,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.56,
+            "4": 0.33,
+            "6": 0.28,
+            "b7": 0.39,
+            "maj7": 0.79
+          },
+          "third": 0.44
+        }
+      },
+      "model_label": "E",
+      "harmonic_label": "E",
+      "structure": {
+        "root": "E",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 85.741,
+      "end": 87.963,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.964,
+      "p": 0.963,
+      "root_p": 0.975,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.014
+        },
+        {
+          "chord": "G7",
+          "p": 0.008
+        },
+        {
+          "chord": "A",
+          "p": 0.003
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.76,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.71,
+            "4": 0.27,
+            "6": 0.28,
+            "b7": 0.27,
+            "maj7": 0.49
+          },
+          "third": 0.33
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 87.963,
+      "end": 90.37,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.926,
+      "p": 0.923,
+      "root_p": 0.926,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.026
+        },
+        {
+          "chord": "G",
+          "p": 0.015
+        },
+        {
+          "chord": "E",
+          "p": 0.012
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.922,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.57,
+            "4": 0.34,
+            "6": 0.4,
+            "b7": 0.51,
+            "maj7": 0.95
+          },
+          "third": 0.47
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "maj7",
+          "strength": 0.95,
+          "label": "D(maj7?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 90.37,
+      "end": 99.444,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.864,
+      "p": 0.857,
+      "root_p": 0.86,
+      "alternatives": [
+        {
+          "chord": "B",
+          "p": 0.041
+        },
+        {
+          "chord": "Bm",
+          "p": 0.031
+        },
+        {
+          "chord": "D",
+          "p": 0.015
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.852,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.63,
+            "4": 0.26,
+            "6": 0.29,
+            "b7": 0.43,
+            "maj7": 0.58
+          },
+          "third": 0.54
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 99.444,
+      "end": 104.074,
+      "chord": "F#m",
+      "root": 6,
+      "quality": "min",
+      "score": 0.731,
+      "p": 0.73,
+      "root_p": 0.917,
+      "alternatives": [
+        {
+          "chord": "F#m7",
+          "p": 0.175
+        },
+        {
+          "chord": "E",
+          "p": 0.019
+        },
+        {
+          "chord": "A",
+          "p": 0.016
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "F#",
+        "vote_share": 0.69,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.47,
+            "4": 0.58,
+            "6": 0.46,
+            "b7": 0.88,
+            "maj7": 0.82
+          },
+          "third": 0.47
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "b7",
+          "strength": 0.88,
+          "label": "F#m(7?)"
+        },
+        {
+          "degree": "maj7",
+          "strength": 0.82,
+          "label": "F#m(maj7?)"
+        }
+      ],
+      "model_label": "F#m",
+      "harmonic_label": "F#m",
+      "structure": {
+        "root": "F#",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "F#",
+        "inversion": null
+      }
+    },
+    {
+      "start": 104.074,
+      "end": 108.796,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.838,
+      "p": 0.836,
+      "root_p": 0.909,
+      "alternatives": [
+        {
+          "chord": "Dmaj7",
+          "p": 0.06
+        },
+        {
+          "chord": "C#",
+          "p": 0.023
+        },
+        {
+          "chord": "A",
+          "p": 0.016
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.872,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.62,
+            "4": 0.38,
+            "6": 0.8,
+            "b7": 0.59,
+            "maj7": 1.05
+          },
+          "third": 0.42
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "6",
+          "strength": 0.8,
+          "label": "D(6?)"
+        },
+        {
+          "degree": "maj7",
+          "strength": 1.05,
+          "label": "D(maj7?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 108.796,
+      "end": 111.389,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.961,
+      "p": 0.961,
+      "root_p": 0.964,
+      "alternatives": [
+        {
+          "chord": "E",
+          "p": 0.021
+        },
+        {
+          "chord": "D",
+          "p": 0.01
+        },
+        {
+          "chord": "A7",
+          "p": 0.002
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.973,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.41,
+            "4": 0.14,
+            "6": 0.2,
+            "b7": 0.34,
+            "maj7": 0.68
+          },
+          "third": 0.3
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 111.389,
+      "end": 113.241,
+      "chord": "E",
+      "root": 4,
+      "quality": "maj",
+      "score": 0.741,
+      "p": 0.739,
+      "root_p": 0.776,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.197
+        },
+        {
+          "chord": "Esus4",
+          "p": 0.018
+        },
+        {
+          "chord": "D",
+          "p": 0.015
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.544,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.56,
+            "4": 1.59,
+            "6": 0.39,
+            "b7": 0.3,
+            "maj7": 0.4
+          },
+          "third": 0.58
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "4",
+          "strength": 1.59,
+          "label": "E(add4?)"
+        }
+      ],
+      "model_label": "E",
+      "harmonic_label": "E",
+      "structure": {
+        "root": "E",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 113.241,
+      "end": 114.259,
+      "chord": "D/A",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.767,
+      "p": 0.766,
+      "root_p": 0.781,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.183
+        },
+        {
+          "chord": "E",
+          "p": 0.014
+        },
+        {
+          "chord": "D6",
+          "p": 0.006
+        }
+      ],
+      "ambiguous": false,
+      "inversion": "D/A",
+      "bass": {
+        "note": "A",
+        "vote_share": 0.773,
+        "voiced": 1.0,
+        "reason": "inversion"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.5,
+            "4": 0.31,
+            "6": 0.51,
+            "b7": 0.28,
+            "maj7": 0.86
+          },
+          "third": 0.44
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "maj7",
+          "strength": 0.86,
+          "label": "D(maj7?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": {
+          "bass": "A",
+          "interval": 7,
+          "degree": "2"
+        }
+      }
+    },
+    {
+      "start": 114.259,
+      "end": 118.611,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.958,
+      "p": 0.957,
+      "root_p": 0.96,
+      "alternatives": [
+        {
+          "chord": "E",
+          "p": 0.022
+        },
+        {
+          "chord": "D",
+          "p": 0.011
+        },
+        {
+          "chord": "F#m",
+          "p": 0.001
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.809,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.6,
+            "4": 0.2,
+            "6": 0.2,
+            "b7": 0.3,
+            "maj7": 0.48
+          },
+          "third": 0.7
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 118.611,
+      "end": 122.778,
+      "chord": "E",
+      "root": 4,
+      "quality": "maj",
+      "score": 0.953,
+      "p": 0.953,
+      "root_p": 0.972,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.015
+        },
+        {
+          "chord": "E7",
+          "p": 0.009
+        },
+        {
+          "chord": "Bm",
+          "p": 0.005
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.939,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.33,
+            "4": 0.23,
+            "6": 0.26,
+            "b7": 0.33,
+            "maj7": 0.73
+          },
+          "third": 0.34
+        }
+      },
+      "model_label": "E",
+      "harmonic_label": "E",
+      "structure": {
+        "root": "E",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 122.778,
+      "end": 126.019,
+      "chord": "Bm",
+      "root": 11,
+      "quality": "min",
+      "score": 0.693,
+      "p": 0.693,
+      "root_p": 0.967,
+      "alternatives": [
+        {
+          "chord": "Bm7",
+          "p": 0.256
+        },
+        {
+          "chord": "E",
+          "p": 0.009
+        },
+        {
+          "chord": "A",
+          "p": 0.008
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "B",
+        "vote_share": 1.0,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.47,
+            "4": 0.24,
+            "6": 0.22,
+            "b7": 0.4,
+            "maj7": 0.53
+          },
+          "third": 0.82
+        }
+      },
+      "model_label": "Bm",
+      "harmonic_label": "Bm",
+      "structure": {
+        "root": "B",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "B",
+        "inversion": null
+      }
+    },
+    {
+      "start": 126.019,
+      "end": 127.407,
+      "chord": "A/C#",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.913,
+      "p": 0.912,
+      "root_p": 0.928,
+      "alternatives": [
+        {
+          "chord": "Bm",
+          "p": 0.023
+        },
+        {
+          "chord": "D",
+          "p": 0.02
+        },
+        {
+          "chord": "A7",
+          "p": 0.01
+        }
+      ],
+      "ambiguous": false,
+      "inversion": "A/C#",
+      "bass": {
+        "note": "C#",
+        "vote_share": 0.915,
+        "voiced": 1.0,
+        "reason": "inversion"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.47,
+            "4": 0.56,
+            "6": 0.14,
+            "b7": 0.24,
+            "maj7": 0.48
+          },
+          "third": 1.78
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "C#",
+        "inversion": {
+          "bass": "C#",
+          "interval": 4,
+          "degree": "1"
+        }
+      }
+    },
+    {
+      "start": 127.407,
+      "end": 132.315,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.897,
+      "p": 0.897,
+      "root_p": 0.958,
+      "alternatives": [
+        {
+          "chord": "Dmaj7",
+          "p": 0.055
+        },
+        {
+          "chord": "A",
+          "p": 0.03
+        },
+        {
+          "chord": "D6",
+          "p": 0.004
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.915,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.47,
+            "4": 0.16,
+            "6": 0.33,
+            "b7": 0.35,
+            "maj7": 0.67
+          },
+          "third": 0.33
+        }
+      },
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 132.315,
+      "end": 137.13,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.956,
+      "p": 0.955,
+      "root_p": 0.959,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.018
+        },
+        {
+          "chord": "E",
+          "p": 0.015
+        },
+        {
+          "chord": "A7",
+          "p": 0.003
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.7,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.63,
+            "4": 0.25,
+            "6": 0.22,
+            "b7": 0.34,
+            "maj7": 0.65
+          },
+          "third": 0.7
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 137.13,
+      "end": 141.111,
+      "chord": "E",
+      "root": 4,
+      "quality": "maj",
+      "score": 0.963,
+      "p": 0.961,
+      "root_p": 0.976,
+      "alternatives": [
+        {
+          "chord": "E7",
+          "p": 0.01
+        },
+        {
+          "chord": "A",
+          "p": 0.009
+        },
+        {
+          "chord": "G",
+          "p": 0.006
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.942,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.45,
+            "4": 0.33,
+            "6": 0.27,
+            "b7": 0.33,
+            "maj7": 0.79
+          },
+          "third": 0.42
+        }
+      },
+      "model_label": "E",
+      "harmonic_label": "E",
+      "structure": {
+        "root": "E",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 141.111,
+      "end": 143.148,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.963,
+      "p": 0.962,
+      "root_p": 0.969,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.02
+        },
+        {
+          "chord": "E",
+          "p": 0.004
+        },
+        {
+          "chord": "Em",
+          "p": 0.002
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.931,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.75,
+            "4": 0.19,
+            "6": 0.29,
+            "b7": 0.27,
+            "maj7": 0.63
+          },
+          "third": 0.29
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 143.148,
+      "end": 145.648,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.945,
+      "p": 0.944,
+      "root_p": 0.948,
+      "alternatives": [
+        {
+          "chord": "G",
+          "p": 0.022
+        },
+        {
+          "chord": "E",
+          "p": 0.013
+        },
+        {
+          "chord": "A",
+          "p": 0.009
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.852,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.64,
+            "4": 0.41,
+            "6": 0.49,
+            "b7": 0.7,
+            "maj7": 1.01
+          },
+          "third": 0.58
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "maj7",
+          "strength": 1.01,
+          "label": "D(maj7?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 145.648,
+      "end": 155.0,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.83,
+      "p": 0.829,
+      "root_p": 0.908,
+      "alternatives": [
+        {
+          "chord": "Asus4",
+          "p": 0.029
+        },
+        {
+          "chord": "A7",
+          "p": 0.026
+        },
+        {
+          "chord": "N",
+          "p": 0.022
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.543,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.84,
+            "4": 0.52,
+            "6": 0.26,
+            "b7": 0.44,
+            "maj7": 0.52
+          },
+          "third": 0.55
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "2",
+          "strength": 0.84,
+          "label": "A(add9?)"
+        }
+      ],
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 155.0,
+      "end": 160.0,
+      "chord": "Em7",
+      "root": 4,
+      "quality": "min7",
+      "score": 0.475,
+      "p": 0.474,
+      "root_p": 0.749,
+      "alternatives": [
+        {
+          "chord": "Em",
+          "p": 0.168
+        },
+        {
+          "chord": "N",
+          "p": 0.093
+        },
+        {
+          "chord": "G",
+          "p": 0.079
+        }
+      ],
+      "ambiguous": true,
+      "bass": {
+        "note": "A#",
+        "vote_share": 0.381,
+        "voiced": 1.0,
+        "reason": "bass_not_in_chord"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.43,
+            "4": 0.84,
+            "6": 0.54,
+            "maj7": 0.5
+          },
+          "third": 0.79
+        }
+      },
+      "model_label": "Em7",
+      "harmonic_label": "Em7",
+      "structure": {
+        "root": "E",
+        "quality": "min7",
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "added": [],
+        "bass": "A#",
+        "inversion": null
+      }
+    },
+    {
+      "start": 160.0,
+      "end": 163.796,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.864,
+      "p": 0.862,
+      "root_p": 0.881,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.061
+        },
+        {
+          "chord": "N",
+          "p": 0.036
+        },
+        {
+          "chord": "Gmaj7",
+          "p": 0.013
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A#",
+        "vote_share": 0.335,
+        "voiced": 1.0,
+        "reason": "bass_not_in_chord"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.91,
+            "4": 0.59,
+            "6": 0.39,
+            "b7": 0.38,
+            "maj7": 0.54
+          },
+          "third": 0.77
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "2",
+          "strength": 0.91,
+          "label": "G(add9?)"
+        }
+      ],
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A#",
+        "inversion": null
+      }
+    },
+    {
+      "start": 163.796,
+      "end": 168.796,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.947,
+      "p": 0.946,
+      "root_p": 0.95,
+      "alternatives": [
+        {
+          "chord": "G",
+          "p": 0.028
+        },
+        {
+          "chord": "A",
+          "p": 0.011
+        },
+        {
+          "chord": "N",
+          "p": 0.004
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A#",
+        "vote_share": 0.344,
+        "voiced": 1.0,
+        "reason": "bass_not_in_chord"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.78,
+            "4": 0.56,
+            "6": 0.44,
+            "b7": 0.4,
+            "maj7": 0.59
+          },
+          "third": 0.63
+        }
+      },
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A#",
+        "inversion": null
+      }
+    },
+    {
+      "start": 168.796,
+      "end": 173.796,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.744,
+      "p": 0.738,
+      "root_p": 0.758,
+      "alternatives": [
+        {
+          "chord": "B",
+          "p": 0.078
+        },
+        {
+          "chord": "Bm",
+          "p": 0.059
+        },
+        {
+          "chord": "B7",
+          "p": 0.026
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.674,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.8,
+            "4": 0.53,
+            "6": 0.62,
+            "b7": 0.44,
+            "maj7": 0.69
+          },
+          "third": 0.9
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 173.796,
+      "end": 177.963,
+      "chord": "Em",
+      "root": 4,
+      "quality": "min",
+      "score": 0.464,
+      "p": 0.46,
+      "root_p": 0.859,
+      "alternatives": [
+        {
+          "chord": "E",
+          "p": 0.213
+        },
+        {
+          "chord": "E7",
+          "p": 0.119
+        },
+        {
+          "chord": "Em7",
+          "p": 0.059
+        }
+      ],
+      "ambiguous": true,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.839,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.52,
+            "4": 0.75,
+            "6": 0.88,
+            "b7": 1.01,
+            "maj7": 0.89
+          },
+          "third": 0.53
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "6",
+          "strength": 0.88,
+          "label": "Em(6?)"
+        },
+        {
+          "degree": "b7",
+          "strength": 1.01,
+          "label": "Em(7?)"
+        },
+        {
+          "degree": "maj7",
+          "strength": 0.89,
+          "label": "Em(maj7?)"
+        }
+      ],
+      "model_label": "Em",
+      "harmonic_label": "Em",
+      "structure": {
+        "root": "E",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 177.963,
+      "end": 182.778,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.911,
+      "p": 0.908,
+      "root_p": 0.939,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.025
+        },
+        {
+          "chord": "G7",
+          "p": 0.018
+        },
+        {
+          "chord": "D",
+          "p": 0.008
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.845,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.9,
+            "4": 0.39,
+            "6": 0.48,
+            "b7": 0.41,
+            "maj7": 0.67
+          },
+          "third": 0.43
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "2",
+          "strength": 0.9,
+          "label": "G(sus2?)"
+        }
+      ],
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 182.778,
+      "end": 187.222,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.971,
+      "p": 0.969,
+      "root_p": 0.972,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.013
+        },
+        {
+          "chord": "G",
+          "p": 0.006
+        },
+        {
+          "chord": "D#",
+          "p": 0.003
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.691,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.81,
+            "4": 0.32,
+            "6": 0.42,
+            "b7": 0.39,
+            "maj7": 0.58
+          },
+          "third": 0.41
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "2",
+          "strength": 0.81,
+          "label": "D(sus2?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 187.222,
+      "end": 192.037,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.955,
+      "p": 0.953,
+      "root_p": 0.964,
+      "alternatives": [
+        {
+          "chord": "A7",
+          "p": 0.009
+        },
+        {
+          "chord": "D",
+          "p": 0.008
+        },
+        {
+          "chord": "Em",
+          "p": 0.006
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.812,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.83,
+            "4": 0.26,
+            "6": 0.31,
+            "b7": 0.47,
+            "maj7": 0.76
+          },
+          "third": 0.5
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "2",
+          "strength": 0.83,
+          "label": "A(add9?)"
+        }
+      ],
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 192.037,
+      "end": 196.389,
+      "chord": "Em",
+      "root": 4,
+      "quality": "min",
+      "score": 0.583,
+      "p": 0.582,
+      "root_p": 0.957,
+      "alternatives": [
+        {
+          "chord": "Em7",
+          "p": 0.362
+        },
+        {
+          "chord": "G",
+          "p": 0.018
+        },
+        {
+          "chord": "E",
+          "p": 0.005
+        }
+      ],
+      "ambiguous": true,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.941,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.44,
+            "4": 0.36,
+            "6": 0.44,
+            "b7": 0.73,
+            "maj7": 0.51
+          },
+          "third": 0.74
+        }
+      },
+      "model_label": "Em",
+      "harmonic_label": "Em",
+      "structure": {
+        "root": "E",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 196.389,
+      "end": 201.111,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.936,
+      "p": 0.935,
+      "root_p": 0.943,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.015
+        },
+        {
+          "chord": "Em",
+          "p": 0.013
+        },
+        {
+          "chord": "D",
+          "p": 0.012
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.858,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.56,
+            "4": 0.27,
+            "6": 0.33,
+            "b7": 0.32,
+            "maj7": 0.56
+          },
+          "third": 0.38
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 201.111,
+      "end": 205.648,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.964,
+      "p": 0.959,
+      "root_p": 0.963,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.015
+        },
+        {
+          "chord": "G",
+          "p": 0.006
+        },
+        {
+          "chord": "E",
+          "p": 0.004
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.887,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.46,
+            "4": 0.32,
+            "6": 0.45,
+            "b7": 0.5,
+            "maj7": 0.88
+          },
+          "third": 0.37
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "maj7",
+          "strength": 0.88,
+          "label": "D(maj7?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 205.648,
+      "end": 210.463,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.889,
+      "p": 0.886,
+      "root_p": 0.894,
+      "alternatives": [
+        {
+          "chord": "G",
+          "p": 0.037
+        },
+        {
+          "chord": "D",
+          "p": 0.032
+        },
+        {
+          "chord": "N",
+          "p": 0.007
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.652,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 1.05,
+            "4": 0.41,
+            "6": 0.55,
+            "b7": 0.47,
+            "maj7": 0.74
+          },
+          "third": 0.96
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "2",
+          "strength": 1.05,
+          "label": "A(add9?)"
+        }
+      ],
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 210.463,
+      "end": 214.815,
+      "chord": "Em",
+      "root": 4,
+      "quality": "min",
+      "score": 0.607,
+      "p": 0.606,
+      "root_p": 0.89,
+      "alternatives": [
+        {
+          "chord": "Em7",
+          "p": 0.27
+        },
+        {
+          "chord": "G",
+          "p": 0.064
+        },
+        {
+          "chord": "D",
+          "p": 0.014
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.569,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.68,
+            "4": 0.55,
+            "6": 0.75,
+            "b7": 1.01,
+            "maj7": 0.67
+          },
+          "third": 0.95
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "b7",
+          "strength": 1.01,
+          "label": "Em(7?)"
+        }
+      ],
+      "model_label": "Em",
+      "harmonic_label": "Em",
+      "structure": {
+        "root": "E",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 214.815,
+      "end": 219.63,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.908,
+      "p": 0.907,
+      "root_p": 0.916,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.027
+        },
+        {
+          "chord": "A",
+          "p": 0.019
+        },
+        {
+          "chord": "Em",
+          "p": 0.015
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.87,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.67,
+            "4": 0.36,
+            "6": 0.46,
+            "b7": 0.44,
+            "maj7": 0.69
+          },
+          "third": 0.48
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 219.63,
+      "end": 223.981,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.918,
+      "p": 0.914,
+      "root_p": 0.923,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.023
+        },
+        {
+          "chord": "G",
+          "p": 0.012
+        },
+        {
+          "chord": "C#",
+          "p": 0.009
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.968,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.49,
+            "4": 0.38,
+            "6": 0.37,
+            "b7": 0.46,
+            "maj7": 0.88
+          },
+          "third": 0.38
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "maj7",
+          "strength": 0.88,
+          "label": "D(maj7?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 223.981,
+      "end": 229.537,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.898,
+      "p": 0.896,
+      "root_p": 0.941,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.037
+        },
+        {
+          "chord": "A7",
+          "p": 0.031
+        },
+        {
+          "chord": "Asus4",
+          "p": 0.012
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.688,
+        "voiced": 0.577,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.4,
+            "4": 0.24,
+            "6": 0.18,
+            "b7": 0.22,
+            "maj7": 0.39
+          },
+          "third": 0.88
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 229.537,
+      "end": 233.426,
+      "chord": "E",
+      "root": 4,
+      "quality": "maj",
+      "score": 0.886,
+      "p": 0.886,
+      "root_p": 0.961,
+      "alternatives": [
+        {
+          "chord": "E7",
+          "p": 0.038
+        },
+        {
+          "chord": "Esus4",
+          "p": 0.031
+        },
+        {
+          "chord": "A",
+          "p": 0.024
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.659,
+        "voiced": 0.808,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.16,
+            "4": 0.38,
+            "6": 0.1,
+            "b7": 0.08,
+            "maj7": 0.19
+          },
+          "third": 0.73
+        }
+      },
+      "model_label": "E",
+      "harmonic_label": "E",
+      "structure": {
+        "root": "E",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 233.426,
+      "end": 236.759,
+      "chord": "Bm7",
+      "root": 11,
+      "quality": "min7",
+      "score": 0.789,
+      "p": 0.789,
+      "root_p": 0.878,
+      "alternatives": [
+        {
+          "chord": "Bm",
+          "p": 0.083
+        },
+        {
+          "chord": "D",
+          "p": 0.035
+        },
+        {
+          "chord": "E",
+          "p": 0.017
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "B",
+        "vote_share": 0.636,
+        "voiced": 0.382,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.72,
+            "4": 0.45,
+            "6": 0.35,
+            "maj7": 0.17
+          },
+          "third": 1.02
+        }
+      },
+      "model_label": "Bm7",
+      "harmonic_label": "Bm7",
+      "structure": {
+        "root": "B",
+        "quality": "min7",
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "added": [],
+        "bass": "B",
+        "inversion": null
+      }
+    },
+    {
+      "start": 236.759,
+      "end": 237.963,
+      "chord": "A/C#",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.857,
+      "p": 0.857,
+      "root_p": 0.895,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.057
+        },
+        {
+          "chord": "A7",
+          "p": 0.02
+        },
+        {
+          "chord": "Bm7",
+          "p": 0.012
+        }
+      ],
+      "ambiguous": false,
+      "inversion": "A/C#",
+      "bass": {
+        "note": "C#",
+        "vote_share": 0.615,
+        "voiced": 1.0,
+        "reason": "inversion"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.29,
+            "4": 0.44,
+            "6": 0.07,
+            "b7": 0.11,
+            "maj7": 0.75
+          },
+          "third": 1.26
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "C#",
+        "inversion": {
+          "bass": "C#",
+          "interval": 4,
+          "degree": "1"
+        }
+      }
+    },
+    {
+      "start": 237.963,
+      "end": 242.778,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.809,
+      "p": 0.808,
+      "root_p": 0.84,
+      "alternatives": [
+        {
+          "chord": "E",
+          "p": 0.08
+        },
+        {
+          "chord": "A",
+          "p": 0.052
+        },
+        {
+          "chord": "Dmaj7",
+          "p": 0.024
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.389,
+        "voiced": 0.932,
+        "reason": "weak_evidence"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.87,
+            "4": 0.13,
+            "6": 0.24,
+            "b7": 0.13,
+            "maj7": 0.25
+          },
+          "third": 0.74
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "2",
+          "strength": 0.87,
+          "label": "D(add9?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 242.778,
+      "end": 247.963,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.94,
+      "p": 0.938,
+      "root_p": 0.947,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.032
+        },
+        {
+          "chord": "E",
+          "p": 0.011
+        },
+        {
+          "chord": "Asus4",
+          "p": 0.006
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.848,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.45,
+            "4": 0.2,
+            "6": 0.28,
+            "b7": 0.43,
+            "maj7": 0.65
+          },
+          "third": 0.47
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 247.963,
+      "end": 251.852,
+      "chord": "E",
+      "root": 4,
+      "quality": "maj",
+      "score": 0.809,
+      "p": 0.808,
+      "root_p": 0.935,
+      "alternatives": [
+        {
+          "chord": "Esus4",
+          "p": 0.068
+        },
+        {
+          "chord": "E7",
+          "p": 0.053
+        },
+        {
+          "chord": "A",
+          "p": 0.037
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.756,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.37,
+            "4": 0.4,
+            "6": 0.48,
+            "b7": 0.43,
+            "maj7": 0.71
+          },
+          "third": 0.36
+        }
+      },
+      "model_label": "E",
+      "harmonic_label": "E",
+      "structure": {
+        "root": "E",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 251.852,
+      "end": 254.167,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.954,
+      "p": 0.953,
+      "root_p": 0.975,
+      "alternatives": [
+        {
+          "chord": "G7",
+          "p": 0.015
+        },
+        {
+          "chord": "D",
+          "p": 0.011
+        },
+        {
+          "chord": "Gsus2",
+          "p": 0.003
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.88,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.53,
+            "4": 0.17,
+            "6": 0.26,
+            "b7": 0.28,
+            "maj7": 0.45
+          },
+          "third": 0.3
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 254.167,
+      "end": 256.296,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.896,
+      "p": 0.894,
+      "root_p": 0.909,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.033
+        },
+        {
+          "chord": "E",
+          "p": 0.022
+        },
+        {
+          "chord": "G",
+          "p": 0.012
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.835,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.49,
+            "4": 0.4,
+            "6": 0.51,
+            "b7": 0.58,
+            "maj7": 0.95
+          },
+          "third": 0.46
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "maj7",
+          "strength": 0.95,
+          "label": "D(maj7?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 256.296,
+      "end": 260.0,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.845,
+      "p": 0.841,
+      "root_p": 0.888,
+      "alternatives": [
+        {
+          "chord": "A7",
+          "p": 0.041
+        },
+        {
+          "chord": "N",
+          "p": 0.038
+        },
+        {
+          "chord": "E",
+          "p": 0.016
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "B",
+        "vote_share": 0.425,
+        "voiced": 1.0,
+        "reason": "bass_not_in_chord"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 1.37,
+            "4": 0.83,
+            "6": 0.5,
+            "b7": 0.59,
+            "maj7": 0.63
+          },
+          "third": 1.19
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "2",
+          "strength": 1.37,
+          "label": "A(add9?)"
+        },
+        {
+          "degree": "4",
+          "strength": 0.83,
+          "label": "A(add4?)"
+        }
+      ],
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "B",
+        "inversion": null
+      }
+    },
+    {
+      "start": 260.0,
+      "end": 275.0,
+      "chord": "N",
+      "root": null,
+      "quality": null,
+      "score": 0.985,
+      "p": 0.98,
+      "root_p": null,
+      "alternatives": [
+        {
+          "chord": "B",
+          "p": 0.002
+        },
+        {
+          "chord": "A",
+          "p": 0.002
+        },
+        {
+          "chord": "C#",
+          "p": 0.001
+        }
+      ],
+      "ambiguous": false,
+      "model_label": "N",
+      "harmonic_label": "N",
+      "structure": {
+        "root": null,
+        "quality": null,
+        "intervals": [],
+        "bass": null,
+        "inversion": null,
+        "added": []
+      }
+    },
+    {
+      "start": 275.0,
+      "end": 279.537,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.897,
+      "p": 0.878,
+      "root_p": 0.896,
+      "alternatives": [
+        {
+          "chord": "N",
+          "p": 0.046
+        },
+        {
+          "chord": "G#",
+          "p": 0.009
+        },
+        {
+          "chord": "Am",
+          "p": 0.008
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.908,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.65,
+            "4": 0.19,
+            "6": 0.37,
+            "b7": 0.44,
+            "maj7": 0.7
+          },
+          "third": 0.37
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 279.537,
+      "end": 280.0,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.663,
+      "p": 0.627,
+      "root_p": 0.657,
+      "alternatives": [
+        {
+          "chord": "N",
+          "p": 0.174
+        },
+        {
+          "chord": "A",
+          "p": 0.037
+        },
+        {
+          "chord": "Gm",
+          "p": 0.013
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.75,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.41,
+            "4": 0.39,
+            "6": 0.48,
+            "b7": 0.32,
+            "maj7": 0.66
+          },
+          "third": 1.11
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 280.0,
+      "end": 284.167,
+      "chord": "Em",
+      "root": 4,
+      "quality": "min",
+      "score": 0.76,
+      "p": 0.757,
+      "root_p": 0.937,
+      "alternatives": [
+        {
+          "chord": "Em7",
+          "p": 0.159
+        },
+        {
+          "chord": "G",
+          "p": 0.021
+        },
+        {
+          "chord": "D",
+          "p": 0.017
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.811,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.47,
+            "4": 0.36,
+            "6": 0.53,
+            "b7": 0.72,
+            "maj7": 0.82
+          },
+          "third": 0.41
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "maj7",
+          "strength": 0.82,
+          "label": "Em(maj7?)"
+        }
+      ],
+      "model_label": "Em",
+      "harmonic_label": "Em",
+      "structure": {
+        "root": "E",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 284.167,
+      "end": 288.426,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.959,
+      "p": 0.958,
+      "root_p": 0.964,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.02
+        },
+        {
+          "chord": "D",
+          "p": 0.004
+        },
+        {
+          "chord": "G7",
+          "p": 0.003
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.995,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.47,
+            "4": 0.25,
+            "6": 0.34,
+            "b7": 0.39,
+            "maj7": 0.7
+          },
+          "third": 0.29
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 288.426,
+      "end": 288.981,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.591,
+      "p": 0.589,
+      "root_p": 0.763,
+      "alternatives": [
+        {
+          "chord": "A7",
+          "p": 0.154
+        },
+        {
+          "chord": "G",
+          "p": 0.134
+        },
+        {
+          "chord": "D",
+          "p": 0.063
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A#",
+        "vote_share": 0.542,
+        "voiced": 1.0,
+        "reason": "bass_not_in_chord"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.95,
+            "4": 0.54,
+            "6": 0.43,
+            "b7": 0.73,
+            "maj7": 1.05
+          },
+          "third": 0.64
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A#",
+        "inversion": null
+      }
+    },
+    {
+      "start": 288.981,
+      "end": 295.093,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.879,
+      "p": 0.876,
+      "root_p": 0.885,
+      "alternatives": [
+        {
+          "chord": "N",
+          "p": 0.053
+        },
+        {
+          "chord": "A",
+          "p": 0.04
+        },
+        {
+          "chord": "Dmaj7",
+          "p": 0.005
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.949,
+        "voiced": 0.894,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.71,
+            "4": 0.38,
+            "6": 0.44,
+            "b7": 0.54,
+            "maj7": 0.85
+          },
+          "third": 0.4
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "maj7",
+          "strength": 0.85,
+          "label": "D(maj7?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 295.093,
+      "end": 297.778,
+      "chord": "N",
+      "root": null,
+      "quality": null,
+      "score": 0.572,
+      "p": 0.56,
+      "root_p": null,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.166
+        },
+        {
+          "chord": "A",
+          "p": 0.092
+        },
+        {
+          "chord": "E",
+          "p": 0.064
+        }
+      ],
+      "ambiguous": false,
+      "model_label": "N",
+      "harmonic_label": "N",
+      "structure": {
+        "root": null,
+        "quality": null,
+        "intervals": [],
+        "bass": null,
+        "inversion": null,
+        "added": []
+      }
+    },
+    {
+      "start": 297.778,
+      "end": 298.333,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.405,
+      "p": 0.402,
+      "root_p": 0.408,
+      "alternatives": [
+        {
+          "chord": "G",
+          "p": 0.313
+        },
+        {
+          "chord": "Em",
+          "p": 0.06
+        },
+        {
+          "chord": "N",
+          "p": 0.058
+        }
+      ],
+      "ambiguous": true,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.833,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.59,
+            "4": 0.39,
+            "6": 0.79,
+            "b7": 0.56,
+            "maj7": 0.5
+          },
+          "third": 0.41
+        }
+      },
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 298.333,
+      "end": 302.593,
+      "chord": "Em",
+      "root": 4,
+      "quality": "min",
+      "score": 0.728,
+      "p": 0.723,
+      "root_p": 0.9,
+      "alternatives": [
+        {
+          "chord": "Em7",
+          "p": 0.118
+        },
+        {
+          "chord": "E",
+          "p": 0.037
+        },
+        {
+          "chord": "N",
+          "p": 0.029
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.984,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.4,
+            "4": 0.27,
+            "6": 0.62,
+            "b7": 0.53,
+            "maj7": 0.69
+          },
+          "third": 0.38
+        }
+      },
+      "model_label": "Em",
+      "harmonic_label": "Em",
+      "structure": {
+        "root": "E",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 302.593,
+      "end": 307.315,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.903,
+      "p": 0.901,
+      "root_p": 0.976,
+      "alternatives": [
+        {
+          "chord": "G7",
+          "p": 0.069
+        },
+        {
+          "chord": "D",
+          "p": 0.007
+        },
+        {
+          "chord": "Em",
+          "p": 0.004
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.852,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.48,
+            "4": 0.26,
+            "6": 0.34,
+            "b7": 0.35,
+            "maj7": 0.64
+          },
+          "third": 0.33
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 307.315,
+      "end": 311.759,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.892,
+      "p": 0.888,
+      "root_p": 0.896,
+      "alternatives": [
+        {
+          "chord": "E",
+          "p": 0.033
+        },
+        {
+          "chord": "A",
+          "p": 0.028
+        },
+        {
+          "chord": "G",
+          "p": 0.012
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.885,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.62,
+            "4": 0.3,
+            "6": 0.47,
+            "b7": 0.59,
+            "maj7": 1.0
+          },
+          "third": 0.32
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "maj7",
+          "strength": 1.0,
+          "label": "D(maj7?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 311.759,
+      "end": 316.296,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.919,
+      "p": 0.916,
+      "root_p": 0.922,
+      "alternatives": [
+        {
+          "chord": "E",
+          "p": 0.022
+        },
+        {
+          "chord": "B",
+          "p": 0.013
+        },
+        {
+          "chord": "D",
+          "p": 0.009
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.374,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 1.3,
+            "4": 0.6,
+            "6": 0.44,
+            "b7": 0.46,
+            "maj7": 0.62
+          },
+          "third": 1.08
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "2",
+          "strength": 1.3,
+          "label": "A(add9?)"
+        }
+      ],
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 316.296,
+      "end": 319.444,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.874,
+      "p": 0.871,
+      "root_p": 0.897,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.033
+        },
+        {
+          "chord": "Em",
+          "p": 0.017
+        },
+        {
+          "chord": "Gmaj7",
+          "p": 0.013
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.287,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 1.01,
+            "4": 0.61,
+            "6": 1.27,
+            "b7": 0.64,
+            "maj7": 1.06
+          },
+          "third": 0.86
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "2",
+          "strength": 1.01,
+          "label": "G(add9?)"
+        },
+        {
+          "degree": "6",
+          "strength": 1.27,
+          "label": "G(6?)"
+        },
+        {
+          "degree": "maj7",
+          "strength": 1.06,
+          "label": "G(maj7?)"
+        }
+      ],
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 319.444,
+      "end": 321.019,
+      "chord": "Em",
+      "root": 4,
+      "quality": "min",
+      "score": 0.621,
+      "p": 0.613,
+      "root_p": 0.898,
+      "alternatives": [
+        {
+          "chord": "E",
+          "p": 0.201
+        },
+        {
+          "chord": "Em7",
+          "p": 0.053
+        },
+        {
+          "chord": "G",
+          "p": 0.051
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.912,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.32,
+            "4": 0.41,
+            "6": 0.49,
+            "b7": 0.63,
+            "maj7": 0.53
+          },
+          "third": 0.54
+        }
+      },
+      "model_label": "Em",
+      "harmonic_label": "Em",
+      "structure": {
+        "root": "E",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 321.019,
+      "end": 325.648,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.903,
+      "p": 0.9,
+      "root_p": 0.914,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.048
+        },
+        {
+          "chord": "G7",
+          "p": 0.011
+        },
+        {
+          "chord": "Em",
+          "p": 0.009
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.879,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.5,
+            "4": 0.31,
+            "6": 0.45,
+            "b7": 0.4,
+            "maj7": 0.61
+          },
+          "third": 0.38
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 325.648,
+      "end": 330.0,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.937,
+      "p": 0.934,
+      "root_p": 0.939,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.033
+        },
+        {
+          "chord": "G",
+          "p": 0.008
+        },
+        {
+          "chord": "E",
+          "p": 0.005
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.909,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.6,
+            "4": 0.28,
+            "6": 0.48,
+            "b7": 0.58,
+            "maj7": 1.07
+          },
+          "third": 0.4
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "maj7",
+          "strength": 1.07,
+          "label": "D(maj7?)"
+        }
+      ],
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 330.0,
+      "end": 334.63,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.935,
+      "p": 0.93,
+      "root_p": 0.952,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.027
+        },
+        {
+          "chord": "A7",
+          "p": 0.012
+        },
+        {
+          "chord": "Am",
+          "p": 0.005
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.735,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.58,
+            "4": 0.33,
+            "6": 0.55,
+            "b7": 0.56,
+            "maj7": 0.71
+          },
+          "third": 0.53
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 334.63,
+      "end": 335.278,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.874,
+      "p": 0.871,
+      "root_p": 0.879,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.039
+        },
+        {
+          "chord": "Em",
+          "p": 0.03
+        },
+        {
+          "chord": "E",
+          "p": 0.013
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.929,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.62,
+            "4": 0.39,
+            "6": 0.82,
+            "b7": 0.49,
+            "maj7": 0.71
+          },
+          "third": 0.37
+        }
+      },
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 335.278,
+      "end": 339.352,
+      "chord": "Em",
+      "root": 4,
+      "quality": "min",
+      "score": 0.707,
+      "p": 0.704,
+      "root_p": 0.943,
+      "alternatives": [
+        {
+          "chord": "Em7",
+          "p": 0.2
+        },
+        {
+          "chord": "E",
+          "p": 0.02
+        },
+        {
+          "chord": "D",
+          "p": 0.017
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.954,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.49,
+            "4": 0.43,
+            "6": 0.59,
+            "b7": 0.77,
+            "maj7": 0.7
+          },
+          "third": 0.62
+        }
+      },
+      "model_label": "Em",
+      "harmonic_label": "Em",
+      "structure": {
+        "root": "E",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 339.352,
+      "end": 344.259,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.964,
+      "p": 0.963,
+      "root_p": 0.966,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.015
+        },
+        {
+          "chord": "Em",
+          "p": 0.008
+        },
+        {
+          "chord": "A",
+          "p": 0.004
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.872,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.46,
+            "4": 0.28,
+            "6": 0.34,
+            "b7": 0.35,
+            "maj7": 0.61
+          },
+          "third": 0.45
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 344.259,
+      "end": 348.704,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.976,
+      "p": 0.975,
+      "root_p": 0.978,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.009
+        },
+        {
+          "chord": "G",
+          "p": 0.005
+        },
+        {
+          "chord": "D#",
+          "p": 0.002
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.979,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.61,
+            "4": 0.3,
+            "6": 0.4,
+            "b7": 0.48,
+            "maj7": 0.79
+          },
+          "third": 0.38
+        }
+      },
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 348.704,
+      "end": 353.519,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.933,
+      "p": 0.933,
+      "root_p": 0.979,
+      "alternatives": [
+        {
+          "chord": "A7",
+          "p": 0.041
+        },
+        {
+          "chord": "D",
+          "p": 0.009
+        },
+        {
+          "chord": "Em7",
+          "p": 0.003
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.686,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.44,
+            "4": 0.28,
+            "6": 0.25,
+            "b7": 0.35,
+            "maj7": 0.6
+          },
+          "third": 0.75
+        }
+      },
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 353.519,
+      "end": 357.963,
+      "chord": "Em7",
+      "root": 4,
+      "quality": "min7",
+      "score": 0.657,
+      "p": 0.657,
+      "root_p": 0.971,
+      "alternatives": [
+        {
+          "chord": "Em",
+          "p": 0.298
+        },
+        {
+          "chord": "E7",
+          "p": 0.01
+        },
+        {
+          "chord": "G",
+          "p": 0.005
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.943,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.38,
+            "4": 0.36,
+            "6": 0.35,
+            "maj7": 0.75
+          },
+          "third": 0.57
+        }
+      },
+      "model_label": "Em7",
+      "harmonic_label": "Em7",
+      "structure": {
+        "root": "E",
+        "quality": "min7",
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 357.963,
+      "end": 362.685,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.918,
+      "p": 0.917,
+      "root_p": 0.926,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.043
+        },
+        {
+          "chord": "D",
+          "p": 0.007
+        },
+        {
+          "chord": "Em7",
+          "p": 0.007
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.877,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.44,
+            "4": 0.19,
+            "6": 0.3,
+            "b7": 0.3,
+            "maj7": 0.69
+          },
+          "third": 0.38
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 362.685,
+      "end": 367.222,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.958,
+      "p": 0.955,
+      "root_p": 0.959,
+      "alternatives": [
+        {
+          "chord": "A",
+          "p": 0.022
+        },
+        {
+          "chord": "E",
+          "p": 0.005
+        },
+        {
+          "chord": "G",
+          "p": 0.003
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.856,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.52,
+            "4": 0.22,
+            "6": 0.37,
+            "b7": 0.5,
+            "maj7": 0.79
+          },
+          "third": 0.4
+        }
+      },
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 367.222,
+      "end": 372.037,
+      "chord": "A",
+      "root": 9,
+      "quality": "maj",
+      "score": 0.925,
+      "p": 0.915,
+      "root_p": 0.944,
+      "alternatives": [
+        {
+          "chord": "A7",
+          "p": 0.015
+        },
+        {
+          "chord": "Am",
+          "p": 0.011
+        },
+        {
+          "chord": "Em",
+          "p": 0.007
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "A",
+        "vote_share": 0.572,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.88,
+            "4": 0.33,
+            "6": 0.36,
+            "b7": 0.44,
+            "maj7": 0.69
+          },
+          "third": 0.61
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "2",
+          "strength": 0.88,
+          "label": "A(add9?)"
+        }
+      ],
+      "model_label": "A",
+      "harmonic_label": "A",
+      "structure": {
+        "root": "A",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "A",
+        "inversion": null
+      }
+    },
+    {
+      "start": 372.037,
+      "end": 376.481,
+      "chord": "Em",
+      "root": 4,
+      "quality": "min",
+      "score": 0.652,
+      "p": 0.648,
+      "root_p": 0.926,
+      "alternatives": [
+        {
+          "chord": "Em7",
+          "p": 0.239
+        },
+        {
+          "chord": "G",
+          "p": 0.021
+        },
+        {
+          "chord": "E",
+          "p": 0.018
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "E",
+        "vote_share": 0.639,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.43,
+            "4": 0.69,
+            "6": 0.5,
+            "b7": 0.84,
+            "maj7": 0.69
+          },
+          "third": 0.81
+        }
+      },
+      "possible_additions": [
+        {
+          "degree": "b7",
+          "strength": 0.84,
+          "label": "Em(7?)"
+        }
+      ],
+      "model_label": "Em",
+      "harmonic_label": "Em",
+      "structure": {
+        "root": "E",
+        "quality": "min",
+        "intervals": [
+          0,
+          3,
+          7
+        ],
+        "added": [],
+        "bass": "E",
+        "inversion": null
+      }
+    },
+    {
+      "start": 376.481,
+      "end": 381.111,
+      "chord": "G",
+      "root": 7,
+      "quality": "maj",
+      "score": 0.941,
+      "p": 0.94,
+      "root_p": 0.971,
+      "alternatives": [
+        {
+          "chord": "G7",
+          "p": 0.027
+        },
+        {
+          "chord": "D",
+          "p": 0.009
+        },
+        {
+          "chord": "N",
+          "p": 0.008
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "G",
+        "vote_share": 0.895,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.59,
+            "4": 0.22,
+            "6": 0.44,
+            "b7": 0.42,
+            "maj7": 0.68
+          },
+          "third": 0.43
+        }
+      },
+      "model_label": "G",
+      "harmonic_label": "G",
+      "structure": {
+        "root": "G",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "G",
+        "inversion": null
+      }
+    },
+    {
+      "start": 381.111,
+      "end": 387.037,
+      "chord": "D",
+      "root": 2,
+      "quality": "maj",
+      "score": 0.837,
+      "p": 0.833,
+      "root_p": 0.846,
+      "alternatives": [
+        {
+          "chord": "N",
+          "p": 0.11
+        },
+        {
+          "chord": "G",
+          "p": 0.019
+        },
+        {
+          "chord": "C#",
+          "p": 0.005
+        }
+      ],
+      "ambiguous": false,
+      "bass": {
+        "note": "D",
+        "vote_share": 0.992,
+        "voiced": 1.0,
+        "reason": "root"
+      },
+      "evidence": {
+        "tones": {
+          "relative_to_chord_tones": {
+            "2": 0.22,
+            "4": 0.08,
+            "6": 0.13,
+            "b7": 0.2,
+            "maj7": 0.53
+          },
+          "third": 0.22
+        }
+      },
+      "model_label": "D",
+      "harmonic_label": "D",
+      "structure": {
+        "root": "D",
+        "quality": "maj",
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "added": [],
+        "bass": "D",
+        "inversion": null
+      }
+    },
+    {
+      "start": 387.037,
+      "end": 398.367,
+      "chord": "N",
+      "root": null,
+      "quality": null,
+      "score": 0.954,
+      "p": 0.95,
+      "root_p": null,
+      "alternatives": [
+        {
+          "chord": "D",
+          "p": 0.03
+        },
+        {
+          "chord": "G",
+          "p": 0.003
+        },
+        {
+          "chord": "C#",
+          "p": 0.002
+        }
+      ],
+      "ambiguous": false,
+      "model_label": "N",
+      "harmonic_label": "N",
+      "structure": {
+        "root": null,
+        "quality": null,
+        "intervals": [],
+        "bass": null,
+        "inversion": null,
+        "added": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+vendor
+node_modules
+.env
+public/build
+public/hot
+storage/logs/*
+storage/framework/*/*
+database/*.sqlite
+tests/_output

@@ -1,0 +1,433 @@
+{
+  "run_id": "23fe0c7b5159",
+  "sections": [
+    {
+      "index": 1,
+      "label": "Seção 1",
+      "semantic_label": null,
+      "start": 0.0,
+      "end": 17.16,
+      "repeat_group": 1,
+      "progression": [
+        "A",
+        "Em7",
+        "G",
+        "D"
+      ]
+    },
+    {
+      "index": 2,
+      "label": "Seção 2",
+      "semantic_label": null,
+      "start": 17.16,
+      "end": 35.06,
+      "repeat_group": 2,
+      "progression": [
+        "D",
+        "A",
+        "F#m",
+        "A",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 3,
+      "label": "Seção 3",
+      "semantic_label": null,
+      "start": 35.06,
+      "end": 43.7,
+      "repeat_group": 3,
+      "progression": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "index": 4,
+      "label": "Seção 4",
+      "semantic_label": null,
+      "start": 43.7,
+      "end": 53.52,
+      "repeat_group": 4,
+      "progression": [
+        "B",
+        "F#m",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 5,
+      "label": "Seção 5",
+      "semantic_label": null,
+      "start": 53.52,
+      "end": 62.16,
+      "repeat_group": 3,
+      "progression": [
+        "A"
+      ]
+    },
+    {
+      "index": 6,
+      "label": "Seção 6",
+      "semantic_label": null,
+      "start": 62.16,
+      "end": 76.58,
+      "repeat_group": 5,
+      "progression": [
+        "A",
+        "E",
+        "Bm",
+        "A/C#",
+        "D"
+      ]
+    },
+    {
+      "index": 7,
+      "label": "Seção 7",
+      "semantic_label": null,
+      "start": 76.58,
+      "end": 90.44,
+      "repeat_group": 6,
+      "progression": [
+        "D",
+        "A",
+        "E",
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 8,
+      "label": "Seção 8",
+      "semantic_label": null,
+      "start": 90.44,
+      "end": 99.08,
+      "repeat_group": 3,
+      "progression": [
+        "A"
+      ]
+    },
+    {
+      "index": 9,
+      "label": "Seção 9",
+      "semantic_label": null,
+      "start": 99.08,
+      "end": 108.9,
+      "repeat_group": 4,
+      "progression": [
+        "A",
+        "F#m",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 10,
+      "label": "Seção 10",
+      "semantic_label": null,
+      "start": 108.9,
+      "end": 118.1,
+      "repeat_group": 3,
+      "progression": [
+        "A",
+        "E",
+        "D/A",
+        "A"
+      ]
+    },
+    {
+      "index": 11,
+      "label": "Seção 11",
+      "semantic_label": null,
+      "start": 118.1,
+      "end": 131.96,
+      "repeat_group": 5,
+      "progression": [
+        "A",
+        "E",
+        "Bm",
+        "A/C#",
+        "D"
+      ]
+    },
+    {
+      "index": 12,
+      "label": "Seção 12",
+      "semantic_label": null,
+      "start": 131.96,
+      "end": 151.02,
+      "repeat_group": 6,
+      "progression": [
+        "D",
+        "A",
+        "E",
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 13,
+      "label": "Seção 13",
+      "semantic_label": null,
+      "start": 151.02,
+      "end": 172.92,
+      "repeat_group": 7,
+      "progression": [
+        "A",
+        "Em7",
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 14,
+      "label": "Seção 14",
+      "semantic_label": null,
+      "start": 172.92,
+      "end": 183.32,
+      "repeat_group": 8,
+      "progression": [
+        "A",
+        "Em",
+        "G",
+        "D"
+      ]
+    },
+    {
+      "index": 15,
+      "label": "Seção 15",
+      "semantic_label": null,
+      "start": 183.32,
+      "end": 191.96,
+      "repeat_group": 9,
+      "progression": [
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 16,
+      "label": "Seção 16",
+      "semantic_label": null,
+      "start": 191.96,
+      "end": 201.2,
+      "repeat_group": 10,
+      "progression": [
+        "A",
+        "Em",
+        "G",
+        "D"
+      ]
+    },
+    {
+      "index": 17,
+      "label": "Seção 17",
+      "semantic_label": null,
+      "start": 201.2,
+      "end": 210.42,
+      "repeat_group": 11,
+      "progression": [
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 18,
+      "label": "Seção 18",
+      "semantic_label": null,
+      "start": 210.42,
+      "end": 224.26,
+      "repeat_group": 10,
+      "progression": [
+        "A",
+        "Em",
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 19,
+      "label": "Seção 19",
+      "semantic_label": null,
+      "start": 224.26,
+      "end": 247.34,
+      "repeat_group": 12,
+      "progression": [
+        "A",
+        "E",
+        "Bm7",
+        "A/C#",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 20,
+      "label": "Seção 20",
+      "semantic_label": null,
+      "start": 247.34,
+      "end": 255.44,
+      "repeat_group": 13,
+      "progression": [
+        "A",
+        "E",
+        "G",
+        "D"
+      ]
+    },
+    {
+      "index": 21,
+      "label": "Seção 21",
+      "semantic_label": null,
+      "start": 255.44,
+      "end": 275.62,
+      "repeat_group": 14,
+      "progression": [
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 22,
+      "label": "Seção 22",
+      "semantic_label": null,
+      "start": 275.62,
+      "end": 288.88,
+      "repeat_group": 15,
+      "progression": [
+        "A",
+        "G",
+        "Em",
+        "G",
+        "A"
+      ]
+    },
+    {
+      "index": 23,
+      "label": "Seção 23",
+      "semantic_label": null,
+      "start": 288.88,
+      "end": 307.92,
+      "repeat_group": 16,
+      "progression": [
+        "A",
+        "D",
+        "Em",
+        "G",
+        "D"
+      ]
+    },
+    {
+      "index": 24,
+      "label": "Seção 24",
+      "semantic_label": null,
+      "start": 307.92,
+      "end": 316.58,
+      "repeat_group": 17,
+      "progression": [
+        "D",
+        "A",
+        "G"
+      ]
+    },
+    {
+      "index": 25,
+      "label": "Seção 25",
+      "semantic_label": null,
+      "start": 316.58,
+      "end": 325.8,
+      "repeat_group": 10,
+      "progression": [
+        "G",
+        "Em",
+        "G",
+        "D"
+      ]
+    },
+    {
+      "index": 26,
+      "label": "Seção 26",
+      "semantic_label": null,
+      "start": 325.8,
+      "end": 334.46,
+      "repeat_group": 11,
+      "progression": [
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 27,
+      "label": "Seção 27",
+      "semantic_label": null,
+      "start": 334.46,
+      "end": 344.31,
+      "repeat_group": 10,
+      "progression": [
+        "A",
+        "D",
+        "Em",
+        "G",
+        "D"
+      ]
+    },
+    {
+      "index": 28,
+      "label": "Seção 28",
+      "semantic_label": null,
+      "start": 344.31,
+      "end": 353.48,
+      "repeat_group": 11,
+      "progression": [
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 29,
+      "label": "Seção 29",
+      "semantic_label": null,
+      "start": 353.48,
+      "end": 367.34,
+      "repeat_group": 18,
+      "progression": [
+        "A",
+        "Em7",
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "index": 30,
+      "label": "Seção 30",
+      "semantic_label": null,
+      "start": 367.34,
+      "end": 381.18,
+      "repeat_group": 18,
+      "progression": [
+        "A",
+        "Em",
+        "G",
+        "D"
+      ]
+    },
+    {
+      "index": 31,
+      "label": "Seção 31",
+      "semantic_label": null,
+      "start": 381.18,
+      "end": 398.37,
+      "repeat_group": 19,
+      "progression": [
+        "D"
+      ]
+    }
+  ]
+}
