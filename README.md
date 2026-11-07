@@ -18,6 +18,13 @@ docker compose up -d --build
 - Cada música fica em `storage/songs/<id>/` (não versionado, nunca público; o áudio só sai pelo Laravel, com Range).
 - O servidor PHP embutido é para desenvolvimento; produção exigirá nginx/PHP-FPM.
 
+## Aprendizado, solos e tablaturas (rodada 5)
+- **Correções → exemplos:** cada correção guarda características acústicas, tipo e origem; músicas que você marca como *revisadas* viram memória de exemplos
+  usada (com salvaguardas e auditoria) em OUTRAS gravações. É recuperação de exemplos, **não** retreino do BTC.
+- **Solos:** o sistema não afirma onde há solo (a detecção automática de voz/solo não generalizou nos testes): você marca o trecho.
+  Transcrição **monofônica** assíncrona (pYIN sobre o primeiro plano) e tablatura de guitarra com digitação plausível, afinação configurável, correção manual e técnicas **inferidas**.
+- Detalhes, métricas reais e limitações: `docs/avaliacao.md` (rodada 5).
+
 ## Testes
 ```bash
 # Laravel (SQLite em memória; a trava do TestCase aborta se a conexão não for essa)

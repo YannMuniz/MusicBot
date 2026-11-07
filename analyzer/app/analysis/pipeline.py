@@ -10,6 +10,7 @@ import numpy as np
 from ..audio import SR, load_audio
 from . import bass as bass_mod
 from . import harmony
+from . import segfeatures
 from . import smoothing as smoothing_mod
 from .smoothing import smooth_chords
 from .btc_engine import AMBIG_MIN_MARGIN, AMBIG_MIN_P, FRAME_S, VOCABULARY, decode, get_engine
@@ -29,7 +30,7 @@ def _fmt(t: float) -> str:
     return f"{int(t // 60)}:{t % 60:04.1f}"
 
 
-def run_analysis(path: Path, progress: Optional[Callable[[str], None]] = None) -> dict:
+def run_analysis(path: Path, progress: Optional[Callable[[str], None]] = None, memory=None) -> dict:
     step = progress or (lambda _s: None)
     t0 = time.time()
     step("decoding")
@@ -60,6 +61,9 @@ def run_analysis(path: Path, progress: Optional[Callable[[str], None]] = None) -
 
     step("chords")
     raw_segs = None
+    pcs = tt = None
+    seg_features = None
+    memory_result = None
     engine = get_engine(WEIGHTS) if os.environ.get("ANALYZER_CHORD_ENGINE", "btc") == "btc" else None
     if engine is not None:
         post = engine.posteriors(y)
@@ -103,6 +107,16 @@ def run_analysis(path: Path, progress: Optional[Callable[[str], None]] = None) -
             x["kind"] = "chord"
         warnings.append("Motor neural indisponível: usado o método clássico (somente acordes maiores e menores).")
 
+    if engine is not None:
+        seg_features = segfeatures.compute(segs, chroma, HOP / SR, pcs, tt, post, FRAME_S)
+        if memory is not None:
+            from ..memory import apply_memory
+            memory_result = {**memory.summary(), **apply_memory(segs, seg_features, memory, key["prefers_flats"])}
+            algorithm["memory"] = {"sim_min": 0.90, "min_neighbors": 3, "min_songs": 2, "agreement": 0.80, "max_p": 0.97}
+            if memory_result["applied"]:
+                warnings.append(f"{memory_result['applied']} acordes foram ajustados por correções revisadas de OUTRAS gravações "
+                                "(recuperação de exemplos semelhantes, não retreino do modelo); cada um está em chords[].memory.")
+
     step("sections")
     feats = np.vstack([librosa.util.normalize(chroma, axis=0), librosa.util.normalize(mfcc[1:], axis=0)])
     fs = librosa.util.sync(feats, bounds, aggregate=np.mean, pad=False)
@@ -124,6 +138,8 @@ def run_analysis(path: Path, progress: Optional[Callable[[str], None]] = None) -
         "key": key,
         "chords": segs,
         "raw_chords": raw_segs if raw_segs is not None else segs,
+        "segment_features": seg_features,
+        "memory": memory_result,
         "sections": sections,
         "warnings": warnings,
         "processing_seconds": round(time.time() - t0, 1),

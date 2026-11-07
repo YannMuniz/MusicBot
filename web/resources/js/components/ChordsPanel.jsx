@@ -26,12 +26,15 @@ const isRest = (seg) => seg.kind === 'rest' || seg.chord === 'N';
  * Pausas ('N') viram marcador discreto, não acorde. mode: 'cifra' (chips com tempo) | 'corrida' (cifra contínua, sem tempos).
  * Em modo de edição os nomes são editáveis (somente sem transposição).
  */
-export default function ChordsPanel({ view, sections, activeIdx, display, editing, onSeek, onChange, onRemove, mode = 'cifra' }) {
+export default function ChordsPanel({ view, sections, activeIdx, display, editing, onSeek, onChange, onRemove, mode = 'cifra', follow = true }) {
   const activeRef = useRef(null);
   const [collapsed, setCollapsed] = useState(() => new Set());
   useEffect(() => {
-    if (!editing && mode === 'cifra') activeRef.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-  }, [activeIdx, editing, mode]);
+    const el = activeRef.current;
+    if (!follow || editing || mode !== 'cifra' || !el) return;
+    el.style.scrollMarginTop = '9rem'; // não deixa o acorde ativo ficar sob o player fixo
+    el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }, [activeIdx, editing, mode, follow]);
 
   const toggle = (i) => setCollapsed((c) => { const n = new Set(c); n.has(i) ? n.delete(i) : n.add(i); return n; });
   const allCollapsed = collapsed.size >= sections.length;
@@ -114,6 +117,11 @@ export default function ChordsPanel({ view, sections, activeIdx, display, editin
                   >
                     <span className="block text-base font-semibold leading-tight">
                       {display(seg.chord)}
+                      {seg.possible_additions?.some((a) => a.degree === 'maj7') && (
+                        <span className="ml-1 align-top text-xs font-normal opacity-80" title="Há energia da 7ª maior neste acorde (evidência fraca, não validada). Confira ao ouvir e corrija se for 7M.">
+                          ({display('Cmaj7').replace(/^[A-G][#b]?/, '')}?)
+                        </span>
+                      )}
                       {seg.ambiguous && <span className="ml-0.5 align-top text-xs opacity-70" aria-label="previsão ambígua">?</span>}
                     </span>
                     <span className={`text-xs ${active ? 'text-indigo-100' : 'text-stone-500'}`}>{formatTime(seg.start)}</span>

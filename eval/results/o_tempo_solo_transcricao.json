@@ -1,0 +1,35 @@
+{
+ "song": "O Tempo (copia do assistente)",
+ "solo": [
+  148.4,
+  195.3
+ ],
+ "pipeline": "rota web -> analisador (preprocess foreground)",
+ "reference": "eval/references/o_tempo.solo_tab.json (tablatura da cifra, por ordem)",
+ "caveat": "referencia prata (tablatura de usuario); desenvolvimento; uma musica",
+ "result": {
+  "n_detected": 95,
+  "n_reference": 62,
+  "exact": {
+   "reference_notes_found_in_order": 24,
+   "recall": 0.387,
+   "precision_in_aligned_window": 0.649,
+   "aligned_window_detected_notes": 37
+  },
+  "within_1_semitone": {
+   "reference_notes_found_in_order": 25,
+   "recall": 0.403,
+   "precision_in_aligned_window": 0.676,
+   "aligned_window_detected_notes": 37
+  },
+  "pitch_class": {
+   "reference_notes_found_in_order": 36,
+   "recall": 0.581,
+   "precision_in_aligned_window": 0.706,
+   "aligned_window_detected_notes": 51
+  },
+  "pitch_class_histogram_cosine": 0.944
+ },
+ "state": "low_confidence",
+ "mean_confidence": 0.153
+}

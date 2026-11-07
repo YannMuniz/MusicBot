@@ -42,6 +42,13 @@
       "bass_min_segment_s": 0.4,
       "color_tone_min_rel": 0.8
     },
+    "memory": {
+      "sim_min": 0.9,
+      "min_neighbors": 3,
+      "min_songs": 2,
+      "agreement": 0.8,
+      "max_p": 0.97
+    },
     "sections": {
       "method": "foote+SF novelty, DTW grouping, repeat compression",
       "kernel_beats": 8,
@@ -88,6 +95,19 @@
       "Tonalidade ambígua: F major e C major têm correlação próxima (margem 0.056)."
     ]
   },
+  "memory": {
+    "examples": 0,
+    "songs": 0,
+    "corrected_examples": 0,
+    "skipped": {
+      "same_song": 1,
+      "same_recording": 1,
+      "not_reviewed": 4,
+      "no_features": 0
+    },
+    "considered": 0,
+    "applied": 0
+  },
   "warnings": [
     "Tonalidade ambígua: F major e C major têm correlação próxima (margem 0.056).",
     "18 de 134 segmentos marcados como ambíguos (probabilidade do modelo baixa ou empatada com outro acorde). As probabilidades do modelo não são calibradas.",
@@ -96,8 +116,8 @@
     "Vocabulário do modelo: maj, min, 7, maj7, m7, dim, aug, sus2, sus4, 6, m6, dim7, m7(b5), mM7. Acordes com 9ª, 11ª, 13ª, add ou notas alteradas não são reconhecidos como tal: aparecem como o acorde mais próximo do vocabulário.",
     "Modelo neural pré-treinado (BTC, ISMIR 2019) em corpora públicos de música pop/rock; a precisão em outros gêneros/gravações não foi medida neste projeto."
   ],
-  "processing_seconds": 89.7,
-  "run_id": "d84d529b7aff",
-  "created_at": "2026-10-28T21:56:38+00:00",
+  "processing_seconds": 117.5,
+  "run_id": "f55d28c1a598",
+  "created_at": "2026-10-29T00:07:08+00:00",
   "song_id": "cded50fe0ed44069892184c4d522baff"
 }

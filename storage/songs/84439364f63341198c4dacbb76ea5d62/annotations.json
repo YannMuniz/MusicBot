@@ -1,0 +1,43 @@
+{
+  "annotations": [
+    {
+      "id": "a4a0febd59d193ca",
+      "type": "solo_bounds",
+      "target": "s1",
+      "original": null,
+      "corrected": {
+        "type": "solo_bounds",
+        "solo_id": "s1",
+        "start": 146.0,
+        "end": 167.0
+      },
+      "created_at": "2026-10-29T00:31:24+00:00",
+      "source": "ui",
+      "origin": "user",
+      "analyzer_version": "0.3.0",
+      "run_id": null,
+      "validation_status": "unreviewed"
+    },
+    {
+      "id": "f5c92a96b7ce0b62",
+      "type": "solo_bounds",
+      "target": "s1",
+      "original": {
+        "start": 146.0,
+        "end": 167.0
+      },
+      "corrected": {
+        "type": "solo_bounds",
+        "solo_id": "s1",
+        "start": 164.7,
+        "end": 167.0
+      },
+      "created_at": "2026-10-29T00:43:21+00:00",
+      "source": "ui",
+      "origin": "user",
+      "analyzer_version": "0.3.0",
+      "run_id": null,
+      "validation_status": "unreviewed"
+    }
+  ]
+}

@@ -214,3 +214,88 @@ Custo: +≈ 11 s por música de 6,6 min na segmentação.
 - Mínimo de 16 s e DTW assumem música em compasso regular; música sem pulso claro ou com muita variação de andamento
   pode degradar (não testado).
 - Nenhuma música de teste independente: os números acima NÃO são prova de generalização.
+
+---
+# Rodada 5 — aprendizado pelas correções, solos e tablaturas
+
+## A. Aprendizado pelas correções
+**Fluxo auditado:** o botão "Corrigir acordes" salvava `chords.edited.json` (camada de apresentação) e, desde a rodada 2, também
+`corrections.json` (previsto/corrigido, versão do modelo). Faltavam: características acústicas, tipo, origem, referência ao áudio e
+qualquer uso em outras músicas.
+
+**Implementado (recuperação de exemplos, NÃO treinamento):**
+- `segment_features.json` por análise: para cada segmento, chroma harmônico, perfil de baixo, massa posterior do BTC nas 14 qualidades
+  e contexto (intervalo da raiz anterior/seguinte), **girados para a raiz prevista** (comparáveis entre tons).
+- Cada correção grava: `type` (`chord`|`bass`), `origin`, `analyzer_version`, `audio_ref` (original + intervalo), `features`, confiança
+  e o previsto original (nunca apagado). Sobrevive a reprocessamentos (teste). Tipos distintos vivem em `annotations.json`
+  (`solo_bounds`, `solo_instrument`, `note`, `tab`); `section_label` e `chord_boundary` estão reservados, sem UI.
+- **Memória** (`analyzer/app/memory.py`): só entram músicas que o usuário marcou como **revisadas** (`review.json`); o rótulo confiável de
+  cada segmento é a correção que o cobre ou, sem correção, a própria previsão (um *negativo* confirmado, que impede transformar todo
+  D em Dsus2). Aplicação exige: ≥ 3 vizinhos (cosseno ≥ 0,90, **mesma confusão prevista**) de ≥ 2 músicas, ≥ 80 % de concordância
+  no rótulo corrigido, e previsão atual com p < 0,97. Senão mantém a previsão e registra o motivo (`chords[].memory`). Exclui a própria
+  música e a **mesma gravação** (SHA-256 do áudio): vale nas cópias p2/p3 de "Estamos de pé" (mesmo SHA). Cada aplicação é auditável
+  (`from_label`, `to_label`, vizinhos, músicas, concordância, ids dos exemplos) e aparece no cartão "Aprendizado" da interface.
+- `model_label` (BTC) nunca é alterado. **Os pesos do BTC não mudam: não houve treinamento.**
+- Exportação para treino: `training/export_corrections.py` (só `accepted`, não `superseded`, sem conflitos), com tipo/características.
+
+**Evidência (o que dá e o que não dá para afirmar):**
+- Testes sintéticos de decisão (7): generalização entre tons (D→Dsus2 vira E→Esus2 com sonoridade igual), plano D não vira Dsus2,
+  salvaguardas (1 música só, p quase certo, tipo previsto diferente), exclusões, invariância a tom, sem usar o nome do acorde.
+- Dados reais: na produção, a memória de "O Tempo" tinha **0 exemplos** (nenhuma música revisada) e as exclusões foram registradas
+  (mesma música 1; mesma gravação 1; não revisadas 4). **Não foi possível medir se as correções melhoram músicas independentes:**
+  há 3 gravações distintas e nenhuma cifra revisada por segmento; isso exige muitas revisões. Nenhuma melhoria é afirmada.
+- Etapa 3 (treinar classificador complementar/fine-tuning): inviável hoje (ver rodada 3/`training/README.md`); o pipeline de dados
+  está pronto e recusa treinar com pouco dado.
+
+## B. Solos instrumentais — resultado negativo, e por isso "marcação assistida"
+Medi, contra as cifras alinhadas (intro/solo/ponte do solo/final = instrumental; o resto, com letra), se características clássicas
+separam voz de instrumental (primeiro plano por repetição, fluxo/planicidade espectral, MFCC, vozeamento pYIN):
+- validação **entre músicas** (treina numa, testa na outra): AUC 0,54 e 0,60, F1 instrumental 0,42 e 0,18 (≈ acaso); várias
+  features **invertem de sentido** de uma música para outra (ex.: vozeamento 0,44 vs 0,38; MFCC1 0,82 vs 0,62);
+- "timbre destoante" não supervisionado: F1 0,08 em "Estamos de pé" e 0,47 em "O Tempo" (precisão 1,0, revocação 0,3); com MFCC
+  por batida (barato): F1 0,00 e 0,09.
+- Um primeiro erro meu (rótulo "Final" não casando com "final") inflou a conclusão negativa por um momento; corrigido e refeito.
+**Decisão:** o sistema **não afirma** onde há solo, voz ou instrumento. O usuário marca/confirma o trecho (inclusive a partir de uma seção)
+e informa categoria e instrumento (`indeterminate` é permitido); limites e instrumento são corrigíveis, com o original preservado
+(`annotations.json`). O tagger pré-treinado (PANNs: código MIT, pesos CC BY 4.0) **não foi integrado**: os pesos (327 MB) não puderam ser
+baixados (4–12 KB/s no Zenodo), então não há como validá-lo; o código ficou em `experiments/panns_tagger/` marcado como não validado.
+Separação de fontes (Demucs) foi descartada: depende de `torchaudio` e só há até 2.11.1, incompatível com o `torch` 2.14.1 do BTC.
+
+## C. Transcrição e tablatura (guitarra, monofônica)
+Pipeline por solo (job assíncrono, resultado persistido, nunca recalculado ao tocar): recorte → pré-processamento → pYIN (E2–E6) →
+notas (tempos absolutos, confiança) → técnicas **inferidas** (vibrato; glissando = slide ou bend, não distinguíveis) → digitação por
+programação dinâmica (afinação/cordas/casas configuráveis; 3 alternativas por nota; notas fora do alcance ficam sem posição).
+Alternativas: `basic-pitch` (Apache-2.0) **não foi avaliado**: a instalação excedeu o tempo (dependências pesadas); transcrição
+polifônica/MT3 fora do escopo.
+
+**Avaliação real** (solo de "O Tempo", 148,4–195,3 s, contra a **tablatura da cifra**, 62 notas, por ordem; referência prata de
+usuário; música de desenvolvimento), por pré-processamento do pYIN:
+| pré-processamento | notas exatas em ordem | classe de altura | confiança média | estado |
+|---|---|---|---|---|
+| áudio bruto | 0 % | 32 % | 0,04 | baixa confiança |
+| componente harmônica | 0 % | 29 % | 0,08 | baixa confiança |
+| **primeiro plano (padrão)** | **38,7 %** (precisão 64,9 % na janela alinhada) | **58,1 %** | 0,15 | **baixa confiança** |
+Histograma de classes de altura (cosseno com a tab): 0,76 / 0,86 / **0,94**. Reproduzido pela rota web de produção: 95 notas para 62 da
+tab; técnicas inferidas: 17 glissandos e 6 vibratos (não validados; sem referência).
+Limitações: monofônica; pYIN segue voz/baixo em mistura densa (por isso a confiança baixa); sem ritmo na tab (só ordem e alturas);
+a digitação é plausível, **não** a usada na gravação; bend, hammer-on, pull-off e palm mute **não** são reconhecidos; só uma música.
+Sincronia: os tempos das notas são absolutos no áudio (teste: erro < 0,08 s em tons sintéticos); a tablatura é desenhada na escala do
+tempo real e acompanha o player.
+
+## D. Interface
+Cartão "Solos e tablaturas": marcação de trecho (a partir do tempo atual ou de uma seção), linha do tempo dos trechos, categoria e
+instrumento, "Gerar tablatura" (assíncrono), estado/confiança, tablatura sincronizada com destaque da nota atual e clique para ouvir,
+**repetir trecho**, **velocidade 0,5×/0,75×/1×**, troca de **afinação** (recalcula a digitação), correção de corda/casa/tempo/remoção, salvar
+(automático preservado) e técnicas marcadas como inferidas. Cartão "Aprendizado pelas correções": marcar cifra como revisada e ver o que a
+memória alterou. **A interface não foi inspecionada num navegador** (build compila; rotas e dados testados por HTTP/PHPUnit).
+
+## Testes
+Analisador (pytest): memória 7, tablatura/transcrição 7, API (solos ponta a ponta + correções/revisão) +2, estrutura 10 e anteriores; Laravel 15;
+eval 10; treino 6; JS 8.
+
+
+## Rodada 6 — 7ª maior (7M) e bossa nova (“Eu Sei Que Vou Te Amar”)
+- **Notação:** a tela agora escreve `C#7M` (opção “Notação: C7M / Cmaj7”, só exibição). Correções digitadas como `C#7M`, `CM7`, `Cm7M` são gravadas na forma canônica (`maj7`, `mM7`), senão contariam como acordes diferentes.
+- **Diagnóstico (sem cifra de referência):** o BTC já rotula `maj7` em 5 trechos; nesses, a 7ª maior tem 0,98–2,12 da energia das notas do acorde no cromagrama, contra 0,12–0,50 nas tríades. Nenhuma tríade da música mostra evidência clara de 7M, exceto o acorde final (0,46).
+- **Mudança:** tríade maior com 7ª maior > 7ª menor e ≥ 0,45 vira *sugestão* “(7M?)” na tela. Não altera o acorde. O limiar 0,45 foi escolhido OLHANDO esta música: **não validado**.
+- **Não medido:** acerto de 7M. Falta a cifra desta música. Os `.lab` prata atuais não têm nenhum maj7.

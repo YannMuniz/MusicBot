@@ -1,0 +1,2231 @@
+{
+ "solo_id": "s1",
+ "started_at": "2026-10-29T00:07:38+00:00",
+ "preprocess": "foreground",
+ "state": "low_confidence",
+ "mean_confidence": 0.153,
+ "voiced_ratio": 0.523,
+ "method": "pyin(E2-E6)+note segmentation",
+ "monophonic_only": true,
+ "finished_at": "2026-10-29T00:08:09+00:00",
+ "solo_range": [
+  148.4,
+  195.3
+ ],
+ "tuning": [
+  64,
+  59,
+  55,
+  50,
+  45,
+  40
+ ],
+ "max_fret": 22,
+ "notes": [
+  {
+   "start": 149.224,
+   "end": 149.468,
+   "midi_f": 48.2,
+   "pitch": 48,
+   "confidence": 0.258,
+   "techniques": [],
+   "string": 6,
+   "fret": 8,
+   "alternatives": [
+    {
+     "string": 5,
+     "fret": 3
+    }
+   ],
+   "src": 0
+  },
+  {
+   "start": 149.573,
+   "end": 149.7,
+   "midi_f": 70.0,
+   "pitch": 70,
+   "confidence": 0.694,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 72
+    }
+   ],
+   "string": 2,
+   "fret": 11,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 15
+    },
+    {
+     "string": 1,
+     "fret": 6
+    },
+    {
+     "string": 4,
+     "fret": 20
+    }
+   ],
+   "src": 1
+  },
+  {
+   "start": 149.7,
+   "end": 149.851,
+   "midi_f": 71.8,
+   "pitch": 72,
+   "confidence": 0.274,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 71
+    }
+   ],
+   "string": 2,
+   "fret": 13,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 17
+    },
+    {
+     "string": 1,
+     "fret": 8
+    },
+    {
+     "string": 4,
+     "fret": 22
+    }
+   ],
+   "src": 2
+  },
+  {
+   "start": 149.851,
+   "end": 149.944,
+   "midi_f": 70.55,
+   "pitch": 71,
+   "confidence": 0.025,
+   "techniques": [],
+   "string": 2,
+   "fret": 12,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 16
+    },
+    {
+     "string": 1,
+     "fret": 7
+    },
+    {
+     "string": 4,
+     "fret": 21
+    }
+   ],
+   "src": 3
+  },
+  {
+   "start": 150.049,
+   "end": 150.188,
+   "midi_f": 70.2,
+   "pitch": 70,
+   "confidence": 0.103,
+   "techniques": [],
+   "string": 3,
+   "fret": 15,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 11
+    },
+    {
+     "string": 4,
+     "fret": 20
+    },
+    {
+     "string": 1,
+     "fret": 6
+    }
+   ],
+   "src": 4
+  },
+  {
+   "start": 150.281,
+   "end": 150.362,
+   "midi_f": 81.4,
+   "pitch": 81,
+   "confidence": 0.183,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 84
+    }
+   ],
+   "string": 1,
+   "fret": 17,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 22
+    }
+   ],
+   "src": 5
+  },
+  {
+   "start": 150.362,
+   "end": 150.49,
+   "midi_f": 83.9,
+   "pitch": 84,
+   "confidence": 0.1,
+   "techniques": [],
+   "string": 1,
+   "fret": 20,
+   "alternatives": [],
+   "src": 6
+  },
+  {
+   "start": 150.676,
+   "end": 150.757,
+   "midi_f": 83.7,
+   "pitch": 84,
+   "confidence": 0.051,
+   "techniques": [],
+   "string": 1,
+   "fret": 20,
+   "alternatives": [],
+   "src": 7
+  },
+  {
+   "start": 150.873,
+   "end": 151.233,
+   "midi_f": 69.6,
+   "pitch": 70,
+   "confidence": 0.415,
+   "techniques": [
+    {
+     "type": "vibrato",
+     "inferred": true,
+     "confidence": "low",
+     "depth_cents": 40
+    }
+   ],
+   "string": 4,
+   "fret": 20,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 15
+    },
+    {
+     "string": 2,
+     "fret": 11
+    },
+    {
+     "string": 1,
+     "fret": 6
+    }
+   ],
+   "src": 8
+  },
+  {
+   "start": 151.314,
+   "end": 151.395,
+   "midi_f": 65.8,
+   "pitch": 66,
+   "confidence": 0.038,
+   "techniques": [],
+   "string": 4,
+   "fret": 16,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 11
+    },
+    {
+     "string": 5,
+     "fret": 21
+    },
+    {
+     "string": 2,
+     "fret": 7
+    }
+   ],
+   "src": 9
+  },
+  {
+   "start": 151.616,
+   "end": 151.732,
+   "midi_f": 53.9,
+   "pitch": 54,
+   "confidence": 0.01,
+   "techniques": [],
+   "string": 6,
+   "fret": 14,
+   "alternatives": [
+    {
+     "string": 5,
+     "fret": 9
+    },
+    {
+     "string": 4,
+     "fret": 4
+    }
+   ],
+   "src": 10
+  },
+  {
+   "start": 151.767,
+   "end": 151.895,
+   "midi_f": 55.1,
+   "pitch": 55,
+   "confidence": 0.012,
+   "techniques": [],
+   "string": 3,
+   "fret": 0,
+   "alternatives": [
+    {
+     "string": 4,
+     "fret": 5
+    },
+    {
+     "string": 5,
+     "fret": 10
+    },
+    {
+     "string": 6,
+     "fret": 15
+    }
+   ],
+   "src": 11
+  },
+  {
+   "start": 151.918,
+   "end": 152.057,
+   "midi_f": 51.2,
+   "pitch": 51,
+   "confidence": 0.011,
+   "techniques": [],
+   "string": 4,
+   "fret": 1,
+   "alternatives": [
+    {
+     "string": 5,
+     "fret": 6
+    },
+    {
+     "string": 6,
+     "fret": 11
+    }
+   ],
+   "src": 12
+  },
+  {
+   "start": 152.104,
+   "end": 152.208,
+   "midi_f": 55.1,
+   "pitch": 55,
+   "confidence": 0.012,
+   "techniques": [],
+   "string": 3,
+   "fret": 0,
+   "alternatives": [
+    {
+     "string": 4,
+     "fret": 5
+    },
+    {
+     "string": 5,
+     "fret": 10
+    },
+    {
+     "string": 6,
+     "fret": 15
+    }
+   ],
+   "src": 13
+  },
+  {
+   "start": 152.313,
+   "end": 152.556,
+   "midi_f": 48.1,
+   "pitch": 48,
+   "confidence": 0.055,
+   "techniques": [],
+   "string": 5,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 6,
+     "fret": 8
+    }
+   ],
+   "src": 14
+  },
+  {
+   "start": 152.638,
+   "end": 152.858,
+   "midi_f": 48.1,
+   "pitch": 48,
+   "confidence": 0.03,
+   "techniques": [],
+   "string": 5,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 6,
+     "fret": 8
+    }
+   ],
+   "src": 15
+  },
+  {
+   "start": 152.905,
+   "end": 153.102,
+   "midi_f": 58.2,
+   "pitch": 58,
+   "confidence": 0.04,
+   "techniques": [],
+   "string": 3,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 4,
+     "fret": 8
+    },
+    {
+     "string": 5,
+     "fret": 13
+    },
+    {
+     "string": 6,
+     "fret": 18
+    }
+   ],
+   "src": 16
+  },
+  {
+   "start": 153.148,
+   "end": 153.241,
+   "midi_f": 48.2,
+   "pitch": 48,
+   "confidence": 0.118,
+   "techniques": [],
+   "string": 5,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 6,
+     "fret": 8
+    }
+   ],
+   "src": 17
+  },
+  {
+   "start": 153.485,
+   "end": 153.671,
+   "midi_f": 62.2,
+   "pitch": 62,
+   "confidence": 0.082,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 64
+    }
+   ],
+   "string": 2,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 7
+    },
+    {
+     "string": 4,
+     "fret": 12
+    },
+    {
+     "string": 5,
+     "fret": 17
+    }
+   ],
+   "src": 18
+  },
+  {
+   "start": 153.671,
+   "end": 153.88,
+   "midi_f": 63.9,
+   "pitch": 64,
+   "confidence": 0.341,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 65
+    }
+   ],
+   "string": 1,
+   "fret": 0,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 5
+    },
+    {
+     "string": 3,
+     "fret": 9
+    },
+    {
+     "string": 4,
+     "fret": 14
+    }
+   ],
+   "src": 19
+  },
+  {
+   "start": 153.88,
+   "end": 153.961,
+   "midi_f": 65.3,
+   "pitch": 65,
+   "confidence": 0.037,
+   "techniques": [],
+   "string": 1,
+   "fret": 1,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 6
+    },
+    {
+     "string": 3,
+     "fret": 10
+    },
+    {
+     "string": 4,
+     "fret": 15
+    }
+   ],
+   "src": 20
+  },
+  {
+   "start": 154.1,
+   "end": 154.368,
+   "midi_f": 55.1,
+   "pitch": 55,
+   "confidence": 0.012,
+   "techniques": [],
+   "string": 3,
+   "fret": 0,
+   "alternatives": [
+    {
+     "string": 4,
+     "fret": 5
+    },
+    {
+     "string": 5,
+     "fret": 10
+    },
+    {
+     "string": 6,
+     "fret": 15
+    }
+   ],
+   "src": 21
+  },
+  {
+   "start": 154.437,
+   "end": 154.646,
+   "midi_f": 41.4,
+   "pitch": 41,
+   "confidence": 0.015,
+   "techniques": [],
+   "string": 6,
+   "fret": 1,
+   "alternatives": [],
+   "src": 22
+  },
+  {
+   "start": 154.809,
+   "end": 156.051,
+   "midi_f": 69.1,
+   "pitch": 69,
+   "confidence": 0.687,
+   "techniques": [],
+   "string": 1,
+   "fret": 5,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 10
+    },
+    {
+     "string": 3,
+     "fret": 14
+    },
+    {
+     "string": 4,
+     "fret": 19
+    }
+   ],
+   "src": 23
+  },
+  {
+   "start": 156.132,
+   "end": 156.341,
+   "midi_f": 69.1,
+   "pitch": 69,
+   "confidence": 0.515,
+   "techniques": [],
+   "string": 1,
+   "fret": 5,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 10
+    },
+    {
+     "string": 3,
+     "fret": 14
+    },
+    {
+     "string": 4,
+     "fret": 19
+    }
+   ],
+   "src": 24
+  },
+  {
+   "start": 156.388,
+   "end": 156.481,
+   "midi_f": 68.45,
+   "pitch": 68,
+   "confidence": 0.107,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 67
+    }
+   ],
+   "string": 1,
+   "fret": 4,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 9
+    },
+    {
+     "string": 3,
+     "fret": 13
+    },
+    {
+     "string": 4,
+     "fret": 18
+    }
+   ],
+   "src": 25
+  },
+  {
+   "start": 156.481,
+   "end": 156.643,
+   "midi_f": 67.1,
+   "pitch": 67,
+   "confidence": 0.111,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 65
+    }
+   ],
+   "string": 1,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 8
+    },
+    {
+     "string": 3,
+     "fret": 12
+    },
+    {
+     "string": 4,
+     "fret": 17
+    }
+   ],
+   "src": 26
+  },
+  {
+   "start": 156.643,
+   "end": 156.724,
+   "midi_f": 65.2,
+   "pitch": 65,
+   "confidence": 0.133,
+   "techniques": [],
+   "string": 1,
+   "fret": 1,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 6
+    },
+    {
+     "string": 3,
+     "fret": 10
+    },
+    {
+     "string": 4,
+     "fret": 15
+    }
+   ],
+   "src": 27
+  },
+  {
+   "start": 156.829,
+   "end": 157.467,
+   "midi_f": 55.1,
+   "pitch": 55,
+   "confidence": 0.135,
+   "techniques": [],
+   "string": 3,
+   "fret": 0,
+   "alternatives": [
+    {
+     "string": 4,
+     "fret": 5
+    },
+    {
+     "string": 5,
+     "fret": 10
+    },
+    {
+     "string": 6,
+     "fret": 15
+    }
+   ],
+   "src": 28
+  },
+  {
+   "start": 157.56,
+   "end": 157.723,
+   "midi_f": 44.8,
+   "pitch": 45,
+   "confidence": 0.079,
+   "techniques": [],
+   "string": 5,
+   "fret": 0,
+   "alternatives": [
+    {
+     "string": 6,
+     "fret": 5
+    }
+   ],
+   "src": 29
+  },
+  {
+   "start": 157.862,
+   "end": 158.083,
+   "midi_f": 46.0,
+   "pitch": 46,
+   "confidence": 0.237,
+   "techniques": [],
+   "string": 5,
+   "fret": 1,
+   "alternatives": [
+    {
+     "string": 6,
+     "fret": 6
+    }
+   ],
+   "src": 30
+  },
+  {
+   "start": 158.176,
+   "end": 158.803,
+   "midi_f": 65.3,
+   "pitch": 65,
+   "confidence": 0.375,
+   "techniques": [],
+   "string": 1,
+   "fret": 1,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 6
+    },
+    {
+     "string": 3,
+     "fret": 10
+    },
+    {
+     "string": 4,
+     "fret": 15
+    }
+   ],
+   "src": 31
+  },
+  {
+   "start": 158.895,
+   "end": 159.279,
+   "midi_f": 48.0,
+   "pitch": 48,
+   "confidence": 0.199,
+   "techniques": [],
+   "string": 5,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 6,
+     "fret": 8
+    }
+   ],
+   "src": 32
+  },
+  {
+   "start": 159.36,
+   "end": 159.476,
+   "midi_f": 41.2,
+   "pitch": 41,
+   "confidence": 0.209,
+   "techniques": [],
+   "string": 6,
+   "fret": 1,
+   "alternatives": [],
+   "src": 33
+  },
+  {
+   "start": 159.673,
+   "end": 160.184,
+   "midi_f": 48.0,
+   "pitch": 48,
+   "confidence": 0.112,
+   "techniques": [],
+   "string": 5,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 6,
+     "fret": 8
+    }
+   ],
+   "src": 34
+  },
+  {
+   "start": 160.323,
+   "end": 160.498,
+   "midi_f": 60.1,
+   "pitch": 60,
+   "confidence": 0.25,
+   "techniques": [],
+   "string": 3,
+   "fret": 5,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 1
+    },
+    {
+     "string": 4,
+     "fret": 10
+    },
+    {
+     "string": 5,
+     "fret": 15
+    }
+   ],
+   "src": 35
+  },
+  {
+   "start": 160.811,
+   "end": 160.892,
+   "midi_f": 69.8,
+   "pitch": 70,
+   "confidence": 0.134,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 72
+    }
+   ],
+   "string": 1,
+   "fret": 6,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 11
+    },
+    {
+     "string": 3,
+     "fret": 15
+    },
+    {
+     "string": 4,
+     "fret": 20
+    }
+   ],
+   "src": 36
+  },
+  {
+   "start": 160.892,
+   "end": 161.125,
+   "midi_f": 72.0,
+   "pitch": 72,
+   "confidence": 0.477,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 70
+    }
+   ],
+   "string": 1,
+   "fret": 8,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 13
+    },
+    {
+     "string": 3,
+     "fret": 17
+    },
+    {
+     "string": 4,
+     "fret": 22
+    }
+   ],
+   "src": 37
+  },
+  {
+   "start": 161.125,
+   "end": 161.322,
+   "midi_f": 70.0,
+   "pitch": 70,
+   "confidence": 0.563,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 69
+    }
+   ],
+   "string": 1,
+   "fret": 6,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 11
+    },
+    {
+     "string": 3,
+     "fret": 15
+    },
+    {
+     "string": 4,
+     "fret": 20
+    }
+   ],
+   "src": 38
+  },
+  {
+   "start": 161.322,
+   "end": 161.566,
+   "midi_f": 69.0,
+   "pitch": 69,
+   "confidence": 0.064,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 67
+    }
+   ],
+   "string": 1,
+   "fret": 5,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 10
+    },
+    {
+     "string": 3,
+     "fret": 14
+    },
+    {
+     "string": 4,
+     "fret": 19
+    }
+   ],
+   "src": 39
+  },
+  {
+   "start": 161.577,
+   "end": 161.693,
+   "midi_f": 67.2,
+   "pitch": 67,
+   "confidence": 0.014,
+   "techniques": [],
+   "string": 1,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 8
+    },
+    {
+     "string": 3,
+     "fret": 12
+    },
+    {
+     "string": 4,
+     "fret": 17
+    }
+   ],
+   "src": 40
+  },
+  {
+   "start": 161.786,
+   "end": 161.891,
+   "midi_f": 65.2,
+   "pitch": 65,
+   "confidence": 0.085,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 64
+    }
+   ],
+   "string": 1,
+   "fret": 1,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 6
+    },
+    {
+     "string": 3,
+     "fret": 10
+    },
+    {
+     "string": 4,
+     "fret": 15
+    }
+   ],
+   "src": 41
+  },
+  {
+   "start": 161.891,
+   "end": 162.088,
+   "midi_f": 64.1,
+   "pitch": 64,
+   "confidence": 0.184,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 65
+    }
+   ],
+   "string": 1,
+   "fret": 0,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 5
+    },
+    {
+     "string": 3,
+     "fret": 9
+    },
+    {
+     "string": 4,
+     "fret": 14
+    }
+   ],
+   "src": 42
+  },
+  {
+   "start": 162.088,
+   "end": 162.251,
+   "midi_f": 65.0,
+   "pitch": 65,
+   "confidence": 0.221,
+   "techniques": [],
+   "string": 2,
+   "fret": 6,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 10
+    },
+    {
+     "string": 1,
+     "fret": 1
+    },
+    {
+     "string": 4,
+     "fret": 15
+    }
+   ],
+   "src": 43
+  },
+  {
+   "start": 162.425,
+   "end": 162.715,
+   "midi_f": 65.1,
+   "pitch": 65,
+   "confidence": 0.054,
+   "techniques": [],
+   "string": 2,
+   "fret": 6,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 10
+    },
+    {
+     "string": 1,
+     "fret": 1
+    },
+    {
+     "string": 4,
+     "fret": 15
+    }
+   ],
+   "src": 44
+  },
+  {
+   "start": 162.796,
+   "end": 162.901,
+   "midi_f": 61.9,
+   "pitch": 62,
+   "confidence": 0.18,
+   "techniques": [],
+   "string": 3,
+   "fret": 7,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 3
+    },
+    {
+     "string": 4,
+     "fret": 12
+    },
+    {
+     "string": 5,
+     "fret": 17
+    }
+   ],
+   "src": 45
+  },
+  {
+   "start": 163.029,
+   "end": 164.178,
+   "midi_f": 60.2,
+   "pitch": 60,
+   "confidence": 0.516,
+   "techniques": [],
+   "string": 3,
+   "fret": 5,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 1
+    },
+    {
+     "string": 4,
+     "fret": 10
+    },
+    {
+     "string": 5,
+     "fret": 15
+    }
+   ],
+   "src": 46
+  },
+  {
+   "start": 164.306,
+   "end": 164.526,
+   "midi_f": 70.1,
+   "pitch": 70,
+   "confidence": 0.271,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 72
+    }
+   ],
+   "string": 1,
+   "fret": 6,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 11
+    },
+    {
+     "string": 3,
+     "fret": 15
+    },
+    {
+     "string": 4,
+     "fret": 20
+    }
+   ],
+   "src": 47
+  },
+  {
+   "start": 164.526,
+   "end": 164.863,
+   "midi_f": 72.0,
+   "pitch": 72,
+   "confidence": 0.101,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 74
+    }
+   ],
+   "string": 1,
+   "fret": 8,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 13
+    },
+    {
+     "string": 3,
+     "fret": 17
+    },
+    {
+     "string": 4,
+     "fret": 22
+    }
+   ],
+   "src": 48
+  },
+  {
+   "start": 164.863,
+   "end": 165.002,
+   "midi_f": 73.8,
+   "pitch": 74,
+   "confidence": 0.197,
+   "techniques": [],
+   "string": 1,
+   "fret": 10,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 15
+    },
+    {
+     "string": 3,
+     "fret": 19
+    }
+   ],
+   "src": 49
+  },
+  {
+   "start": 165.118,
+   "end": 165.618,
+   "midi_f": 53.0,
+   "pitch": 53,
+   "confidence": 0.17,
+   "techniques": [],
+   "string": 4,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 5,
+     "fret": 8
+    },
+    {
+     "string": 6,
+     "fret": 13
+    }
+   ],
+   "src": 50
+  },
+  {
+   "start": 165.78,
+   "end": 165.978,
+   "midi_f": 40.6,
+   "pitch": 41,
+   "confidence": 0.011,
+   "techniques": [],
+   "string": 6,
+   "fret": 1,
+   "alternatives": [],
+   "src": 51
+  },
+  {
+   "start": 166.128,
+   "end": 166.662,
+   "midi_f": 69.1,
+   "pitch": 69,
+   "confidence": 0.445,
+   "techniques": [],
+   "string": 1,
+   "fret": 5,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 10
+    },
+    {
+     "string": 3,
+     "fret": 14
+    },
+    {
+     "string": 4,
+     "fret": 19
+    }
+   ],
+   "src": 52
+  },
+  {
+   "start": 166.721,
+   "end": 167.069,
+   "midi_f": 81.2,
+   "pitch": 81,
+   "confidence": 0.513,
+   "techniques": [],
+   "string": 1,
+   "fret": 17,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 22
+    }
+   ],
+   "src": 53
+  },
+  {
+   "start": 167.278,
+   "end": 167.742,
+   "midi_f": 65.1,
+   "pitch": 65,
+   "confidence": 0.286,
+   "techniques": [],
+   "string": 4,
+   "fret": 15,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 10
+    },
+    {
+     "string": 5,
+     "fret": 20
+    },
+    {
+     "string": 2,
+     "fret": 6
+    }
+   ],
+   "src": 54
+  },
+  {
+   "start": 167.823,
+   "end": 168.392,
+   "midi_f": 50.1,
+   "pitch": 50,
+   "confidence": 0.227,
+   "techniques": [],
+   "string": 4,
+   "fret": 0,
+   "alternatives": [
+    {
+     "string": 5,
+     "fret": 5
+    },
+    {
+     "string": 6,
+     "fret": 10
+    }
+   ],
+   "src": 55
+  },
+  {
+   "start": 168.462,
+   "end": 168.555,
+   "midi_f": 55.5,
+   "pitch": 56,
+   "confidence": 0.01,
+   "techniques": [],
+   "string": 6,
+   "fret": 16,
+   "alternatives": [
+    {
+     "string": 5,
+     "fret": 11
+    },
+    {
+     "string": 4,
+     "fret": 6
+    },
+    {
+     "string": 3,
+     "fret": 1
+    }
+   ],
+   "src": 56
+  },
+  {
+   "start": 168.845,
+   "end": 168.996,
+   "midi_f": 74.1,
+   "pitch": 74,
+   "confidence": 0.026,
+   "techniques": [],
+   "string": 3,
+   "fret": 19,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 15
+    },
+    {
+     "string": 1,
+     "fret": 10
+    }
+   ],
+   "src": 57
+  },
+  {
+   "start": 169.24,
+   "end": 169.368,
+   "midi_f": 85.9,
+   "pitch": 86,
+   "confidence": 0.437,
+   "techniques": [],
+   "string": 1,
+   "fret": 22,
+   "alternatives": [],
+   "src": 58
+  },
+  {
+   "start": 169.588,
+   "end": 169.751,
+   "midi_f": 86.0,
+   "pitch": 86,
+   "confidence": 0.2,
+   "techniques": [],
+   "string": 1,
+   "fret": 22,
+   "alternatives": [],
+   "src": 59
+  },
+  {
+   "start": 170.006,
+   "end": 170.157,
+   "midi_f": 86.0,
+   "pitch": 86,
+   "confidence": 0.063,
+   "techniques": [],
+   "string": 1,
+   "fret": 22,
+   "alternatives": [],
+   "src": 60
+  },
+  {
+   "start": 170.32,
+   "end": 170.436,
+   "midi_f": 75.7,
+   "pitch": 76,
+   "confidence": 0.563,
+   "techniques": [],
+   "string": 1,
+   "fret": 12,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 17
+    },
+    {
+     "string": 3,
+     "fret": 21
+    }
+   ],
+   "src": 61
+  },
+  {
+   "start": 170.703,
+   "end": 170.819,
+   "midi_f": 49.0,
+   "pitch": 49,
+   "confidence": 0.013,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 50
+    }
+   ],
+   "string": 6,
+   "fret": 9,
+   "alternatives": [
+    {
+     "string": 5,
+     "fret": 4
+    }
+   ],
+   "src": 62
+  },
+  {
+   "start": 170.819,
+   "end": 171.666,
+   "midi_f": 50.3,
+   "pitch": 50,
+   "confidence": 0.032,
+   "techniques": [
+    {
+     "type": "vibrato",
+     "inferred": true,
+     "confidence": "low",
+     "depth_cents": 115
+    }
+   ],
+   "string": 6,
+   "fret": 10,
+   "alternatives": [
+    {
+     "string": 5,
+     "fret": 5
+    },
+    {
+     "string": 4,
+     "fret": 0
+    }
+   ],
+   "src": 63
+  },
+  {
+   "start": 171.91,
+   "end": 172.038,
+   "midi_f": 40.0,
+   "pitch": 40,
+   "confidence": 0.01,
+   "techniques": [],
+   "string": 6,
+   "fret": 0,
+   "alternatives": [],
+   "src": 64
+  },
+  {
+   "start": 172.177,
+   "end": 172.584,
+   "midi_f": 55.1,
+   "pitch": 55,
+   "confidence": 0.014,
+   "techniques": [],
+   "string": 6,
+   "fret": 15,
+   "alternatives": [
+    {
+     "string": 5,
+     "fret": 10
+    },
+    {
+     "string": 4,
+     "fret": 5
+    },
+    {
+     "string": 3,
+     "fret": 0
+    }
+   ],
+   "src": 65
+  },
+  {
+   "start": 173.28,
+   "end": 173.396,
+   "midi_f": 40.0,
+   "pitch": 40,
+   "confidence": 0.01,
+   "techniques": [],
+   "string": 6,
+   "fret": 0,
+   "alternatives": [],
+   "src": 66
+  },
+  {
+   "start": 174.279,
+   "end": 174.673,
+   "midi_f": 52.9,
+   "pitch": 53,
+   "confidence": 0.016,
+   "techniques": [],
+   "string": 5,
+   "fret": 8,
+   "alternatives": [
+    {
+     "string": 4,
+     "fret": 3
+    },
+    {
+     "string": 6,
+     "fret": 13
+    }
+   ],
+   "src": 67
+  },
+  {
+   "start": 174.824,
+   "end": 174.94,
+   "midi_f": 65.0,
+   "pitch": 65,
+   "confidence": 0.04,
+   "techniques": [],
+   "string": 3,
+   "fret": 10,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 6
+    },
+    {
+     "string": 4,
+     "fret": 15
+    },
+    {
+     "string": 1,
+     "fret": 1
+    }
+   ],
+   "src": 68
+  },
+  {
+   "start": 175.091,
+   "end": 175.382,
+   "midi_f": 57.4,
+   "pitch": 57,
+   "confidence": 0.119,
+   "techniques": [],
+   "string": 5,
+   "fret": 12,
+   "alternatives": [
+    {
+     "string": 4,
+     "fret": 7
+    },
+    {
+     "string": 6,
+     "fret": 17
+    },
+    {
+     "string": 3,
+     "fret": 2
+    }
+   ],
+   "src": 69
+  },
+  {
+   "start": 175.637,
+   "end": 175.788,
+   "midi_f": 59.8,
+   "pitch": 60,
+   "confidence": 0.125,
+   "techniques": [],
+   "string": 5,
+   "fret": 15,
+   "alternatives": [
+    {
+     "string": 4,
+     "fret": 10
+    },
+    {
+     "string": 6,
+     "fret": 20
+    },
+    {
+     "string": 3,
+     "fret": 5
+    }
+   ],
+   "src": 70
+  },
+  {
+   "start": 175.858,
+   "end": 175.962,
+   "midi_f": 45.3,
+   "pitch": 45,
+   "confidence": 0.01,
+   "techniques": [],
+   "string": 5,
+   "fret": 0,
+   "alternatives": [
+    {
+     "string": 6,
+     "fret": 5
+    }
+   ],
+   "src": 71
+  },
+  {
+   "start": 176.043,
+   "end": 176.148,
+   "midi_f": 40.0,
+   "pitch": 40,
+   "confidence": 0.01,
+   "techniques": [],
+   "string": 6,
+   "fret": 0,
+   "alternatives": [],
+   "src": 72
+  },
+  {
+   "start": 178.911,
+   "end": 179.492,
+   "midi_f": 59.6,
+   "pitch": 60,
+   "confidence": 0.066,
+   "techniques": [
+    {
+     "type": "vibrato",
+     "inferred": true,
+     "confidence": "low",
+     "depth_cents": 40
+    }
+   ],
+   "string": 2,
+   "fret": 1,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 5
+    },
+    {
+     "string": 4,
+     "fret": 10
+    },
+    {
+     "string": 5,
+     "fret": 15
+    }
+   ],
+   "src": 73
+  },
+  {
+   "start": 179.677,
+   "end": 179.793,
+   "midi_f": 59.35,
+   "pitch": 59,
+   "confidence": 0.068,
+   "techniques": [
+    {
+     "type": "glissando",
+     "inferred": true,
+     "confidence": "low",
+     "note": "pode ser slide ou bend; não distinguível",
+     "to_pitch": 60
+    }
+   ],
+   "string": 2,
+   "fret": 0,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 4
+    },
+    {
+     "string": 4,
+     "fret": 9
+    },
+    {
+     "string": 5,
+     "fret": 14
+    }
+   ],
+   "src": 74
+  },
+  {
+   "start": 179.793,
+   "end": 179.933,
+   "midi_f": 60.0,
+   "pitch": 60,
+   "confidence": 0.018,
+   "techniques": [],
+   "string": 2,
+   "fret": 1,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 5
+    },
+    {
+     "string": 4,
+     "fret": 10
+    },
+    {
+     "string": 5,
+     "fret": 15
+    }
+   ],
+   "src": 75
+  },
+  {
+   "start": 180.223,
+   "end": 180.351,
+   "midi_f": 59.5,
+   "pitch": 60,
+   "confidence": 0.011,
+   "techniques": [],
+   "string": 2,
+   "fret": 1,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 5
+    },
+    {
+     "string": 4,
+     "fret": 10
+    },
+    {
+     "string": 5,
+     "fret": 15
+    }
+   ],
+   "src": 76
+  },
+  {
+   "start": 180.432,
+   "end": 180.583,
+   "midi_f": 58.8,
+   "pitch": 59,
+   "confidence": 0.16,
+   "techniques": [],
+   "string": 2,
+   "fret": 0,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 4
+    },
+    {
+     "string": 4,
+     "fret": 9
+    },
+    {
+     "string": 5,
+     "fret": 14
+    }
+   ],
+   "src": 77
+  },
+  {
+   "start": 180.815,
+   "end": 180.92,
+   "midi_f": 46.9,
+   "pitch": 47,
+   "confidence": 0.018,
+   "techniques": [],
+   "string": 6,
+   "fret": 7,
+   "alternatives": [
+    {
+     "string": 5,
+     "fret": 2
+    }
+   ],
+   "src": 78
+  },
+  {
+   "start": 181.14,
+   "end": 181.5,
+   "midi_f": 67.0,
+   "pitch": 67,
+   "confidence": 0.622,
+   "techniques": [
+    {
+     "type": "vibrato",
+     "inferred": true,
+     "confidence": "low",
+     "depth_cents": 53
+    }
+   ],
+   "string": 3,
+   "fret": 12,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 8
+    },
+    {
+     "string": 4,
+     "fret": 17
+    },
+    {
+     "string": 1,
+     "fret": 3
+    }
+   ],
+   "src": 79
+  },
+  {
+   "start": 186.469,
+   "end": 186.701,
+   "midi_f": 80.7,
+   "pitch": 81,
+   "confidence": 0.476,
+   "techniques": [],
+   "string": 1,
+   "fret": 17,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 22
+    }
+   ],
+   "src": 80
+  },
+  {
+   "start": 187.944,
+   "end": 188.454,
+   "midi_f": 69.8,
+   "pitch": 70,
+   "confidence": 0.178,
+   "techniques": [
+    {
+     "type": "vibrato",
+     "inferred": true,
+     "confidence": "low",
+     "depth_cents": 34
+    }
+   ],
+   "string": 3,
+   "fret": 15,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 11
+    },
+    {
+     "string": 4,
+     "fret": 20
+    },
+    {
+     "string": 1,
+     "fret": 6
+    }
+   ],
+   "src": 81
+  },
+  {
+   "start": 188.559,
+   "end": 188.977,
+   "midi_f": 67.8,
+   "pitch": 68,
+   "confidence": 0.01,
+   "techniques": [
+    {
+     "type": "vibrato",
+     "inferred": true,
+     "confidence": "low",
+     "depth_cents": 41
+    }
+   ],
+   "string": 3,
+   "fret": 13,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 9
+    },
+    {
+     "string": 4,
+     "fret": 18
+    },
+    {
+     "string": 1,
+     "fret": 4
+    }
+   ],
+   "src": 82
+  },
+  {
+   "start": 189.035,
+   "end": 189.139,
+   "midi_f": 79.9,
+   "pitch": 80,
+   "confidence": 0.098,
+   "techniques": [],
+   "string": 1,
+   "fret": 16,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 21
+    }
+   ],
+   "src": 83
+  },
+  {
+   "start": 189.29,
+   "end": 189.464,
+   "midi_f": 68.6,
+   "pitch": 69,
+   "confidence": 0.022,
+   "techniques": [],
+   "string": 1,
+   "fret": 5,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 10
+    },
+    {
+     "string": 3,
+     "fret": 14
+    },
+    {
+     "string": 4,
+     "fret": 19
+    }
+   ],
+   "src": 84
+  },
+  {
+   "start": 189.546,
+   "end": 189.824,
+   "midi_f": 68.5,
+   "pitch": 68,
+   "confidence": 0.028,
+   "techniques": [],
+   "string": 1,
+   "fret": 4,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 9
+    },
+    {
+     "string": 3,
+     "fret": 13
+    },
+    {
+     "string": 4,
+     "fret": 18
+    }
+   ],
+   "src": 85
+  },
+  {
+   "start": 190.881,
+   "end": 190.962,
+   "midi_f": 42.5,
+   "pitch": 42,
+   "confidence": 0.01,
+   "techniques": [],
+   "string": 6,
+   "fret": 2,
+   "alternatives": [],
+   "src": 86
+  },
+  {
+   "start": 192.03,
+   "end": 192.181,
+   "midi_f": 41.0,
+   "pitch": 41,
+   "confidence": 0.014,
+   "techniques": [],
+   "string": 6,
+   "fret": 1,
+   "alternatives": [],
+   "src": 87
+  },
+  {
+   "start": 192.239,
+   "end": 192.355,
+   "midi_f": 40.15,
+   "pitch": 40,
+   "confidence": 0.01,
+   "techniques": [],
+   "string": 6,
+   "fret": 0,
+   "alternatives": [],
+   "src": 88
+  },
+  {
+   "start": 192.669,
+   "end": 193.215,
+   "midi_f": 48.1,
+   "pitch": 48,
+   "confidence": 0.017,
+   "techniques": [],
+   "string": 5,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 6,
+     "fret": 8
+    }
+   ],
+   "src": 89
+  },
+  {
+   "start": 193.342,
+   "end": 193.632,
+   "midi_f": 57.9,
+   "pitch": 58,
+   "confidence": 0.062,
+   "techniques": [],
+   "string": 3,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 4,
+     "fret": 8
+    },
+    {
+     "string": 5,
+     "fret": 13
+    },
+    {
+     "string": 6,
+     "fret": 18
+    }
+   ],
+   "src": 90
+  },
+  {
+   "start": 193.714,
+   "end": 194.004,
+   "midi_f": 58.0,
+   "pitch": 58,
+   "confidence": 0.048,
+   "techniques": [],
+   "string": 3,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 4,
+     "fret": 8
+    },
+    {
+     "string": 5,
+     "fret": 13
+    },
+    {
+     "string": 6,
+     "fret": 18
+    }
+   ],
+   "src": 91
+  },
+  {
+   "start": 194.097,
+   "end": 194.236,
+   "midi_f": 64.1,
+   "pitch": 64,
+   "confidence": 0.102,
+   "techniques": [],
+   "string": 1,
+   "fret": 0,
+   "alternatives": [
+    {
+     "string": 2,
+     "fret": 5
+    },
+    {
+     "string": 3,
+     "fret": 9
+    },
+    {
+     "string": 4,
+     "fret": 14
+    }
+   ],
+   "src": 92
+  },
+  {
+   "start": 194.712,
+   "end": 195.026,
+   "midi_f": 61.8,
+   "pitch": 62,
+   "confidence": 0.019,
+   "techniques": [],
+   "string": 2,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 3,
+     "fret": 7
+    },
+    {
+     "string": 4,
+     "fret": 12
+    },
+    {
+     "string": 5,
+     "fret": 17
+    }
+   ],
+   "src": 93
+  },
+  {
+   "start": 195.153,
+   "end": 195.304,
+   "midi_f": 47.7,
+   "pitch": 48,
+   "confidence": 0.01,
+   "techniques": [],
+   "string": 5,
+   "fret": 3,
+   "alternatives": [
+    {
+     "string": 6,
+     "fret": 8
+    }
+   ],
+   "src": 94
+  }
+ ],
+ "disclaimer": "digitação plausível; o áudio não revela a corda/casa realmente usadas",
+ "limits": [
+  "transcrição monofônica (uma nota por vez); em mistura densa pode seguir voz/baixo",
+  "corda/casa são uma digitação plausível, não a usada na gravação",
+  "técnicas são INFERIDAS (vibrato, glissando) e podem estar erradas; bend/hammer/pull-off não são reconhecidos"
+ ]
+}

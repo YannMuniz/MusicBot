@@ -73,4 +73,5 @@ def test_export_corrections_only_accepted_and_consistent(tmp_path):
     (tmp_path / "s1").mkdir(); (tmp_path / "s1" / "corrections.json").write_text(json.dumps({"corrections": cs}))
     r = export_corrections.export(tmp_path)
     assert [c["id"] for c in r["accepted"]] == ["a"]
+    assert {"type", "features", "audio_ref", "analyzer_version", "origin"} <= set(r["accepted"][0])
     assert {e["id"]: e["reason"] for e in r["excluded"]} == {"b": "overlap_conflict", "c": "unreviewed", "d": "superseded"}

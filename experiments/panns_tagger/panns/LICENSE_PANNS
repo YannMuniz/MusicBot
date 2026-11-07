@@ -1,0 +1,6 @@
+PANNs (Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition), Kong et al., 2020.
+Code: https://github.com/qiuqiangkong/audioset_tagging_cnn  (MIT License, (c) Qiuqiang Kong)
+Pretrained weights Cnn14_mAP=0.431.pth: https://zenodo.org/records/3987831  (Creative Commons Attribution 4.0 International;
+attribution required: Kong et al., "PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition", IEEE/ACM TASLP 2020).
+Class labels: AudioSet ontology (Google), https://research.google.com/audioset/ (CC BY 4.0).
+The Cnn14 definition in cnn14.py is a re-implementation of the inference path of models.py from the repository above.

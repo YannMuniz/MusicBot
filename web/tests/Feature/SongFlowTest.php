@@ -155,4 +155,49 @@ class SongFlowTest extends TestCase
         $this->assertSame('0123456789', $res->streamedContent());
         Http::assertSent(fn (Request $r) => $r->hasHeader('Range', 'bytes=0-9') && $r->hasHeader('X-Internal-Token', 'secret-token'));
     }
+
+    public function test_solo_routes_forward_to_analyzer_with_token_and_validate_input(): void
+    {
+        $this->song(['status' => 'completed']);
+        Http::fake([
+            'analyzer.test/v1/songs/'.self::ID.'/solos' => Http::sequence()
+                ->push(['solos' => [], 'tunings' => ['standard' => [64, 59, 55, 50, 45, 40]]], 200)
+                ->push(['id' => 's1', 'start' => 10, 'end' => 40], 201),
+            'analyzer.test/v1/songs/'.self::ID.'/solos/s1/transcribe' => Http::response(['solo_id' => 's1', 'state' => 'processing'], 202),
+            'analyzer.test/v1/songs/'.self::ID.'/solos/s1/tab' => Http::response(['state' => 'low_confidence', 'notes' => []], 200),
+        ]);
+
+        $this->getJson('/songs/'.self::ID.'/solos')->assertOk()->assertJsonPath('tunings.standard.0', 64);
+        $this->postJson('/songs/'.self::ID.'/solos', ['start' => 10, 'end' => 40, 'instrument' => 'guitar'])->assertCreated()->assertJsonPath('id', 's1');
+        $this->postJson('/songs/'.self::ID.'/solos/s1/transcribe', ['preprocess' => 'foreground'])->assertStatus(202)->assertJsonPath('state', 'processing');
+        $this->getJson('/songs/'.self::ID.'/solos/s1/tab')->assertOk()->assertJsonPath('state', 'low_confidence');
+        Http::assertSent(fn (Request $r) => $r->hasHeader('X-Internal-Token', 'secret-token') && str_contains($r->url(), '/solos'));
+        // entradas inválidas nem chegam ao analisador
+        $this->postJson('/songs/'.self::ID.'/solos', ['start' => 'x', 'end' => 5])->assertStatus(422);
+        $this->postJson('/songs/'.self::ID.'/solos/s1/transcribe', ['preprocess' => 'banana'])->assertStatus(422);
+        $this->postJson('/songs/'.self::ID.'/solos/s1/retab', ['tuning' => [1, 2], 'notes' => []])->assertStatus(422);
+        $this->getJson('/songs/'.self::ID.'/solos/abc/tab')->assertNotFound();      // id de solo malformado não casa com a rota
+    }
+
+    public function test_solo_analyzer_errors_are_reported_without_leaking_internals(): void
+    {
+        $this->song(['status' => 'completed']);
+        Http::fake(['analyzer.test/v1/songs/'.self::ID.'/solos' => Http::sequence()
+            ->push(['detail' => 'O trecho precisa ter entre 2 e 180 s.'], 422)
+            ->push('boom', 500)]);
+        $this->postJson('/songs/'.self::ID.'/solos', ['start' => 0, 'end' => 1])->assertStatus(422)->assertJsonPath('message', 'O trecho precisa ter entre 2 e 180 s.');
+        $this->getJson('/songs/'.self::ID.'/solos')->assertStatus(502)->assertJsonMissingPath('trace');
+    }
+
+    public function test_review_and_learning_routes_forward(): void
+    {
+        $this->song(['status' => 'completed']);
+        Http::fake([
+            'analyzer.test/v1/songs/'.self::ID.'/review' => Http::response(['reviewed' => true], 200),
+            'analyzer.test/v1/songs/'.self::ID.'/learning' => Http::response(['reviewed' => true, 'corrections' => ['unreviewed' => 2], 'memory_applied_here' => []], 200),
+        ]);
+        $this->postJson('/songs/'.self::ID.'/review', ['reviewed' => true])->assertOk()->assertJsonPath('reviewed', true);
+        $this->postJson('/songs/'.self::ID.'/review', [])->assertStatus(422);
+        $this->getJson('/songs/'.self::ID.'/learning')->assertOk()->assertJsonPath('corrections.unreviewed', 2);
+    }
 }

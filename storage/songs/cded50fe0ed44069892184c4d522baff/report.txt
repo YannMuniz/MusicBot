@@ -1,6 +1,6 @@
 Relatório de análise — O Tempo
 Algoritmo: btc-large-voca ISMIR2019-2682317 (librosa 1.0.0)
-Duração: 4:28.3 | Andamento estimado: 118 BPM | Processado em 89.7 s
+Duração: 4:28.3 | Andamento estimado: 118 BPM | Processado em 117.5 s
 Tom estimado: F major (relativo: D minor) | correlação 0.868 | margem p/ 2ª candidata 0.056
   Alternativas: C major (0.812), Bb major (0.488), A minor (0.459)
 

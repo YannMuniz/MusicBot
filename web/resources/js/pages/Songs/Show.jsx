@@ -3,12 +3,19 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import ChordsPanel from '../../components/ChordsPanel.jsx';
 import Layout from '../../components/Layout.jsx';
 import SectionsBar from '../../components/SectionsBar.jsx';
+import LearningCard from '../../components/LearningCard.jsx';
+import SoloPanel from '../../components/SoloPanel.jsx';
 import StatusBadge, { STAGES } from '../../components/StatusBadge.jsx';
 import TransposeControls from '../../components/TransposeControls.jsx';
 import { api } from '../../lib/api.js';
+import { styleChord } from '../../lib/notation.js';
+import { summarizeReliability } from '../../lib/reliability.js';
 import {
   formatTime, resolveFlats, segmentIndexAt, transposeChord, transposedKeyName,
 } from '../../lib/transpose.js';
+
+// Solos/tablaturas ficam ocultos por enquanto (código e API preservados).
+const SHOW_SOLOS = false;
 
 const Card = ({ title, children, right }) => (
   <section className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
@@ -32,8 +39,20 @@ export default function Show({ song: initial }) {
   const [draft, setDraft] = useState(null); // lista em edição (null = não editando)
   const [saving, setSaving] = useState(false);
   const [saveMsg, setSaveMsg] = useState(null);
+  const [follow, setFollow] = useState(() => {
+    try { return localStorage.getItem('harmonia.follow') !== '0'; } catch { return true; }
+  });
+  const toggleFollow = () => setFollow((f) => {
+    try { localStorage.setItem('harmonia.follow', f ? '0' : '1'); } catch { /* sem armazenamento: só nesta sessão */ }
+    return !f;
+  });
   const [viewMode, setViewMode] = useState('cifra'); // 'cifra' | 'corrida' | 'detalhado' (acordes brutos, antes da suavização)
+  const [notation, setNotationState] = useState(() => {
+    try { return localStorage.getItem('harmonia.notation') === 'en' ? 'en' : 'br'; } catch { return 'br'; }
+  });
+  const setNotation = (v) => { setNotationState(v); try { localStorage.setItem('harmonia.notation', v); } catch { /* sem armazenamento */ } };
   const audioRef = useRef(null);
+  const reliability = useMemo(() => summarizeReliability(data?.chords), [data]);
   const raf = useRef(0);
 
   // Acompanha o estado enquanto a análise não terminou.
@@ -89,7 +108,7 @@ export default function Show({ song: initial }) {
   const editing = draft !== null;
 
   const flats = key ? resolveFlats(preference, key.tonic_pc, key.mode, semitones) : false;
-  const display = (c) => (semitones === 0 && preference === 'auto' ? c : transposeChord(c, semitones, flats));
+  const display = (c) => styleChord(semitones === 0 && preference === 'auto' ? c : transposeChord(c, semitones, flats), notation);
   const keyLabel = key ? transposedKeyName(key.tonic_pc, key.mode, semitones, flats) : '';
 
   const activeIdx = useMemo(() => segmentIndexAt(segments, time), [segments, time]);
@@ -188,7 +207,7 @@ export default function Show({ song: initial }) {
 
       {song.status === 'completed' && (
         <div className="space-y-5">
-          <Card title="Player">
+          <div className="sticky top-0 z-30 -mx-1 rounded-xl border border-stone-200 bg-white/95 px-3 py-2 shadow-md backdrop-blur">
             <audio
               ref={audioRef}
               controls
@@ -201,11 +220,11 @@ export default function Show({ song: initial }) {
               onSeeked={() => audioRef.current && setTime(audioRef.current.currentTime)}
             />
             {data && (
-              <div className="mt-4">
+              <div className="mt-2">
                 <SectionsBar sections={data.sections} duration={data.analysis.duration} time={time} activeIndex={activeSection} onSeek={seek} />
               </div>
             )}
-          </Card>
+          </div>
 
           {!data && !loadError && <p className="text-sm text-stone-500">Carregando resultados…</p>}
 
@@ -247,6 +266,14 @@ export default function Show({ song: initial }) {
                         <option value="detected">Detecção automática</option>
                       </select>
                     )}
+                    <button type="button" onClick={toggleFollow} aria-pressed={follow} title="Rola a cifra automaticamente até o acorde que está tocando"
+                      className={`rounded-lg border px-3 py-1.5 text-sm font-medium ${follow ? 'border-indigo-600 bg-indigo-50 text-indigo-800' : 'border-stone-300 bg-white text-stone-600'}`}>
+                      Acompanhar cifra: {follow ? 'ligado' : 'desligado'}
+                    </button>
+                    <select value={notation} onChange={(e) => setNotation(e.target.value)} className="rounded-lg border border-stone-300 bg-white px-2 py-1.5 text-sm" aria-label="Notação dos acordes" title="Só muda a escrita na tela">
+                      <option value="br">Notação: C7M</option>
+                      <option value="en">Notação: Cmaj7</option>
+                    </select>
                     {!editing && (
                       <select value={viewMode} onChange={(e) => setViewMode(e.target.value)} className="rounded-lg border border-stone-300 bg-white px-2 py-1.5 text-sm" aria-label="Modo de exibição">
                         <option value="cifra">Cifra por seções</option>
@@ -269,6 +296,20 @@ export default function Show({ song: initial }) {
                   </div>
                 }
               >
+                {reliability && (
+                  <div className="mb-4 rounded-lg border border-stone-200 bg-stone-50 p-3 text-sm">
+                    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                      <span className="font-medium text-stone-800">Confiança do modelo na cifra: {Math.round(reliability.mean * 100)}%</span>
+                      <span className="text-xs text-stone-500">
+                        alta {Math.round(reliability.high * 100)}% · média {Math.round(reliability.mid * 100)}% · baixa {Math.round(reliability.low * 100)}% do tempo
+                        {reliability.ambiguous > 0 && ` · ${Math.round(reliability.ambiguous * 100)}% marcado como ambíguo`}
+                      </span>
+                    </div>
+                    <p className="mt-1 text-xs text-stone-500">
+                      É a probabilidade que o próprio modelo atribui aos acordes detectados (média pelo tempo), não a taxa de acerto: ela não foi calibrada contra cifras revisadas. Serve para saber onde conferir primeiro.
+                    </p>
+                  </div>
+                )}
                 <div className="mb-4">
                   <TransposeControls semitones={semitones} setSemitones={setSemitones} preference={preference} setPreference={setPreference} keyLabel={keyLabel} />
                 </div>
@@ -290,10 +331,21 @@ export default function Show({ song: initial }) {
                   display={display}
                   editing={editing}
                   mode={viewMode === 'corrida' ? 'corrida' : 'cifra'}
+                  follow={follow}
                   onSeek={seek}
                   onChange={changeDraft}
                   onRemove={removeDraft}
                 />
+              </Card>
+
+              {SHOW_SOLOS && (
+                <Card title="Solos e tablaturas">
+                  <SoloPanel songId={song.id} duration={data.analysis.duration} sections={data.sections} audioRef={audioRef} time={time} seek={seek} />
+                </Card>
+              )}
+
+              <Card title="Aprendizado pelas correções">
+                <LearningCard songId={song.id} refreshKey={data.edited?.saved_at} />
               </Card>
 
               <Card title="Relatório técnico">

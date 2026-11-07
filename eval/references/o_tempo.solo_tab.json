@@ -1,0 +1,503 @@
+{
+ "source": "Cifra Club - O Tempo - Oficina G3 (tablatura do solo, 4 partes)",
+ "tuning": "standard (E A D G B E), altura real",
+ "caveats": "transcri\u00e7\u00e3o de usu\u00e1rio; sem ritmo; pode divergir da grava\u00e7\u00e3o",
+ "notes": [
+  {
+   "part": 1,
+   "col": 3,
+   "string": 3,
+   "fret": 5,
+   "pitch": 60,
+   "technique": null
+  },
+  {
+   "part": 1,
+   "col": 6,
+   "string": 3,
+   "fret": 7,
+   "pitch": 62,
+   "technique": null
+  },
+  {
+   "part": 1,
+   "col": 9,
+   "string": 2,
+   "fret": 5,
+   "pitch": 64,
+   "technique": null
+  },
+  {
+   "part": 1,
+   "col": 12,
+   "string": 2,
+   "fret": 6,
+   "pitch": 65,
+   "technique": null
+  },
+  {
+   "part": 1,
+   "col": 15,
+   "string": 2,
+   "fret": 8,
+   "pitch": 67,
+   "technique": null
+  },
+  {
+   "part": 1,
+   "col": 17,
+   "string": 1,
+   "fret": 5,
+   "pitch": 69,
+   "technique": null
+  },
+  {
+   "part": 1,
+   "col": 19,
+   "string": 1,
+   "fret": 6,
+   "pitch": 70,
+   "technique": null
+  },
+  {
+   "part": 1,
+   "col": 21,
+   "string": 1,
+   "fret": 6,
+   "pitch": 70,
+   "technique": null
+  },
+  {
+   "part": 1,
+   "col": 23,
+   "string": 1,
+   "fret": 8,
+   "pitch": 72,
+   "technique": "slide_up_in"
+  },
+  {
+   "part": 1,
+   "col": 26,
+   "string": 3,
+   "fret": 5,
+   "pitch": 60,
+   "technique": null
+  },
+  {
+   "part": 1,
+   "col": 29,
+   "string": 1,
+   "fret": 6,
+   "pitch": 70,
+   "technique": null
+  },
+  {
+   "part": 1,
+   "col": 31,
+   "string": 1,
+   "fret": 8,
+   "pitch": 72,
+   "technique": "slide_up_in"
+  },
+  {
+   "part": 1,
+   "col": 34,
+   "string": 1,
+   "fret": 6,
+   "pitch": 70,
+   "technique": null
+  },
+  {
+   "part": 1,
+   "col": 36,
+   "string": 1,
+   "fret": 5,
+   "pitch": 69,
+   "technique": "pull"
+  },
+  {
+   "part": 1,
+   "col": 38,
+   "string": 2,
+   "fret": 6,
+   "pitch": 65,
+   "technique": null
+  },
+  {
+   "part": 1,
+   "col": 40,
+   "string": 2,
+   "fret": 8,
+   "pitch": 67,
+   "technique": "slide_up_in+vibrato"
+  },
+  {
+   "part": 2,
+   "col": 3,
+   "string": 3,
+   "fret": 5,
+   "pitch": 60,
+   "technique": null
+  },
+  {
+   "part": 2,
+   "col": 6,
+   "string": 3,
+   "fret": 7,
+   "pitch": 62,
+   "technique": null
+  },
+  {
+   "part": 2,
+   "col": 8,
+   "string": 2,
+   "fret": 5,
+   "pitch": 64,
+   "technique": null
+  },
+  {
+   "part": 2,
+   "col": 11,
+   "string": 2,
+   "fret": 6,
+   "pitch": 65,
+   "technique": null
+  },
+  {
+   "part": 2,
+   "col": 13,
+   "string": 2,
+   "fret": 6,
+   "pitch": 65,
+   "technique": null
+  },
+  {
+   "part": 2,
+   "col": 15,
+   "string": 2,
+   "fret": 8,
+   "pitch": 67,
+   "technique": "slide_up_in"
+  },
+  {
+   "part": 2,
+   "col": 17,
+   "string": 2,
+   "fret": 8,
+   "pitch": 67,
+   "technique": null
+  },
+  {
+   "part": 2,
+   "col": 19,
+   "string": 2,
+   "fret": 10,
+   "pitch": 69,
+   "technique": "slide_up_in"
+  },
+  {
+   "part": 2,
+   "col": 22,
+   "string": 2,
+   "fret": 10,
+   "pitch": 69,
+   "technique": "+vibrato"
+  },
+  {
+   "part": 2,
+   "col": 27,
+   "string": 2,
+   "fret": 10,
+   "pitch": 69,
+   "technique": null
+  },
+  {
+   "part": 2,
+   "col": 30,
+   "string": 2,
+   "fret": 8,
+   "pitch": 67,
+   "technique": "slide_down_in"
+  },
+  {
+   "part": 2,
+   "col": 32,
+   "string": 2,
+   "fret": 6,
+   "pitch": 65,
+   "technique": "pull"
+  },
+  {
+   "part": 2,
+   "col": 34,
+   "string": 2,
+   "fret": 8,
+   "pitch": 67,
+   "technique": null
+  },
+  {
+   "part": 2,
+   "col": 36,
+   "string": 2,
+   "fret": 8,
+   "pitch": 67,
+   "technique": null
+  },
+  {
+   "part": 2,
+   "col": 38,
+   "string": 2,
+   "fret": 10,
+   "pitch": 69,
+   "technique": "slide_up_in"
+  },
+  {
+   "part": 2,
+   "col": 41,
+   "string": 2,
+   "fret": 6,
+   "pitch": 65,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 4,
+   "string": 3,
+   "fret": 5,
+   "pitch": 60,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 7,
+   "string": 1,
+   "fret": 6,
+   "pitch": 70,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 9,
+   "string": 1,
+   "fret": 8,
+   "pitch": 72,
+   "technique": "slide_up_in"
+  },
+  {
+   "part": 3,
+   "col": 11,
+   "string": 2,
+   "fret": 5,
+   "pitch": 64,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 13,
+   "string": 2,
+   "fret": 6,
+   "pitch": 65,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 15,
+   "string": 2,
+   "fret": 8,
+   "pitch": 67,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 17,
+   "string": 1,
+   "fret": 5,
+   "pitch": 69,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 19,
+   "string": 1,
+   "fret": 6,
+   "pitch": 70,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 21,
+   "string": 1,
+   "fret": 8,
+   "pitch": 72,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 24,
+   "string": 1,
+   "fret": 6,
+   "pitch": 70,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 26,
+   "string": 1,
+   "fret": 5,
+   "pitch": 69,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 28,
+   "string": 2,
+   "fret": 8,
+   "pitch": 67,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 30,
+   "string": 2,
+   "fret": 6,
+   "pitch": 65,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 32,
+   "string": 2,
+   "fret": 5,
+   "pitch": 64,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 34,
+   "string": 2,
+   "fret": 6,
+   "pitch": 65,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 36,
+   "string": 2,
+   "fret": 8,
+   "pitch": 67,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 38,
+   "string": 2,
+   "fret": 5,
+   "pitch": 64,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 40,
+   "string": 2,
+   "fret": 6,
+   "pitch": 65,
+   "technique": "hammer"
+  },
+  {
+   "part": 3,
+   "col": 42,
+   "string": 2,
+   "fret": 5,
+   "pitch": 64,
+   "technique": "pull"
+  },
+  {
+   "part": 3,
+   "col": 44,
+   "string": 3,
+   "fret": 7,
+   "pitch": 62,
+   "technique": null
+  },
+  {
+   "part": 3,
+   "col": 46,
+   "string": 3,
+   "fret": 5,
+   "pitch": 60,
+   "technique": null
+  },
+  {
+   "part": 4,
+   "col": 2,
+   "string": 1,
+   "fret": 6,
+   "pitch": 70,
+   "technique": null
+  },
+  {
+   "part": 4,
+   "col": 5,
+   "string": 1,
+   "fret": 8,
+   "pitch": 72,
+   "technique": null
+  },
+  {
+   "part": 4,
+   "col": 8,
+   "string": 1,
+   "fret": 8,
+   "pitch": 72,
+   "technique": null
+  },
+  {
+   "part": 4,
+   "col": 10,
+   "string": 1,
+   "fret": 10,
+   "pitch": 74,
+   "technique": "slide_up_in"
+  },
+  {
+   "part": 4,
+   "col": 15,
+   "string": 1,
+   "fret": 8,
+   "pitch": 72,
+   "technique": null
+  },
+  {
+   "part": 4,
+   "col": 18,
+   "string": 1,
+   "fret": 5,
+   "pitch": 69,
+   "technique": null
+  },
+  {
+   "part": 4,
+   "col": 21,
+   "string": 1,
+   "fret": 5,
+   "pitch": 69,
+   "technique": null
+  },
+  {
+   "part": 4,
+   "col": 21,
+   "string": 2,
+   "fret": 6,
+   "pitch": 65,
+   "technique": null
+  },
+  {
+   "part": 4,
+   "col": 25,
+   "string": 3,
+   "fret": 10,
+   "pitch": 65,
+   "technique": null
+  }
+ ]
+}

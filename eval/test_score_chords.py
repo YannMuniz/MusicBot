@@ -102,3 +102,23 @@ def test_chart_events_counts_exact_hits_and_plain_triad_substitution(tmp_path):
     r = _json.load(open(out))["eventos_por_rotulo_da_cifra"]
     assert r["D2"]["rotulo_exato"] == 0 and r["D2"]["so_triade"] == 1 and r["D2"]["raiz_certa"] == 1
     assert r["A/C#"]["rotulo_exato"] == 1
+
+
+def test_tab_parser_and_transcription_alignment():
+    from score_transcription import score
+    from tab_reference import parse_tab
+    tab = """Parte 1 de 4
+E|--5-6-6/8--|
+B|-----------|
+G|-----------|
+D|-----------|
+A|-----------|
+E|-----------|
+"""
+    notes = parse_tab(tab)
+    assert [n["pitch"] for n in notes] == [69, 70, 70, 72] and notes[3]["technique"] == "slide_up_in"      # A4 A#4 A#4 C5
+    ref = [n["pitch"] for n in notes]
+    s = score([60, 69, 70, 70, 72, 40], ref)                                                              # ruído nas pontas
+    assert s["exact"]["reference_notes_found_in_order"] == 4 and s["exact"]["recall"] == 1.0
+    wrong = score([69 + 12, 70 + 12, 70 + 12, 72 + 12], ref)                                              # tudo uma oitava acima
+    assert wrong["exact"]["recall"] == 0.0 and wrong["pitch_class"]["recall"] == 1.0

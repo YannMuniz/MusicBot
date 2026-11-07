@@ -22,6 +22,10 @@ COLOR_TONES = {2: "2", 5: "4", 9: "6", 10: "b7", 11: "maj7"}   # intervalo (semi
 MIN_COLOR_REL = 0.8          # força relativa mínima (heurística a priori, não calibrada)
 MIN_COLOR_SEG_S = 1.0
 THIRD_PRESENT_REL = 0.5
+# 7ª maior sobre tríade maior: na música de desenvolvimento "Eu Sei Que Vou Te Amar" os trechos que o BTC
+# rotula maj7 têm 0,98-2,12 de energia relativa na 7ª maior e as tríades 0,12-0,50. 0,45 é um limiar de SUGESTÃO
+# escolhido olhando essa música (sem cifra de referência): não é validado e nunca altera o acorde.
+MIN_MAJ7_REL = 0.45
 INVERSION_DEGREE = {3: "1", 4: "1", 6: "2", 7: "2", 8: "2", 9: "3", 10: "3", 11: "3"}
 
 
@@ -58,7 +62,10 @@ def tone_evidence(segs: list, chroma: np.ndarray, frame_s: float) -> None:
         adds = []
         for k, deg in COLOR_TONES.items():
             r = float(v[(s["root"] + k) % 12] / base)
-            if k not in tones and r >= MIN_COLOR_REL:
+            thr = MIN_COLOR_REL
+            if k == 11 and q == "maj" and r > float(v[(s["root"] + 10) % 12] / base):
+                thr = MIN_MAJ7_REL   # 7ª maior mais forte que a menor: candidata a 7M
+            if k not in tones and r >= thr:
                 adds.append({"degree": deg, "strength": round(r, 2), "label": (s.get("harmonic_label") or s["chord"].split("/")[0]) + "(" + _name_for(k, third_rel >= THIRD_PRESENT_REL) + "?)"})
         if adds:
             s["possible_additions"] = adds

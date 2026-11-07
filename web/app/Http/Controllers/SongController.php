@@ -112,6 +112,27 @@ class SongController extends Controller
         }
     }
 
+    public function learning(Song $song): JsonResponse
+    {
+        try {
+            return response()->json($this->analyzer->learning($song->id));
+        } catch (AnalyzerException $e) {
+            return response()->json(['message' => $e->userMessage], 502);
+        }
+    }
+
+    public function review(Request $request, Song $song): JsonResponse
+    {
+        $data = $request->validate(['reviewed' => ['required', 'boolean']]);
+        try {
+            $this->analyzer->setReview($song->id, (bool) $data['reviewed']);
+
+            return response()->json($this->analyzer->learning($song->id));
+        } catch (AnalyzerException $e) {
+            return response()->json(['message' => $e->userMessage], 502);
+        }
+    }
+
     public function saveChords(Request $request, Song $song): JsonResponse
     {
         $data = $request->validate([

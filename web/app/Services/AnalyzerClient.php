@@ -69,6 +69,16 @@ class AnalyzerClient
         return $this->call(fn () => $this->http()->get("/v1/songs/$id/chords/raw"))->json();
     }
 
+    public function learning(string $id): array
+    {
+        return $this->call(fn () => $this->http()->get("/v1/songs/$id/learning"))->json();
+    }
+
+    public function setReview(string $id, bool $reviewed): array
+    {
+        return $this->call(fn () => $this->http()->post("/v1/songs/$id/review", ['reviewed' => $reviewed]))->json();
+    }
+
     public function sections(string $id): array
     {
         return $this->call(fn () => $this->http()->get("/v1/songs/$id/sections"))->json();
@@ -95,6 +105,14 @@ class AnalyzerClient
     public function reanalyze(string $id): array
     {
         return $this->call(fn () => $this->http()->post("/v1/songs/$id/reanalyze"))->json();
+    }
+
+    /** Repasse genérico (usado pelos endpoints de solos/tablatura; o analisador valida o corpo). */
+    public function forward(string $method, string $path, array $body = []): ?array
+    {
+        $r = $this->call(fn () => $this->http()->send($method, $path, $body === [] ? [] : ['json' => $body]));
+
+        return $r->status() === 204 ? null : $r->json();
     }
 
     /** Resposta em stream (suporta Range) para o player. */

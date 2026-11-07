@@ -1,0 +1,20 @@
+Relatório de análise — Tom Jobim  Eu Sei Que Vou Te Amar  Inédito - Biscoito Fino
+Algoritmo: btc-large-voca ISMIR2019-2682317 (librosa 1.0.0)
+Duração: 1:52.3 | Andamento estimado: 123 BPM | Processado em 42.7 s
+Tom estimado: F minor (relativo: Ab major) | correlação 0.742 | margem p/ 2ª candidata 0.031
+  Alternativas: Db major (0.711), Ab major (0.661), G# minor (0.439)
+
+Seções (rótulos neutros; 'grupo' igual = trechos acusticamente semelhantes, sem significado semântico):
+  Parte A       0:00.0 – 0:48.3  grupo 1
+      Gbmaj7 | Ab | Dbmaj7 | C7 | Ebm7 | Edim | Fm7 | F7 | Gbmaj7 | Gbm7 | Fm7 | A7 | Ebm7 | C7 | F7 | Bm7/Gb | Bdim/F | Eb | Am7 | Am6 | Ab7 | Dbmaj7/Ab
+  Parte B       0:48.3 – 1:22.5  grupo 2
+      Dbmaj7/Ab | Em | Ebm7 | Edim | Fm7 | F7 | Gbmaj7 | Gbm7 | Fm7 | C7 | Abm6 | Bbaug | Eb7 | Db/Ab
+  Parte C       1:22.5 – 1:52.3  grupo 3
+      Db/Ab | Gbdim7 | Ab | Eb7/G | Gbm | Db | E | Eb7 | Ab | E/Ab | Db/Ab
+
+Avisos:
+  - Tonalidade ambígua: F minor e Db major têm correlação próxima (margem 0.031).
+  - 20 de 47 segmentos marcados como ambíguos (probabilidade do modelo baixa ou empatada com outro acorde). As probabilidades do modelo não são calibradas.
+  - 7 inversões registradas a partir do baixo (rótulo final 'X/Y'; o acorde harmônico fica em harmonic_label). Regra e limiares não foram validados com referência anotada em número suficiente de músicas.
+  - Vocabulário do modelo: maj, min, 7, maj7, m7, dim, aug, sus2, sus4, 6, m6, dim7, m7(b5), mM7. Acordes com 9ª, 11ª, 13ª, add ou notas alteradas não são reconhecidos como tal: aparecem como o acorde mais próximo do vocabulário.
+  - Modelo neural pré-treinado (BTC, ISMIR 2019) em corpora públicos de música pop/rock; a precisão em outros gêneros/gravações não foi medida neste projeto.

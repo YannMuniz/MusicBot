@@ -1,0 +1,1206 @@
+{
+  "run_id": "7f0043692df8",
+  "note": "segmentos do modelo ANTES do pós-processamento temporal (modo detalhado)",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.556,
+      "chord": "N",
+      "root": null,
+      "quality": null,
+      "score": 0.958,
+      "p": 0.957,
+      "root_p": null,
+      "alternatives": [
+        {
+          "chord": "Gb",
+          "p": 0.007
+        },
+        {
+          "chord": "Gbmaj7",
+          "p": 0.007
+        },
+        {
+          "chord": "Ab",
+          "p": 0.006
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 0.556,
+      "end": 3.426,
+      "chord": "Gbmaj7",
+      "root": 6,
+      "quality": "maj7",
+      "score": 0.777,
+      "p": 0.777,
+      "root_p": 0.827,
+      "alternatives": [
+        {
+          "chord": "Ebm7",
+          "p": 0.072
+        },
+        {
+          "chord": "Gb",
+          "p": 0.042
+        },
+        {
+          "chord": "Ab7",
+          "p": 0.023
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 3.426,
+      "end": 7.778,
+      "chord": "Ab",
+      "root": 8,
+      "quality": "maj",
+      "score": 0.358,
+      "p": 0.358,
+      "root_p": 0.746,
+      "alternatives": [
+        {
+          "chord": "Ab7",
+          "p": 0.245
+        },
+        {
+          "chord": "Ab6",
+          "p": 0.098
+        },
+        {
+          "chord": "Fm",
+          "p": 0.066
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 7.778,
+      "end": 10.0,
+      "chord": "Dbmaj7",
+      "root": 1,
+      "quality": "maj7",
+      "score": 0.834,
+      "p": 0.834,
+      "root_p": 0.906,
+      "alternatives": [
+        {
+          "chord": "Db",
+          "p": 0.066
+        },
+        {
+          "chord": "N",
+          "p": 0.031
+        },
+        {
+          "chord": "Fm",
+          "p": 0.019
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 10.0,
+      "end": 12.407,
+      "chord": "C7",
+      "root": 0,
+      "quality": "7",
+      "score": 0.58,
+      "p": 0.58,
+      "root_p": 0.732,
+      "alternatives": [
+        {
+          "chord": "C",
+          "p": 0.137
+        },
+        {
+          "chord": "Edim",
+          "p": 0.101
+        },
+        {
+          "chord": "Gm6",
+          "p": 0.035
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 12.407,
+      "end": 14.167,
+      "chord": "Ebm7",
+      "root": 3,
+      "quality": "min7",
+      "score": 0.547,
+      "p": 0.547,
+      "root_p": 0.83,
+      "alternatives": [
+        {
+          "chord": "Eb7",
+          "p": 0.147
+        },
+        {
+          "chord": "Ebm",
+          "p": 0.123
+        },
+        {
+          "chord": "Edim7",
+          "p": 0.03
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 14.167,
+      "end": 16.389,
+      "chord": "Edim",
+      "root": 4,
+      "quality": "dim",
+      "score": 0.223,
+      "p": 0.223,
+      "root_p": 0.42,
+      "alternatives": [
+        {
+          "chord": "C7",
+          "p": 0.159
+        },
+        {
+          "chord": "Edim7",
+          "p": 0.154
+        },
+        {
+          "chord": "Dbdim7",
+          "p": 0.071
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 16.389,
+      "end": 18.333,
+      "chord": "Fm7",
+      "root": 5,
+      "quality": "min7",
+      "score": 0.694,
+      "p": 0.694,
+      "root_p": 0.879,
+      "alternatives": [
+        {
+          "chord": "Fm",
+          "p": 0.162
+        },
+        {
+          "chord": "Ab6",
+          "p": 0.034
+        },
+        {
+          "chord": "Ab",
+          "p": 0.032
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 18.333,
+      "end": 20.463,
+      "chord": "F7",
+      "root": 5,
+      "quality": "7",
+      "score": 0.615,
+      "p": 0.615,
+      "root_p": 0.784,
+      "alternatives": [
+        {
+          "chord": "F",
+          "p": 0.055
+        },
+        {
+          "chord": "Faug",
+          "p": 0.051
+        },
+        {
+          "chord": "Dbaug",
+          "p": 0.036
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 20.463,
+      "end": 22.407,
+      "chord": "Gbmaj7",
+      "root": 6,
+      "quality": "maj7",
+      "score": 0.728,
+      "p": 0.728,
+      "root_p": 0.827,
+      "alternatives": [
+        {
+          "chord": "Gb",
+          "p": 0.037
+        },
+        {
+          "chord": "Gb7",
+          "p": 0.031
+        },
+        {
+          "chord": "Bbm",
+          "p": 0.025
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 22.407,
+      "end": 25.0,
+      "chord": "Gbm7",
+      "root": 6,
+      "quality": "min7",
+      "score": 0.549,
+      "p": 0.549,
+      "root_p": 0.771,
+      "alternatives": [
+        {
+          "chord": "Gbm",
+          "p": 0.198
+        },
+        {
+          "chord": "Faug",
+          "p": 0.056
+        },
+        {
+          "chord": "Dbaug",
+          "p": 0.034
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 25.0,
+      "end": 26.852,
+      "chord": "Fm7",
+      "root": 5,
+      "quality": "min7",
+      "score": 0.779,
+      "p": 0.779,
+      "root_p": 0.927,
+      "alternatives": [
+        {
+          "chord": "Fm",
+          "p": 0.129
+        },
+        {
+          "chord": "Ab6",
+          "p": 0.008
+        },
+        {
+          "chord": "Dbmaj7",
+          "p": 0.006
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 26.852,
+      "end": 28.333,
+      "chord": "A7",
+      "root": 9,
+      "quality": "7",
+      "score": 0.135,
+      "p": 0.135,
+      "root_p": 0.143,
+      "alternatives": [
+        {
+          "chord": "Edim7",
+          "p": 0.126
+        },
+        {
+          "chord": "Em7",
+          "p": 0.1
+        },
+        {
+          "chord": "Edim",
+          "p": 0.074
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 28.333,
+      "end": 30.37,
+      "chord": "Ebm7",
+      "root": 3,
+      "quality": "min7",
+      "score": 0.67,
+      "p": 0.67,
+      "root_p": 0.821,
+      "alternatives": [
+        {
+          "chord": "Ebm",
+          "p": 0.108
+        },
+        {
+          "chord": "Gb7",
+          "p": 0.052
+        },
+        {
+          "chord": "Eb7",
+          "p": 0.037
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 30.37,
+      "end": 33.981,
+      "chord": "C7",
+      "root": 0,
+      "quality": "7",
+      "score": 0.212,
+      "p": 0.21,
+      "root_p": 0.365,
+      "alternatives": [
+        {
+          "chord": "Gb7",
+          "p": 0.168
+        },
+        {
+          "chord": "Ab7",
+          "p": 0.113
+        },
+        {
+          "chord": "Cdim",
+          "p": 0.045
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 33.981,
+      "end": 36.389,
+      "chord": "F7",
+      "root": 5,
+      "quality": "7",
+      "score": 0.636,
+      "p": 0.636,
+      "root_p": 0.926,
+      "alternatives": [
+        {
+          "chord": "F",
+          "p": 0.239
+        },
+        {
+          "chord": "F6",
+          "p": 0.012
+        },
+        {
+          "chord": "Dm7",
+          "p": 0.012
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 36.389,
+      "end": 38.241,
+      "chord": "Bm7",
+      "root": 11,
+      "quality": "min7",
+      "score": 0.219,
+      "p": 0.219,
+      "root_p": 0.69,
+      "alternatives": [
+        {
+          "chord": "Bm",
+          "p": 0.192
+        },
+        {
+          "chord": "Bm6",
+          "p": 0.107
+        },
+        {
+          "chord": "Bdim",
+          "p": 0.091
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 38.241,
+      "end": 39.259,
+      "chord": "Bdim",
+      "root": 11,
+      "quality": "dim",
+      "score": 0.117,
+      "p": 0.117,
+      "root_p": 0.352,
+      "alternatives": [
+        {
+          "chord": "Ddim7",
+          "p": 0.107
+        },
+        {
+          "chord": "Abdim7",
+          "p": 0.104
+        },
+        {
+          "chord": "Bdim7",
+          "p": 0.089
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 39.259,
+      "end": 42.593,
+      "chord": "Eb",
+      "root": 3,
+      "quality": "maj",
+      "score": 0.539,
+      "p": 0.539,
+      "root_p": 0.972,
+      "alternatives": [
+        {
+          "chord": "Eb7",
+          "p": 0.415
+        },
+        {
+          "chord": "Ebsus4",
+          "p": 0.008
+        },
+        {
+          "chord": "Bb7",
+          "p": 0.003
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 42.593,
+      "end": 43.333,
+      "chord": "Am7",
+      "root": 9,
+      "quality": "min7",
+      "score": 0.409,
+      "p": 0.409,
+      "root_p": 0.737,
+      "alternatives": [
+        {
+          "chord": "Am",
+          "p": 0.158
+        },
+        {
+          "chord": "Am6",
+          "p": 0.127
+        },
+        {
+          "chord": "Gbm7(b5)",
+          "p": 0.048
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 43.333,
+      "end": 47.315,
+      "chord": "Am6",
+      "root": 9,
+      "quality": "min6",
+      "score": 0.345,
+      "p": 0.345,
+      "root_p": 0.54,
+      "alternatives": [
+        {
+          "chord": "Gbm7(b5)",
+          "p": 0.164
+        },
+        {
+          "chord": "Gbdim",
+          "p": 0.117
+        },
+        {
+          "chord": "Am7",
+          "p": 0.099
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 47.315,
+      "end": 47.778,
+      "chord": "Ab7",
+      "root": 8,
+      "quality": "7",
+      "score": 0.392,
+      "p": 0.392,
+      "root_p": 0.479,
+      "alternatives": [
+        {
+          "chord": "Gbdim",
+          "p": 0.114
+        },
+        {
+          "chord": "D7",
+          "p": 0.1
+        },
+        {
+          "chord": "Ab",
+          "p": 0.044
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 47.778,
+      "end": 51.204,
+      "chord": "Dbmaj7",
+      "root": 1,
+      "quality": "maj7",
+      "score": 0.664,
+      "p": 0.664,
+      "root_p": 0.907,
+      "alternatives": [
+        {
+          "chord": "Db",
+          "p": 0.226
+        },
+        {
+          "chord": "Fm",
+          "p": 0.04
+        },
+        {
+          "chord": "Db7",
+          "p": 0.015
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 51.204,
+      "end": 53.611,
+      "chord": "Em",
+      "root": 4,
+      "quality": "min",
+      "score": 0.435,
+      "p": 0.434,
+      "root_p": 0.831,
+      "alternatives": [
+        {
+          "chord": "Edim",
+          "p": 0.18
+        },
+        {
+          "chord": "Em7",
+          "p": 0.131
+        },
+        {
+          "chord": "Edim7",
+          "p": 0.039
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 53.611,
+      "end": 56.111,
+      "chord": "Ebm7",
+      "root": 3,
+      "quality": "min7",
+      "score": 0.731,
+      "p": 0.731,
+      "root_p": 0.881,
+      "alternatives": [
+        {
+          "chord": "Ebm",
+          "p": 0.141
+        },
+        {
+          "chord": "Gb",
+          "p": 0.021
+        },
+        {
+          "chord": "Gb7",
+          "p": 0.017
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 56.111,
+      "end": 58.426,
+      "chord": "Edim",
+      "root": 4,
+      "quality": "dim",
+      "score": 0.37,
+      "p": 0.37,
+      "root_p": 0.64,
+      "alternatives": [
+        {
+          "chord": "Edim7",
+          "p": 0.11
+        },
+        {
+          "chord": "Em",
+          "p": 0.088
+        },
+        {
+          "chord": "C7",
+          "p": 0.087
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 58.426,
+      "end": 60.926,
+      "chord": "Fm7",
+      "root": 5,
+      "quality": "min7",
+      "score": 0.621,
+      "p": 0.621,
+      "root_p": 0.799,
+      "alternatives": [
+        {
+          "chord": "Fm",
+          "p": 0.166
+        },
+        {
+          "chord": "Ab",
+          "p": 0.09
+        },
+        {
+          "chord": "Ab6",
+          "p": 0.055
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 60.926,
+      "end": 62.593,
+      "chord": "F7",
+      "root": 5,
+      "quality": "7",
+      "score": 0.438,
+      "p": 0.437,
+      "root_p": 0.789,
+      "alternatives": [
+        {
+          "chord": "Faug",
+          "p": 0.237
+        },
+        {
+          "chord": "F",
+          "p": 0.086
+        },
+        {
+          "chord": "Aaug",
+          "p": 0.046
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 62.593,
+      "end": 64.815,
+      "chord": "Gbmaj7",
+      "root": 6,
+      "quality": "maj7",
+      "score": 0.776,
+      "p": 0.776,
+      "root_p": 0.832,
+      "alternatives": [
+        {
+          "chord": "Bbm",
+          "p": 0.056
+        },
+        {
+          "chord": "Gb",
+          "p": 0.028
+        },
+        {
+          "chord": "Bbm6",
+          "p": 0.019
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 64.815,
+      "end": 66.667,
+      "chord": "Gbm7",
+      "root": 6,
+      "quality": "min7",
+      "score": 0.458,
+      "p": 0.458,
+      "root_p": 0.896,
+      "alternatives": [
+        {
+          "chord": "Gbm",
+          "p": 0.378
+        },
+        {
+          "chord": "Gbmaj7",
+          "p": 0.022
+        },
+        {
+          "chord": "Gb7",
+          "p": 0.02
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 66.667,
+      "end": 69.352,
+      "chord": "Fm7",
+      "root": 5,
+      "quality": "min7",
+      "score": 0.585,
+      "p": 0.585,
+      "root_p": 0.83,
+      "alternatives": [
+        {
+          "chord": "Fm",
+          "p": 0.238
+        },
+        {
+          "chord": "Ab6",
+          "p": 0.068
+        },
+        {
+          "chord": "Ab",
+          "p": 0.053
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 69.352,
+      "end": 71.944,
+      "chord": "C7",
+      "root": 0,
+      "quality": "7",
+      "score": 0.573,
+      "p": 0.573,
+      "root_p": 0.672,
+      "alternatives": [
+        {
+          "chord": "Edim",
+          "p": 0.097
+        },
+        {
+          "chord": "C",
+          "p": 0.08
+        },
+        {
+          "chord": "Gm6",
+          "p": 0.046
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 71.944,
+      "end": 74.63,
+      "chord": "Abm6",
+      "root": 8,
+      "quality": "min6",
+      "score": 0.536,
+      "p": 0.536,
+      "root_p": 0.623,
+      "alternatives": [
+        {
+          "chord": "Fm7(b5)",
+          "p": 0.166
+        },
+        {
+          "chord": "Fdim",
+          "p": 0.068
+        },
+        {
+          "chord": "Abm",
+          "p": 0.048
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 74.63,
+      "end": 78.333,
+      "chord": "Bbaug",
+      "root": 10,
+      "quality": "aug",
+      "score": 0.27,
+      "p": 0.27,
+      "root_p": 0.407,
+      "alternatives": [
+        {
+          "chord": "Gbaug",
+          "p": 0.226
+        },
+        {
+          "chord": "Bb7",
+          "p": 0.108
+        },
+        {
+          "chord": "Daug",
+          "p": 0.103
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 78.333,
+      "end": 81.944,
+      "chord": "Eb7",
+      "root": 3,
+      "quality": "7",
+      "score": 0.551,
+      "p": 0.551,
+      "root_p": 0.65,
+      "alternatives": [
+        {
+          "chord": "Eb",
+          "p": 0.089
+        },
+        {
+          "chord": "Bbm6",
+          "p": 0.063
+        },
+        {
+          "chord": "Gm7(b5)",
+          "p": 0.038
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 81.944,
+      "end": 84.63,
+      "chord": "Db",
+      "root": 1,
+      "quality": "maj",
+      "score": 0.428,
+      "p": 0.428,
+      "root_p": 0.631,
+      "alternatives": [
+        {
+          "chord": "Bbm7",
+          "p": 0.162
+        },
+        {
+          "chord": "Bbm",
+          "p": 0.112
+        },
+        {
+          "chord": "Db6",
+          "p": 0.088
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 84.63,
+      "end": 86.296,
+      "chord": "Gbdim7",
+      "root": 6,
+      "quality": "dim7",
+      "score": 0.19,
+      "p": 0.19,
+      "root_p": 0.337,
+      "alternatives": [
+        {
+          "chord": "Cdim7",
+          "p": 0.123
+        },
+        {
+          "chord": "Gbdim",
+          "p": 0.116
+        },
+        {
+          "chord": "Adim7",
+          "p": 0.114
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 86.296,
+      "end": 87.13,
+      "chord": "Ab",
+      "root": 8,
+      "quality": "maj",
+      "score": 0.277,
+      "p": 0.277,
+      "root_p": 0.462,
+      "alternatives": [
+        {
+          "chord": "Ab7",
+          "p": 0.154
+        },
+        {
+          "chord": "Cm",
+          "p": 0.134
+        },
+        {
+          "chord": "Cm7",
+          "p": 0.089
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 87.13,
+      "end": 88.426,
+      "chord": "Eb7",
+      "root": 3,
+      "quality": "7",
+      "score": 0.273,
+      "p": 0.273,
+      "root_p": 0.458,
+      "alternatives": [
+        {
+          "chord": "Eb",
+          "p": 0.174
+        },
+        {
+          "chord": "Gm7(b5)",
+          "p": 0.106
+        },
+        {
+          "chord": "Cm7",
+          "p": 0.087
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 88.426,
+      "end": 89.63,
+      "chord": "Gbm",
+      "root": 6,
+      "quality": "min",
+      "score": 0.755,
+      "p": 0.755,
+      "root_p": 0.895,
+      "alternatives": [
+        {
+          "chord": "Gbm7",
+          "p": 0.105
+        },
+        {
+          "chord": "Fm",
+          "p": 0.018
+        },
+        {
+          "chord": "Gbdim",
+          "p": 0.017
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 89.63,
+      "end": 90.0,
+      "chord": "Fm7",
+      "root": 5,
+      "quality": "min7",
+      "score": 0.508,
+      "p": 0.508,
+      "root_p": 0.867,
+      "alternatives": [
+        {
+          "chord": "Fm",
+          "p": 0.294
+        },
+        {
+          "chord": "F7",
+          "p": 0.045
+        },
+        {
+          "chord": "Db",
+          "p": 0.02
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 90.0,
+      "end": 90.926,
+      "chord": "Db",
+      "root": 1,
+      "quality": "maj",
+      "score": 0.435,
+      "p": 0.434,
+      "root_p": 0.851,
+      "alternatives": [
+        {
+          "chord": "Dbmaj7",
+          "p": 0.351
+        },
+        {
+          "chord": "N",
+          "p": 0.062
+        },
+        {
+          "chord": "Dbm",
+          "p": 0.021
+        }
+      ],
+      "ambiguous": true
+    },
+    {
+      "start": 90.926,
+      "end": 92.5,
+      "chord": "E",
+      "root": 4,
+      "quality": "maj",
+      "score": 0.566,
+      "p": 0.566,
+      "root_p": 0.725,
+      "alternatives": [
+        {
+          "chord": "Dbm",
+          "p": 0.123
+        },
+        {
+          "chord": "E6",
+          "p": 0.106
+        },
+        {
+          "chord": "Dbm7",
+          "p": 0.081
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 92.5,
+      "end": 94.074,
+      "chord": "Eb7",
+      "root": 3,
+      "quality": "7",
+      "score": 0.7,
+      "p": 0.7,
+      "root_p": 0.846,
+      "alternatives": [
+        {
+          "chord": "Eb",
+          "p": 0.091
+        },
+        {
+          "chord": "Bbm7",
+          "p": 0.04
+        },
+        {
+          "chord": "Ebsus4",
+          "p": 0.024
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 94.074,
+      "end": 94.63,
+      "chord": "Ab",
+      "root": 8,
+      "quality": "maj",
+      "score": 0.528,
+      "p": 0.528,
+      "root_p": 0.753,
+      "alternatives": [
+        {
+          "chord": "Ab7",
+          "p": 0.144
+        },
+        {
+          "chord": "Dbmaj7",
+          "p": 0.088
+        },
+        {
+          "chord": "Ab6",
+          "p": 0.025
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 94.63,
+      "end": 95.741,
+      "chord": "E",
+      "root": 4,
+      "quality": "maj",
+      "score": 0.745,
+      "p": 0.744,
+      "root_p": 0.832,
+      "alternatives": [
+        {
+          "chord": "Dbm",
+          "p": 0.057
+        },
+        {
+          "chord": "E6",
+          "p": 0.032
+        },
+        {
+          "chord": "Dbm7",
+          "p": 0.031
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 95.741,
+      "end": 107.222,
+      "chord": "Db",
+      "root": 1,
+      "quality": "maj",
+      "score": 0.629,
+      "p": 0.627,
+      "root_p": 0.785,
+      "alternatives": [
+        {
+          "chord": "N",
+          "p": 0.147
+        },
+        {
+          "chord": "Dbmaj7",
+          "p": 0.111
+        },
+        {
+          "chord": "Db6",
+          "p": 0.026
+        }
+      ],
+      "ambiguous": false
+    },
+    {
+      "start": 107.222,
+      "end": 112.353,
+      "chord": "N",
+      "root": null,
+      "quality": null,
+      "score": 0.907,
+      "p": 0.904,
+      "root_p": null,
+      "alternatives": [
+        {
+          "chord": "Db",
+          "p": 0.072
+        },
+        {
+          "chord": "Dbmaj7",
+          "p": 0.004
+        },
+        {
+          "chord": "Ab",
+          "p": 0.003
+        }
+      ],
+      "ambiguous": false
+    }
+  ]
+}

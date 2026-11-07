@@ -1,0 +1,22 @@
+{
+  "annotations": [
+    {
+      "id": "66c34180c9e42149",
+      "type": "solo_bounds",
+      "target": "s1",
+      "original": null,
+      "corrected": {
+        "type": "solo_bounds",
+        "solo_id": "s1",
+        "start": 148.4,
+        "end": 195.3
+      },
+      "created_at": "2026-10-29T00:07:37+00:00",
+      "source": "ui",
+      "origin": "user",
+      "analyzer_version": "0.3.0",
+      "run_id": null,
+      "validation_status": "unreviewed"
+    }
+  ]
+}

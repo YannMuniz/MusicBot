@@ -16,7 +16,7 @@ from pathlib import Path
 from typing import Optional
 
 ID_RE = re.compile(r"^[0-9a-f]{32}$")
-RESULT_FILES = ("analysis.json", "chords.json", "chords.raw.json", "sections.json", "report.txt")
+RESULT_FILES = ("analysis.json", "chords.json", "chords.raw.json", "segment_features.json", "sections.json", "report.txt")
 
 
 def now() -> str:

@@ -1,6 +1,8 @@
 """Exporta correções REVISADAS (validation_status == "accepted", não 'superseded') como rótulos parciais.
 
 Uso: python export_corrections.py <storage/songs> <saida.json>
+Cada linha traz o TIPO (chord|bass), a origem, a versão do analisador, a referência ao áudio (original + intervalo) e as
+características acústicas do segmento (key-invariantes, ver analyzer/app/analysis/segfeatures.py).
 Correções são rótulos de TRECHOS, não da música inteira: no treino os quadros fora delas ficam como IGNORE.
 Excluídas e listadas: correções 'unreviewed'/'rejected', 'superseded', e trechos sobrepostos com acordes diferentes
 na mesma música (inconsistência). Nada é lido de outras músicas para alterar resultados.
@@ -30,7 +32,8 @@ def export(root: Path) -> dict:
                 excluded.append({"id": c["id"], "song_id": c["song_id"], "reason": "overlap_conflict"})
                 continue
             row = {k: c.get(k) for k in ("id", "song_id", "run_id", "start", "end", "corrected", "predicted", "model",
-                                         "corrected_harmonic", "corrected_bass", "predicted_harmonic", "predicted_bass", "predicted_confidence")}
+                                         "corrected_harmonic", "corrected_bass", "predicted_harmonic", "predicted_bass", "predicted_confidence",
+                                         "type", "origin", "analyzer_version", "audio_ref", "features")}
             try:
                 row["corrected_harte"] = to_harte(c["corrected"])      # formato dos treinos/avaliação (mir_eval)
             except ValueError:

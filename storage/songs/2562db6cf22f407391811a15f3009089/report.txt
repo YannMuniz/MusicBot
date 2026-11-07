@@ -1,0 +1,38 @@
+Relatório de análise — Lázaro Vieira  Medley - Toda Terra + A Morte Venceste (Ao Vivo). - Lázaro Vieira
+Algoritmo: btc-large-voca ISMIR2019-2682317 (librosa 1.0.0)
+Duração: 6:55.3 | Andamento estimado: 123 BPM | Processado em 123.6 s
+Tom estimado: C major (relativo: A minor) | correlação 0.677 | margem p/ 2ª candidata 0.13
+  Alternativas: F major (0.547), E minor (0.537), A minor (0.501)
+
+Seções (rótulos neutros; 'grupo' igual = trechos acusticamente semelhantes, sem significado semântico):
+  Parte A       0:00.0 – 0:37.1  grupo 1
+      C | F | C/G | G | C | Am | C | Dm7 | Am7 | C | Em7 | C/G | Dm7/F | C | Fsus2
+  Parte B       0:37.1 – 1:37.2  grupo 2
+      Fsus2 | F | G | Am7 | Dm7/F | Em7 | G | F | G | Am7 | C | Am | F | Am7 | G | F | G | Am7 | Am | G | F | G | Am7 | F
+  Parte C       1:37.2 – 2:12.9  grupo 3
+      F | C/E | Fmaj7 | G | Am7 | C/E | F | G | Am | F/A | Dm | C | F
+  Parte D (1/2) 2:12.9 – 2:43.5  grupo 4
+      F | G | Am | Dm | F | Dm | C | Am | Dm | Em | Am | Dm7 | G | F
+  Parte E       2:43.5 – 3:21.6  grupo 5
+      F | G | G7/F | C/E | Em | Am | Dm7 | F | C | Am7 | G | Em | G | Am | G | F | Am | G | F | Em
+  Parte F (1/2) 3:21.6 – 3:57.3  grupo 6
+      Em | Am | G | F | G | C | Em | Am | G | Dm7 | C/E | Em | Fsus2 | Am
+  Parte G (1/2) 3:57.3 – 4:16.2  grupo 7
+      Am | G | Dm7 | C/E | Em | G | F | Am | G | F
+  Parte D (2/2) 4:16.2 – 4:39.7  grupo 4
+      F | G | Am | F | Em | Dm | Em | Am
+  Parte G (2/2) 4:39.7 – 5:18.7  grupo 7
+      Am | Em | Dm7 | Am/E | Em | C/E | F | Am | G | D | Dm7 | Em | F | Am | Gsus4 | F
+  Parte H       5:18.7 – 5:42.0  grupo 8
+      F | G | Am7 | C | F | G | Am
+  Parte I       5:42.0 – 6:04.2  grupo 9
+      Am | C/G | F | G | Am | Em | C | Dm
+  Parte F (2/2) 6:04.2 – 6:55.3  grupo 6
+      Dm | C/E | Em | Am | C/G | C | F | G
+
+Avisos:
+  - 44 de 147 segmentos marcados como ambíguos (probabilidade do modelo baixa ou empatada com outro acorde). As probabilidades do modelo não são calibradas.
+  - 16 inversões registradas a partir do baixo (rótulo final 'X/Y'; o acorde harmônico fica em harmonic_label). Regra e limiares não foram validados com referência anotada em número suficiente de músicas.
+  - 'possible_additions': notas de cor (2ª/4ª/6ª/7ª) com alguma evidência no áudio; evidência fraca, não validada, e NÃO altera o acorde exibido. O BTC não reconhece 6ª/sus2 de forma confiável nesta gravação.
+  - Vocabulário do modelo: maj, min, 7, maj7, m7, dim, aug, sus2, sus4, 6, m6, dim7, m7(b5), mM7. Acordes com 9ª, 11ª, 13ª, add ou notas alteradas não são reconhecidos como tal: aparecem como o acorde mais próximo do vocabulário.
+  - Modelo neural pré-treinado (BTC, ISMIR 2019) em corpora públicos de música pop/rock; a precisão em outros gêneros/gravações não foi medida neste projeto.

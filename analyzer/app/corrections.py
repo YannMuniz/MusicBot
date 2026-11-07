@@ -9,6 +9,7 @@ import json
 from typing import List, Optional
 
 from .store import SongStore, now
+from .version import ANALYZER_VERSION
 
 FILE = "corrections.json"
 STATUSES = ("unreviewed", "accepted", "rejected")
@@ -43,6 +44,31 @@ def _chords_of_run(store: SongStore, song_id: str, run_id: Optional[str]):
     return None, None
 
 
+def _features_for(store: SongStore, song_id: str, run_id: str, start: float, end: float):
+    """Características acústicas (segfeatures) do segmento previsto que cobre o intervalo corrigido; None se não houver."""
+    try:
+        doc = store.read(song_id, "segment_features.json")
+    except FileNotFoundError:
+        return None
+    if doc.get("run_id") != run_id:
+        return None
+    best, best_ov = None, 0.0
+    for f in doc["features"]:
+        if f is None:
+            continue
+        ov = min(end, f["end"]) - max(start, f["start"])
+        if ov > best_ov:
+            best, best_ov = f, ov
+    return None if best is None else {k: best[k] for k in ("chroma", "bass", "qpost", "ctx", "p")}
+
+
+def correction_type(predicted: str, corrected: str) -> str:
+    """'bass' quando só o baixo mudou (A -> A/C#); caso contrário 'chord'. Outros tipos (solo, nota, tab) vivem em annotations.json."""
+    ph, _, pb = predicted.partition("/")
+    ch, _, cb = corrected.partition("/")
+    return "bass" if ph == ch and pb != cb else "chord"
+
+
 def record(store: SongStore, song_id: str, base_run_id: Optional[str], edited: List[dict]) -> int:
     """Compara as edições com a previsão da corrida-base e registra as que mudaram o acorde. Retorna nº de novas."""
     segs, analysis = _chords_of_run(store, song_id, base_run_id)
@@ -74,7 +100,10 @@ def record(store: SongStore, song_id: str, base_run_id: Optional[str], edited: L
             "predicted_harmonic": seg.get("harmonic_label", _split_bass(pred)[0]),
             "predicted_bass": (seg.get("bass") or {}).get("note") if "bass" in seg else _split_bass(pred)[1],
             "predicted_confidence": {"p": seg.get("p"), "ambiguous": seg.get("ambiguous")},
-            "corrected_harmonic": _split_bass(e["chord"])[0], "corrected_bass": _split_bass(e["chord"])[1], "created_at": now(), "source": "ui",
+            "corrected_harmonic": _split_bass(e["chord"])[0], "corrected_bass": _split_bass(e["chord"])[1],
+            "type": correction_type(pred, e["chord"]), "origin": "user",
+            "analyzer_version": ANALYZER_VERSION, "audio_ref": {"file": "original", "start": round(e["start"], 3), "end": round(e["end"], 3)},
+            "features": _features_for(store, song_id, run_id, e["start"], e["end"]), "created_at": now(), "source": "ui",
             "validation_status": "unreviewed", "superseded": False})
         added += 1
     for c in log["corrections"]:

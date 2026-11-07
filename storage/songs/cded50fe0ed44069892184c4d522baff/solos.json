@@ -1,0 +1,21 @@
+{
+  "solos": [
+    {
+      "id": "s1",
+      "start": 148.4,
+      "end": 195.3,
+      "category": "solo",
+      "instrument": "guitar",
+      "instrument_confidence": null,
+      "confidence": null,
+      "source": "user",
+      "verified": true,
+      "audio_ref": {
+        "file": "original",
+        "start": 148.4,
+        "end": 195.3
+      },
+      "created_at": "2026-10-29T00:07:37+00:00"
+    }
+  ]
+}

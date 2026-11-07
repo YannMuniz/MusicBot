@@ -16,6 +16,14 @@
    "reference": "estamos_de_pe.chart.json (cifra Cifra Club, ordem) + estamos_de_pe.silver.lab (alinhamento forçado por raiz; PRATA: rótulos da cifra, tempos estimados)",
    "storage_runs": "storage/songs/5ff0d997…",
    "notes": "Referência prata (não ouro). Avaliar por EVENTO (eval/chart_events.py), não por quadro. Convenções A4=Asus4, D2=Dsus2 lidas dos diagramas do PDF. Continua sendo dado de DESENVOLVIMENTO (foi inspecionada); nenhuma música de teste independente existe."
+  },
+  {
+   "id": "eu_sei_que_vou_te_amar",
+   "title": "Tom Jobim - Eu Sei Que Vou Te Amar (Inédito)",
+   "role": "development",
+   "reference": "NENHUMA ainda (sem cifra enviada)",
+   "storage_runs": "storage/songs/2e1a7fe3…",
+   "notes": "Bossa nova com 7M. Sem cifra não há métrica: só se sabe que o BTC rotula maj7 em 5 trechos e que o limiar de sugestão 7M (0,45) foi escolhido olhando esta música."
   }
  ],
  "test": [],
